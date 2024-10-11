@@ -29,7 +29,7 @@ Are you interested in contributing? If so, please see the [contributing]({{site.
 
 This site is organized into the following sections:
 
-* [Glossary]({{site.baseurl}}/glossary)
+* [Glossary of Terms]({{site.baseurl}}/glossary)
 * [Evaluation Reference Stack]({{site.baseurl}}/ref-stack/ref-stack)
 * [Evaluators]({{site.baseurl}}/evaluators/evaluators)
 * [Leaderboards]({{site.baseurl}}/leaderboards/leaderboards)
