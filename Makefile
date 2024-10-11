@@ -10,6 +10,9 @@ MAKEFLAGS_RECURSIVE ?= # --print-directory (only useful for recursive makes...)
 UNAME               ?= $(shell uname)
 ARCHITECTURE        ?= $(shell uname -m)
 
+# Override when running `make view-local` using e.g., `JEKYLL_PORT=8000 make view-local`
+JEKYLL_PORT         ?= 4000
+
 # Used for version tagging release artifacts.
 GIT_HASH            ?= $(shell git show --pretty="%H" --abbrev-commit |head -1)
 TIMESTAMP           ?= $(shell date +"%Y%m%d-%H%M%S")
@@ -123,9 +126,9 @@ do-view-local: clean run-jekyll
 # `localhost:4000/The-AI-Alliance/trust-safety-evals` when -ping locally.
 run-jekyll:
 	@echo
-	@echo "Once you see the http://127.0.0.1:4000/ URL printed, open it with command+click..."
+	@echo "Once you see the http://127.0.0.1:${JEKYLL_PORT}/ URL printed, open it with command+click..."
 	@echo
-	cd ${docs_dir} && bundle exec jekyll serve --baseurl '' --incremental || ( echo "ERROR: Failed to run Jekyll. Try running 'make setup-jekyll'." && exit 1 )
+	cd ${docs_dir} && bundle exec jekyll serve --port ${JEKYLL_PORT} --baseurl '' --incremental || ( echo "ERROR: Failed to run Jekyll. Try running 'make setup-jekyll'." && exit 1 )
 
 setup-jekyll:: ruby-installed-check bundle-ruby-command-check
 	@echo "Updating Ruby gems required for local viewing of the docs, including jekyll."
