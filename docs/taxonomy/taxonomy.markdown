@@ -25,11 +25,11 @@ Defining a comprehensive taxonomy of evaluations is the first step in helping us
 
 To date, several initiatives by other organizations have worked on taxonomies for risks and harms, including the following:
 
-* MLCommons [Taxonomy of Hazard](https://arxiv.org/html/2404.12241v1)
-* IBM [AI Risk Atlas](https://www.ibm.com/docs/en/watsonx/saas?topic=ai-risk-atlas)
-* MIT [AI Risk Repository](https://airisk.mit.edu/)
-* NIST [Risk Management Framework](https://airc.nist.gov/AI_RMF_Knowledge_Base/AI_RMF/Foundational_Information/3-sec-characteristics)
-* Stanford [CRFM HELM](https://crfm.stanford.edu/helm/)
+* MLCommons [Taxonomy of Hazard](https://arxiv.org/html/2404.12241v1){:target="mlc-th"}
+* IBM [AI Risk Atlas](https://www.ibm.com/docs/en/watsonx/saas?topic=ai-risk-atlas){:target="ibm-ai"}
+* MIT [AI Risk Repository](https://airisk.mit.edu/){:target="mit-ai"}
+* NIST [Risk Management Framework](https://airc.nist.gov/AI_RMF_Knowledge_Base/AI_RMF/Foundational_Information/3-sec-characteristics){:target="nist-rmf"}
+* Stanford [CRFM HELM](https://crfm.stanford.edu/helm/){:target="helm"}
 * ... others TBD ...
 
 However, these important efforts don't extend to the larger landscape of possible evaluations, which are poorly cataloged and characterized. We are working on unifying the existing taxonomies and expanding to other areas of interest for evaluation, such as those mentioned above.
