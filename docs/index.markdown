@@ -18,12 +18,14 @@ Welcome to the **The AI Alliance** Project for **Trust and Safety Evaluations**.
 
 > **Tip:** Use the search box at the top of this page to find specific content.
 
-There are many organizations working on evaluations for safety, broadly defined, benchmarks of various kinds of measurements, and leaderboards that let you see how different models and AI systems do against particular benchmarks, without having to execute these benchmarks yourselves. This AI Alliance project addresses two needs not currently met:
+There are many organizations working on evaluations for safety, broadly defined, benchmarks of various kinds of measurements, and leaderboards that let you see how different models and AI systems do against particular benchmarks, without having to execute these benchmarks yourselves. 
 
-1. A defined _reference stack_ of OSS evaluation tools that are already widely used.
-2. Leaderboards that provide unique, user-configurable views on different benchmark combinations that help users focus on the ones most relevant to their needs.
+This AI Alliance project addresses two under-served needs:
 
-This website is the starting point for this evolving project. It will link to other locations where you can find code and the leaderboards, as they become available. Hence, this is a &ldquo;living&rdquo; reference guide, one that will evolve over time.
+1. Users need a _reference stack_ of industry-standard OSS tools for evaluation.
+2. Leaderboards are needed that provide unique, user-configurable views on different benchmark combinations, which help users focus on the benchmarks most relevant to their needs.
+
+This website is the starting point for this evolving project. It will link to other locations where you can find code and the leaderboards, as they become available. Hence, this website functions as a &ldquo;living&rdquo; reference guide that will evolve over time.
 
 Are you interested in contributing? If so, please see the [contributing]({{site.baseurl}}/contributing) page for information on how you can get involved.
 
