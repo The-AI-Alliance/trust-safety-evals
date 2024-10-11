@@ -46,8 +46,8 @@ A general term for how well an [AI System's](#ai-system) outputs (e.g., replies 
 
 ## Benchmark
 
-[\[1\]](#mlc) A methodology or function used for offline [Evaluation](#evaluation) of a [Model](#model) or [AI System](#ai-system) for a particular purpose and to interpret the results. It consists of:
-* A set of tests with metrics.
+[\[1\]](#mlc) A methodology or function used for offline [Evaluation](#evaluation) of a [Model](#model) or [AI System](#ai-system) for a particular purpose and to interpret the results. Typically, a benchmark consists of:
+* A set of [Evaluations](#evaluation) with metrics.
 * A summarization of the results.
 
 ## Dataset
@@ -60,7 +60,11 @@ Can humans understand why the system behaves the way that it does in a particula
 
 ## Evaluation
 
-The capability of measuring and quantifying how a [Model](#model) or [AI System](#ai-system) that uses models responds to inputs. Much like other software, models and AI systems need to be trusted and useful to their users. Evaluation aims to provide the evidence needed to gain users’ confidence. See also [Evaluation Framework](#evaluation-framework) and [Evaluator](#evaluator).
+The capability of measuring and quantifying how a [Model](#model) or [AI System](#ai-system) that uses models responds to inputs. Much like other software, models and AI systems need to be trusted and useful to their users. Evaluation aims to provide the evidence needed to gain users’ confidence. 
+
+Evaluations can cover functional and nonfunctional dimensions of models, and are applicable throughout the model development and deployment lifecycle. Functional evaluation dimensions include alignment to use cases, accuracy in responses, faithfulness to given context, robustness against perturbations and noise, and adherence to safety and social norms. Nonfunctional evaluation dimensions include latency, throughput, compute efficiency, cost to execute, carbon footprint and other sustainability concerns. Evaluations are applied as regression tests while models are trained and fine-tuned, as benchmarks while GenAI-powered applications are designed and developed, and as guardrails when these applications are deployed in production. They also have a role in compliance, both with specific industry regulations, and with emerging government policies. Lastly, there are numerous techniques used in implementing evaluations. Common techniques are rule-based automatic evaluation, evaluation with LLMs acting as judges, and human evaluation.
+
+See also [Evaluation Framework](#evaluation-framework) and [Evaluator](#evaluator).
 
 ## Evaluation Framework
 
@@ -121,6 +125,10 @@ How well does the [AI System](#ai-system) continue to perform within acceptable 
 ## Sustainability
 
 (See also [\[2\]](#nist)) Taking into account the environmental impact of [AI Systems](#ai-system), such as carbon footprint and water usage for cooling, both now and for the future.
+
+## Taxonomy
+
+In this context, _taxonomy_ is used to refer to how categories are defined for known risks, other safety concerns, and other areas where detection or measurement is desirable.
 
 ## Token
 

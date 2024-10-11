@@ -14,18 +14,27 @@ has_children: false
 | **Authors** | [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focusareas/trust-and-safety){:target="ai-alliance-tns"} |
 | **History** | V0.0.1, 2024-10-11 |
 
-Welcome to the **The AI Alliance** Project for **Trust and Safety Evaluations**.
+Welcome to the **The AI Alliance** project for **Trust and Safety Evaluations**.
 
-> **Tip:** Use the search box at the top of this page to find specific content.
+> **Tips:** 
+>
+> 1. Use the search box at the top of this page to find specific content.
+> 2. Capitalized, italices terms link to a [glossary of terms]({{site.baseurl}}/glossary).
 
-There are many organizations working on evaluations for safety, broadly defined, benchmarks of various kinds of measurements, and leaderboards that let you see how different models and AI systems do against particular benchmarks, without having to execute these benchmarks yourselves. 
+Much like other software, generative AI (&ldquo;GenAI&rdquo;) [_Models_]({{site.baseurl}}/glossary/#model) and the [_AI Systems_]({{site.baseurl}}/glossary/#ai-system) that use them need to be trusted and useful to their users.
 
-This AI Alliance project addresses two under-served needs:
+[_Evaluation_]({{site.baseurl}}/glossary/#evaluation) aims to provide the evidence for gaining users’ trust in models and systems. More specifically, evaluation refers to the capability of measuring and quantifying how a model or system responds to inputs. Are the responses within acceptable bounds, for example free of hate speech and [_Hallucinations_]({{site.baseurl}}/glossary/#hallucination), useful to user, cost-effective, etc.?
 
-1. Users need a _reference stack_ of industry-standard OSS tools for evaluation.
-2. Leaderboards are needed that provide unique, user-configurable views on different benchmark combinations, which help users focus on the benchmarks most relevant to their needs.
+There are many organizations working on evaluations for safety, broadly defined, and other kinds of measurements, as well as [_Benchmarks_]({{site.baseurl}}/glossary/#benchmark) that aggregate some evaluations and [_Leaderboards_]({{site.baseurl}}/glossary/#leaderboard) that let you see how some models and systems do against benchmarks, without having to execute these benchmarks yourself. 
 
-This website is the starting point for this evolving project. It will link to other locations where you can find code and the leaderboards, as they become available. Hence, this website functions as a &ldquo;living&rdquo; reference guide that will evolve over time.
+The **Trust and Safety Evaluations** project addresses several under-served needs:
+
+1. Users need a _reference stack_ of industry-standard OSS tools for evaluation, especially at [_Inference_]({{site.baseurl}}/glossary/#inference) time. See [evaluation reference stack]({{site.baseurl}}/ref-stack/ref-stack).
+2. While very good [Taxonomies]({{site.baseurl}}/glossary/#taxonomy) of evaluation in the areas of risk and harms have [emerged]({{site.baseurl}}/taxonomy/taxonomy/#why-build-a-taxonomy), there are other areas of interest where a standard taxonomy, with corresponding evaluations, would be useful. See [taxonomy]({{site.baseurl}}/taxonomy/taxonomy).
+3. [_Evaluators_]({{site.baseurl}}/glossary/#evaluator) that implement evaluations in the taxonomy are needed. Some areas are well-covered, while others have no available evaluators. These evaluators can be aggregated into benchmarks. See [evaluators]({{site.baseurl}}/evaluators/evaluators).
+4. Leaderboards are needed that provide unique, user-configurable views on different benchmark combinations, which help users focus on the benchmarks most relevant to their needs. See [leaderboards]({{site.baseurl}}/leaderboards/leaderboards).
+
+This website provides the documentation for this project, with links to other resources, including code and leaderboards, as they become available.
 
 Are you interested in contributing? If so, please see the [contributing]({{site.baseurl}}/contributing) page for information on how you can get involved.
 
@@ -33,6 +42,7 @@ This site is organized into the following sections:
 
 * [Glossary of Terms]({{site.baseurl}}/glossary)
 * [Evaluation Reference Stack]({{site.baseurl}}/ref-stack/ref-stack)
+* [Taxonomy]({{site.baseurl}}/taxonomy/taxonomy)
 * [Evaluators]({{site.baseurl}}/evaluators/evaluators)
 * [Leaderboards]({{site.baseurl}}/leaderboards/leaderboards)
 
