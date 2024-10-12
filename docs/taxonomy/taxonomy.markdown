@@ -34,5 +34,6 @@ To date, several initiatives by other organizations have worked on taxonomies fo
 
 However, these important efforts don't extend to the larger landscape of possible evaluations, which are poorly cataloged and characterized. We are working on unifying the existing taxonomies and expanding to other areas of interest for evaluation, such as those mentioned above.
 
-MORE - TODO
+## The AI Alliance Taxonomy
 
+_Coming Soon_

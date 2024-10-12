@@ -12,7 +12,7 @@ has_children: false
 [The AI Alliance](https://thealliance.ai){:target="ai-alliance" .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 .no-glyph} 
 
 | **Authors** | [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focusareas/trust-and-safety){:target="ai-alliance-tns"} |
-| **History** | V0.0.1, 2024-10-11 |
+| **History** | V0.1.0, 2024-10-12 |
 
 Welcome to the **The AI Alliance** project for **Trust and Safety Evaluations**.
 
@@ -29,10 +29,10 @@ There are many organizations working on evaluations for safety, broadly defined,
 
 The **Trust and Safety Evaluations** project addresses several under-served needs:
 
-1. Users need a _reference stack_ of industry-standard OSS tools for evaluation, especially at [_Inference_]({{site.baseurl}}/glossary/#inference) time. See [evaluation reference stack]({{site.baseurl}}/ref-stack/ref-stack).
-2. While very good [Taxonomies]({{site.baseurl}}/glossary/#taxonomy) of evaluation in the areas of risk and harms have [emerged]({{site.baseurl}}/taxonomy/taxonomy/#why-build-a-taxonomy), there are other areas of interest where a standard taxonomy, with corresponding evaluations, would be useful. See [taxonomy]({{site.baseurl}}/taxonomy/taxonomy).
-3. [_Evaluators_]({{site.baseurl}}/glossary/#evaluator) that implement evaluations in the taxonomy are needed. Some areas are well-covered, while others have no available evaluators. These evaluators can be aggregated into benchmarks. See [evaluators]({{site.baseurl}}/evaluators/evaluators).
-4. Leaderboards are needed that provide unique, user-configurable views on different benchmark combinations, which help users focus on the benchmarks most relevant to their needs. See [leaderboards]({{site.baseurl}}/leaderboards/leaderboards).
+1. While very good [Taxonomies]({{site.baseurl}}/glossary/#taxonomy) of evaluation in the areas of risk and harms have [emerged]({{site.baseurl}}/taxonomy/taxonomy/#why-build-a-taxonomy), there are other areas of interest where a standard taxonomy, with corresponding evaluations, would be useful. See [taxonomy]({{site.baseurl}}/taxonomy/taxonomy).
+2. [_Evaluators_]({{site.baseurl}}/glossary/#evaluator) that implement evaluations in the taxonomy are needed. Some areas are well-covered, while others have no available evaluators. These evaluators can be aggregated into benchmarks. See [evaluators]({{site.baseurl}}/evaluators/evaluators).
+3. Leaderboards are needed that provide unique, user-configurable views on different benchmark combinations, which help users focus on the benchmarks most relevant to their needs. See [leaderboards]({{site.baseurl}}/leaderboards/leaderboards).
+4. Users need a _reference stack_ of industry-standard OSS tools for evaluation, especially at [_Inference_]({{site.baseurl}}/glossary/#inference) time. See [evaluation reference stack]({{site.baseurl}}/ref-stack/ref-stack).
 
 This website provides the documentation for this project, with links to other resources, including code and leaderboards, as they become available.
 
@@ -41,10 +41,11 @@ Are you interested in contributing? If so, please see the [contributing]({{site.
 This site is organized into the following sections:
 
 * [Glossary of Terms]({{site.baseurl}}/glossary)
-* [Evaluation Reference Stack]({{site.baseurl}}/ref-stack/ref-stack)
+* [User Personae and Their Needs]({{site.baseurl}}/user-personae/user-personae)
 * [Taxonomy]({{site.baseurl}}/taxonomy/taxonomy)
 * [Evaluators]({{site.baseurl}}/evaluators/evaluators)
 * [Leaderboards]({{site.baseurl}}/leaderboards/leaderboards)
+* [Evaluation Platform Reference Stack]({{site.baseurl}}/ref-stack/ref-stack)
 
 Additional links:
 
