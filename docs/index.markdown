@@ -19,7 +19,7 @@ Welcome to the **The AI Alliance** project for **Trust and Safety Evaluations**.
 > **Tips:** 
 >
 > 1. Use the search box at the top of this page to find specific content.
-> 2. Capitalized, italices terms link to a [glossary of terms]({{site.baseurl}}/glossary).
+> 2. Capitalized, italicized terms link to a [glossary of terms]({{site.baseurl}}/glossary).
 
 Much like other software, generative AI (&ldquo;GenAI&rdquo;) [_Models_]({{site.baseurl}}/glossary/#model) and the [_AI Systems_]({{site.baseurl}}/glossary/#ai-system) that use them need to be trusted and useful to their users.
 
