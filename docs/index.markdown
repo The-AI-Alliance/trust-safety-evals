@@ -23,7 +23,7 @@ Welcome to the **The AI Alliance** project for **Trust and Safety Evaluations**.
 
 Much like other software, generative AI (&ldquo;GenAI&rdquo;) [_Models_]({{site.baseurl}}/glossary/#model) and the [_AI Systems_]({{site.baseurl}}/glossary/#ai-system) that use them need to be trusted and useful to their users.
 
-[_Evaluation_]({{site.baseurl}}/glossary/#evaluation) aims to provide the evidence for gaining users’ trust in models and systems. More specifically, evaluation refers to the capability of measuring and quantifying how a model or system responds to inputs. Are the responses within acceptable bounds, for example free of hate speech and [_Hallucinations_]({{site.baseurl}}/glossary/#hallucination), useful to user, cost-effective, etc.?
+[_Evaluation_]({{site.baseurl}}/glossary/#evaluation) aims to provide the evidence for gaining users’ trust in models and systems. More specifically, evaluation refers to the capability of measuring and quantifying how a model or system responds to inputs. Are the responses within acceptable bounds, for example free of hate speech and [_Hallucinations_]({{site.baseurl}}/glossary/#hallucination), are they useful to users, cost-effective, etc.?
 
 There are many organizations working on evaluations for safety, broadly defined, and other kinds of measurements, as well as [_Benchmarks_]({{site.baseurl}}/glossary/#benchmark) that aggregate some evaluations and [_Leaderboards_]({{site.baseurl}}/glossary/#leaderboard) that let you see how some models and systems do against benchmarks, without having to execute these benchmarks yourself. 
 
