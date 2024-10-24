@@ -1,5 +1,13 @@
 #!/usr/bin/env zsh
-# Publish a new version.
+#------------------------------------------------------------------------
+# Publish a new version of the site.
+# This script can be used to publish a new version of this site, which in
+# this case means bump the version number and corresponding new timestamp
+# that appears on the index page (optionally), the footer of every page in
+# the Just the Docs template, and the _config.yaml file, which is where
+# the footer gets the value.
+# NOTE: While recommended, it's not required to use this script...
+#------------------------------------------------------------------------
 
 tsformat="%Y-%m-%d %H:%M %z"
 script=$0
@@ -7,7 +15,7 @@ dir=$(dirname $script)
 cfg="$dir/docs/_config.yml"
 index="$dir/docs/index.markdown" 
 work_branch=main
-publich_branch=latest
+publish_branch=latest
 
 help() {
 	cat << EOF
@@ -127,16 +135,18 @@ fi
 # Commit and push the updated config file:
 if [[ "$latest_history" = "$version" ]]
 then
-	$NOOP git commit -m "Updated version and timestamps in $cfg" $cfg
+	$NOOP git commit -s -m "Updated version and timestamps in $cfg" $cfg
 else
-	$NOOP git commit -m "Updated version and timestamps in $cfg and $index" $cfg $index
+	$NOOP git commit -s -m "Updated version and timestamps in $cfg and $index" $cfg $index
 fi
 $NOOP git push
 
-# Merge to latest and push to publish.
+# Merge to latest and push to publish. Also tag it!
 
-$NOOP git checkout $publich_branch
+$NOOP git checkout $publish_branch
 $NOOP git merge $work_branch
 $NOOP git push
+$NOOP git tag v${version}
+$NOOP git push --tags
 $NOOP git checkout $work_branch
 
