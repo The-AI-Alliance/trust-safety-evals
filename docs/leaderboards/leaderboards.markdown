@@ -9,7 +9,7 @@ has_children: true
 
 This section describes the leaderboards we maintain with results from running benchmark suites of the [evaluators]({{site.baseurl}}/evaluators/evaluators) against various models and AI systems that use them. 
 
-These leaderboards will include the leading open-source models to serve as evaluation targets and as evaluation judges. Initially, we are focusing on Meta’s [Llama family of models](https://www.llama.com) and IBM’s [Granite family of models](https://www.ibm.com/granite), with others to follow.  
+These leaderboards will include the leading open-source models to serve as evaluation targets and as evaluation judges. Initially, we are focusing on Meta’s [Llama family of models](https://www.llama.com){:target="llama"} and IBM’s [Granite family of models](https://www.ibm.com/granite){:target="granite"}, with others to follow.  
 
 ## Safety BAT Leaderboard
 
