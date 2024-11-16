@@ -50,3 +50,6 @@ gem "nokogiri", ">= 1.16"
 
 # Bug fixes
 gem "liquid", ">= 4.0.4"
+
+# Target blank automatically opens all links in a new window.
+gem 'jekyll-target-blank'
