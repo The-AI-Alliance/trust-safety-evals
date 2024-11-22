@@ -35,4 +35,18 @@ The open-source software (OSS) components in the stack including the following p
 
 While supporting private, on-premise deployments for proprietary evaluation requirements, the stack will be used to implement [public leaderboards]({{site.baseurl}}/leaderboards/leaderboards/) hosted in the [AI Alliance Hugging Face Community](https://huggingface.co/aialliance){:target="hf"}.
 
-_More details coming soon._
+_This is a work in progress._
+
+## Installation for Local Experimentation
+
+To install [LM Evaluation Harness](https://www.eleuther.ai/projects/large-language-model-evaluation){:target="lm-site"}, use the following command, from the GitHub repo [README](https://github.com/EleutherAI/lm-evaluation-harness){:target="lm-repo"}:
+
+```shell
+git clone --depth 1 https://github.com/EleutherAI/lm-evaluation-harness
+cd lm-evaluation-harness
+pip install -e .
+```
+
+TODO: Fast example using one or more `unitxt` evaluators.
+
+For other examples, see the `lm-evaluation-harness` [README](https://github.com/EleutherAI/lm-evaluation-harness){:target="lm-repo"}.
