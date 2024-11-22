@@ -47,6 +47,6 @@ cd lm-evaluation-harness
 pip install -e .
 ```
 
-TODO: Fast example using one or more `unitxt` evaluators.
+TODO: Add a "fast" example using one or more `unitxt` evaluators.
 
-For other examples, see the `lm-evaluation-harness` [README](https://github.com/EleutherAI/lm-evaluation-harness){:target="lm-repo"}.
+The `lm-evaluation-harness` [README](https://github.com/EleutherAI/lm-evaluation-harness){:target="lm-repo"} have other examples and other ways to run evaluations in different deployment scenarios.
