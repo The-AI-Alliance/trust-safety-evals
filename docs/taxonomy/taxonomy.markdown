@@ -36,7 +36,7 @@ However, these important efforts don't extend to the larger landscape of possibl
 
 ## The AI Alliance Taxonomy
 
-Here is our first, _very rough_ draft of the taxonomy.
+Here is our first, _very rough and incomplete_ draft of the taxonomy. Subsequent efforts will unify this taxonomy with the sources mentioned above, clarify terminology, expand on under-specified areas, and publish this information in a format that supports filtering, roll-ups, etc.
 
 * **Language Understanding Tasks:** Evaluations designed to test a language model's ability to comprehend and process natural language. These tasks assess how well a model can interpret the meaning, context, relationships, and implications of textual inputs, which are fundamental to effective natural language processing (NLP)
     * **Reading Comprehension:** Tasks that require the model to understand a given text and answer questions based on it.
