@@ -12,7 +12,7 @@ has_children: false
 [The AI Alliance](https://thealliance.ai){:target="ai-alliance" .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 .no-glyph} 
 
 | **Authors** | [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} |
-| **Last Update**  | V0.2.0, 2024-11-15 |
+| **Last Update**  | V0.3.0, 2024-12-05 |
 
 Welcome to the **The AI Alliance** project for **Trust and Safety Evaluations**.
 
@@ -58,6 +58,6 @@ Additional links:
 
 | Version   | Date       |
 | :-------- | :--------- |
+| V0.3.0    | 2024-12-05 |
 | V0.2.0    | 2024-11-15 |
 | V0.1.0    | 2024-10-12 |
-
