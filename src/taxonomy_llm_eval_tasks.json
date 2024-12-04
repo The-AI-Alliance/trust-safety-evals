@@ -1,0 +1,1092 @@
+{
+  "categories": [
+    {
+      "Language Understanding Tasks": {
+        "description": "Evaluations designed to test a language model's ability to comprehend and process natural language. These tasks assess how well a model can interpret the meaning, context, relationships, and implications of textual inputs, which are fundamental to effective natural language processing (NLP)",
+        "subcategories": [
+          {
+            "Reading Comprehension": {
+              "description": "Tasks that require the model to understand a given text and answer questions based on it.",
+              "tasks": [
+                {
+                  "task": "afrixnli",
+                  "description": "Tests natural language inference capabilities in African languages."
+                },
+                {
+                  "task": "agieval",
+                  "description": "Evaluates general language understanding and reasoning abilities."
+                },
+                {
+                  "task": "basque_bench",
+                  "description": "A collection of tasks in Basque encompassing various evaluation areas."
+                },
+                {
+                  "task": "blimp",
+                  "description": "Tests grammatical phenomena to evaluate language model's linguistic capabilities."
+                },
+                {
+                  "task": "catalan_bench",
+                  "description": "A collection of tasks in Catalan encompassing various evaluation areas."
+                },
+                {
+                  "task": "ceval",
+                  "description": "Tasks that evaluate language understanding and reasoning in an educational context."
+                },
+                {
+                  "task": "cmmlu",
+                  "description": "Multi-subject multiple-choice question tasks for comprehensive academic assessment."
+                },
+                {
+                  "task": "eus_proficiency",
+                  "description": "Tasks designed to test proficiency in the Basque language across various topics."
+                },
+                {
+                  "task": "eus_reading",
+                  "description": "Reading comprehension tasks specifically designed for the Basque language."
+                },
+                {
+                  "task": "french_bench",
+                  "description": "A set of tasks designed to assess language model performance in French."
+                },
+                {
+                  "task": "galician_bench",
+                  "description": "A collection of tasks in Galician encompassing various evaluation areas."
+                },
+                {
+                  "task": "glianorex",
+                  "description": "Tasks focused on evaluating language models' performance in the Galician language."
+                },
+                {
+                  "task": "kobest",
+                  "description": "A collection of tasks designed to evaluate understanding in the Korean language."
+                },
+                {
+                  "task": "model_written_evals",
+                  "description": "Assesses model-generated responses to evaluate coherence and relevance."
+                },
+                {
+                  "task": "noticia",
+                  "description": "Evaluates language understanding and generation capabilities in the Spanish language."
+                },
+                {
+                  "task": "portuguese_bench",
+                  "description": "A collection of tasks designed to evaluate language model performance in Portuguese."
+                },
+                {
+                  "task": "prost",
+                  "description": "A reading comprehension task that requires understanding of pronoun resolution."
+                },
+                {
+                  "task": "polemo2",
+                  "description": "Sentiment analysis and emotion detection tasks based on Polish language data."
+                },
+                {
+                  "task": "squad",
+                  "description": "Stanford Question Answering Dataset for answering questions based on a passage."
+                },
+                {
+                  "task": "squad_completion",
+                  "description": "A variant of the SQuAD question-answering task designed for zero-shot evaluation of small language models."
+                },
+                {
+                  "task": "spanish_bench",
+                  "description": "A collection of tasks in Spanish encompassing various evaluation areas."
+                },
+                {
+                  "task": "scrolls",
+                  "description": "Evaluates long-range language modeling and understanding by requiring models to process extended contexts."
+                },
+                {
+                  "task": "triviaqa",
+                  "description": "Question answering dataset with trivia questions and supporting evidence."
+                },
+                {
+                  "task": "natural_questions",
+                  "description": "Google's dataset for answering questions based on real user queries."
+                },
+                {
+                  "task": "race",
+                  "description": "Reading comprehension dataset based on middle and high school English exams."
+                },
+                {
+                  "task": "quac",
+                  "description": "Question answering in conversational contexts."
+                },
+                {
+                  "task": "squadv2",
+                  "description": "Evaluates reading comprehension by requiring models to answer questions based on Wikipedia articles, including unanswerable questions."
+                },
+                {
+                  "task": "swde",
+                  "description": "Evaluates structured web data extraction capabilities, focusing on the ability to extract information from web pages."
+                },
+                {
+                  "task": "newsqa",
+                  "description": "Question answering dataset derived from news articles."
+                },
+                {
+                  "task": "drop",
+                  "description": "Dataset for discrete reasoning over paragraphs, including numerical and logical reasoning."
+                },
+                {
+                  "task": "coqa",
+                  "description": "Conversational Question Answering dataset with multi-turn interactions."
+                },
+                {
+                  "task": "searchqa",
+                  "description": "Question answering dataset created using search engine results."
+                },
+                {
+                  "task": "textbookqa",
+                  "description": "Question answering dataset derived from textbook content."
+                },
+                {
+                  "task": "openbookqa",
+                  "description": "Open book question answering dataset for science and general knowledge."
+                },
+                {
+                  "task": "boolq",
+                  "description": "Boolean Questions dataset focused on yes/no comprehension tasks."
+                },
+                {
+                  "task": "narrativeqa",
+                  "description": "Question answering based on summaries of stories or movies."
+                },
+                {
+                  "task": "qangaroo",
+                  "description": "Multi-hop question answering dataset requiring reasoning across documents."
+                },
+                {
+                  "task": "hotpotqa",
+                  "description": "Multi-hop question answering dataset involving reasoning over multiple sources."
+                },
+                {
+                  "task": "webqs",
+                  "description": "Evaluates the model's ability to answer questions based on web search queries, testing information retrieval and comprehension."
+                },
+                {
+                  "task": "wikihop",
+                  "description": "Multi-hop question answering dataset derived from Wikipedia articles."
+                },
+                {
+                  "task": "wikitext",
+                  "description": "Assesses language modeling capabilities using text extracted from Wikipedia articles."
+                },
+                {
+                  "task": "wmdp",
+                  "description": "Evaluates the model's proficiency in document processing tasks, focusing on understanding and generating structured documents."
+                },
+                {
+                  "task": "reclor",
+                  "description": "Reading comprehension dataset focused on logical reasoning."
+                },
+                {
+                  "task": "logiqa",
+                  "description": "Logical reasoning reading comprehension dataset."
+                }
+              ]
+            }
+          },
+          {
+            "Textual Entailment (Natural Language Inference)": {
+              "description": "Determines relationships between sentence pairs (e.g., entailment, contradiction, or neutrality).",
+              "tasks": [
+                {
+                  "task": "snli",
+                  "description": "Stanford Natural Language Inference dataset focusing on entailment, contradiction, and neutral relationships between sentence pairs."
+                },
+                {
+                  "task": "mnli",
+                  "description": "Multi-Genre Natural Language Inference dataset, an extension of SNLI with examples from diverse genres."
+                },
+                {
+                  "task": "rte",
+                  "description": "Recognizing Textual Entailment dataset for determining entailment between pairs of sentences."
+                },
+                {
+                  "task": "qnli",
+                  "description": "Question Natural Language Inference dataset, converted from SQuAD to test entailment relationships between questions and answers."
+                },
+                {
+                  "task": "wnli",
+                  "description": "Winograd Natural Language Inference dataset, focusing on pronoun disambiguation in an entailment context."
+                },
+                {
+                  "task": "scitail",
+                  "description": "Science entailment dataset created from science questions and related web sentences."
+                },
+                {
+                  "task": "anli",
+                  "description": "Adversarial Natural Language Inference dataset designed to challenge models with harder entailment cases."
+                },
+                {
+                  "task": "xnli",
+                  "description": "Assesses cross-lingual natural language inference capabilities, testing understanding of entailment and contradiction across languages."
+                },
+                {
+                  "task": "xnli_eu",
+                  "description": "Evaluates natural language inference in Basque, focusing on entailment and contradiction detection."
+                }
+              ]
+            }
+          },
+          {
+            "Paraphrase Detection": {
+              "description": "Identifies if two sentences have the same meaning or are rephrasings of each other.",
+              "tasks": [
+                {
+                  "task": "mrpc",
+                  "description": "Microsoft Research Paraphrase Corpus, which evaluates the model's ability to identify semantically equivalent sentence pairs."
+                },
+                {
+                  "task": "paws",
+                  "description": "Paraphrase Adversaries from Word Scrambling, a dataset testing paraphrase detection with challenging word-order variations."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Reasoning Tasks": {
+        "description": "Evaluations designed to assess a language model's ability to apply logical, deductive, inductive, or commonsense reasoning to solve problems or answer questions. These tasks go beyond basic language comprehension by requiring models to infer, deduce, and reason about implicit relationships, patterns, or structures within textual or structured inputs.",
+        "subcategories": [
+          {
+            "Commonsense Reasoning": {
+              "description": "Evaluations designed to test a model's ability to apply everyday knowledge and logical reasoning to answer questions or make decisions. These tasks assess the model’s understanding of concepts and relationships that are typically intuitive to humans but not explicitly stated in the input data.",
+              "tasks": [
+                {
+                  "task": "arc_mt",
+                  "description": "Evaluates complex reasoning over a diverse set of multiple-choice questions."
+                },
+                {
+                  "task": "babi",
+                  "description": "Designed as question and answering challenges based on simulated stories."
+                },
+                {
+                  "task": "bbh",
+                  "description": "Tasks focused on deep semantic understanding through hypothesization and reasoning."
+                },
+                {
+                  "task": "commonsenseqa",
+                  "description": "A multiple-choice question answering dataset testing general world knowledge and commonsense reasoning."
+                },
+                {
+                  "task": "commonsense_qa",
+                  "description": "A multiple-choice QA dataset for measuring commonsense knowledge."
+                },
+                {
+                  "task": "copal_id",
+                  "description": "Indonesian causal commonsense reasoning dataset that captures local nuances."
+                },
+                {
+                  "task": "hellaswag",
+                  "description": "A dataset for commonsense reasoning, requiring models to predict the most plausible continuation of a scenario."
+                },
+                {
+                  "task": "piqa",
+                  "description": "Physical Interaction Question Answering dataset focusing on everyday physical commonsense."
+                },
+                {
+                  "task": "siqa",
+                  "description": "Social Interaction Question Answering dataset testing commonsense reasoning about social interactions, including intentions and emotions."
+                },
+                {
+                  "task": "xcopa",
+                  "description": "Evaluates causal commonsense reasoning across multiple languages."
+                }
+              ]
+            }
+          },
+          {
+            "Mathematical and Logical Reasoning": {
+              "description": "Evaluations designed to test a model's ability to solve problems requiring numerical computation, pattern recognition, logical inference, and structured reasoning. These tasks assess a model's capacity to handle quantitative data, deduce relationships, and apply rules or logic to reach conclusions.",
+              "tasks": [
+                {
+                  "task": "afrimgsm",
+                  "description": "Evaluates mathematical reasoning abilities in African languages."
+                },
+                {
+                  "task": "arithmetic",
+                  "description": "Assesses numerical computations and arithmetic reasoning abilities."
+                },
+                {
+                  "task": "aqua",
+                  "description": "Algebra question answering dataset focused on reasoning through equations."
+                },
+                {
+                  "task": "asdiv",
+                  "description": "Focuses on arithmetic and mathematical reasoning challenges."
+                },
+                {
+                  "task": "csatqa",
+                  "description": "Tasks related to SAT and other standardized testing questions for academic assessment."
+                },
+                {
+                  "task": "gsm8k",
+                  "description": "Grade school math problems dataset testing arithmetic and reasoning skills."
+                },
+                {
+                  "task": "gsm_plus",
+                  "description": "A benchmark of grade school math problems aimed at evaluating reasoning capabilities."
+                },
+                {
+                  "task": "hendrycks_math",
+                  "description": "Mathematical problem-solving tasks to test numerical reasoning and problem-solving skills."
+                },
+                {
+                  "task": "mathqa",
+                  "description": "A dataset for solving complex math questions with logical reasoning."
+                },
+                {
+                  "task": "minerva_math",
+                  "description": "Tests advanced mathematical problem-solving skills."
+                },
+                {
+                  "task": "svamp",
+                  "description": "A math word problem dataset requiring multi-step reasoning to solve."
+                }
+              ]
+            }
+          },
+          {
+            "Causal and Temporal Reasoning": {
+              "description": "Evaluations that test a model's ability to understand and reason about cause-effect relationships and the sequencing of events over time. These tasks require the model to infer, predict, or explain the connections between actions, outcomes, and their temporal or causal dependencies.",
+              "tasks": [
+                {
+                  "task": "copa",
+                  "description": "Choice of Plausible Alternatives dataset, testing causal reasoning by selecting the most plausible cause or effect."
+                },
+                {
+                  "task": "reclor",
+                  "description": "Logical reasoning dataset focused on multiple-choice reasoning in academic texts."
+                },
+                {
+                  "task": "logiqa",
+                  "description": "Logical reasoning dataset designed for evaluating deductive reasoning capabilities."
+                },
+                {
+                  "task": "ifeval",
+                  "description": "Evaluates instruction-following capabilities of language models using verifiable instructions."
+                },
+                {
+                  "task": "mc_taco",
+                  "description": "Evaluates understanding of temporal commonsense by assessing the likelihood of events occurring at specific times."
+                }
+              ]
+            }
+          },
+          {
+            "Logical Deduction": {
+              "description": "Tasks that test the model's capability for logical reasoning and inference.",
+              "tasks": [
+                {
+                  "task": "anli",
+                  "description": "Challenges the model to choose the most plausible explanation for a given scenario."
+                },
+                {
+                  "task": "hellaswag",
+                  "description": "Evaluates the model's ability to predict the most likely continuation of a given situation, requiring abductive reasoning."
+                },
+                {
+                  "task": "arc",
+                  "description": "Tests the model's scientific reasoning and ability to generalize from specific instances."
+                },
+                {
+                  "task": "piqa",
+                  "description": "Assesses the model's understanding of physical commonsense reasoning."
+                },
+                {
+                  "task": "logiqa",
+                  "description": "Evaluates the model's ability to perform logical reasoning based on given premises."
+                },
+                {
+                  "task": "logiqa2",
+                  "description": "An extension of LogiQA, focusing on more complex logical reasoning scenarios."
+                },
+                {
+                  "task": "unscramble",
+                  "description": "Tests the model's ability to unscramble words or sentences, assessing language manipulation skills."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Knowledge-Based Tasks": {
+        "description": "Evaluations designed to test a model's ability to retrieve, comprehend, and utilize factual, contextual, or domain-specific information. These tasks assess a model's capacity to access and apply stored knowledge or external data to answer questions, fill in gaps, or complete tasks that require explicit or inferred knowledge.",
+        "subcategories": [
+          {
+            "Fact-Based Question Answering": {
+              "description": "Tasks involving questions that have definitive answers, testing the model's ability to retrieve factual information",
+              "tasks": [
+                {
+                  "task": "afrimmlu",
+                  "description": "Assesses multi-choice knowledge-based question answering in African languages."
+                },
+                {
+                  "task": "bertaqa",
+                  "description": "Local Basque cultural trivia QA tests in English and Basque languages."
+                },
+                {
+                  "task": "eus_exams",
+                  "description": "Tasks based on various professional and academic exams in the Basque language."
+                },
+                {
+                  "task": "eus_trivia",
+                  "description": "Trivia and knowledge testing tasks in the Basque language."
+                },
+                {
+                  "task": "gpqa",
+                  "description": "Tasks designed for general public question answering and knowledge verification."
+                },
+                {
+                  "task": "haerae",
+                  "description": "Tasks focused on assessing detailed factual and historical knowledge."
+                },
+                {
+                  "task": "headqa",
+                  "description": "A high-level education-based question answering dataset to test specialized knowledge."
+                },
+                {
+                  "task": "kmmlu",
+                  "description": "Knowledge-based multi-subject multiple-choice questions for academic evaluation in Korean."
+                },
+                {
+                  "task": "kormedmcqa",
+                  "description": "Medical question-answering tasks in Korean to test specialized domain knowledge."
+                },
+                {
+                  "task": "med_concepts_qa",
+                  "description": "Assesses knowledge of medical concepts through question-answering tasks."
+                },
+                {
+                  "task": "medmcqa",
+                  "description": "Evaluates medical multiple-choice question answering abilities, focusing on medical entrance exam questions."
+                },
+                {
+                  "task": "medqa",
+                  "description": "Tests medical question-answering skills using professional medical board exam questions."
+                },
+                {
+                  "task": "mela",
+                  "description": "Assesses language understanding and reasoning in the medical domain."
+                },
+                {
+                  "task": "mmlu_pro",
+                  "description": "Assesses professional-level knowledge across various subjects."
+                },
+                {
+                  "task": "nq_open",
+                  "description": "Assesses open-domain question answering abilities using the Natural Questions dataset."
+                },
+                {
+                  "task": "paloma",
+                  "description": "A comprehensive benchmark for evaluating open language models across diverse domains, including niche communities and mental health forums."
+                },
+                {
+                  "task": "pubmedqa",
+                  "description": "A biomedical question answering dataset focusing on research articles from PubMed."
+                },
+                {
+                  "task": "qasper",
+                  "description": "A dataset for question answering on scientific research papers."
+                },
+                {
+                  "task": "sciq",
+                  "description": "Assesses scientific question-answering abilities, focusing on elementary and middle school science."
+                },
+                {
+                  "task": "triviaqa",
+                  "description": "Evaluates the model's ability to answer trivia questions by retrieving factual information."
+                },
+                {
+                  "task": "squad",
+                  "description": "Assesses the model's proficiency in answering questions based on passages from Wikipedia articles."
+                },
+                {
+                  "task": "natural_questions",
+                  "description": "Tests the model's capability to provide short and long answers to real-world questions using information from Wikipedia."
+                },
+                {
+                  "task": "web_questions",
+                  "description": "Measures the model's performance in answering questions derived from Google search queries, focusing on factual accuracy."
+                },
+                {
+                  "task": "openbookqa",
+                  "description": "Challenges the model to answer elementary-level science questions, requiring retrieval of scientific facts."
+                },
+                {
+                  "task": "tmlu",
+                  "description": "Traditional Chinese Massive Multitask Language Understanding dataset, comprising multiple-choice questions across various subjects."
+                },
+                {
+                  "task": "tmmluplus",
+                  "description": "An extended set of tasks under the TMMLU framework for broader academic assessments in Traditional Chinese."
+                },
+                {
+                  "task": "truthfulqa",
+                  "description": "Evaluates the model's ability to generate truthful and informative answers to questions."
+                },
+                {
+                  "task": "turkishmmlu",
+                  "description": "Localized Turkish version of MMLU with multiple-choice questions from various subjects."
+                }
+              ]
+            }
+          },
+          {
+            "Cloze Tasks": {
+              "description": "Fill-in-the-blank tasks that measure the model's knowledge of facts or language structure",
+              "tasks": [
+                {
+                  "task": "lambada",
+                  "description": "Assesses the model's ability to predict the final word of a passage, focusing on understanding context and language structure."
+                },
+                {
+                  "task": "lambada_cloze",
+                  "description": "Cloze-style LAMBADA dataset focusing on predicting the last word of a passage."
+                },
+                {
+                  "task": "cloze",
+                  "description": "Evaluates the model's proficiency in filling in missing words within a passage, testing knowledge of language structure and factual information."
+                },
+                {
+                  "task": "wsc",
+                  "description": "Tests the model's ability to resolve pronoun references in sentences, requiring understanding of language structure and context."
+                },
+                {
+                  "task": "winogrande",
+                  "description": "Challenges the model to choose the correct referent in sentences with ambiguous pronouns, measuring commonsense reasoning and language understanding."
+                },
+                {
+                  "task": "cbt",
+                  "description": "Evaluates the model's ability to predict missing words in children's books passages, focusing on understanding narrative context and language structure."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Code and Programming Tasks": {
+        "description": "Evaluations designed to test a model's ability to understand, generate, complete, and debug code. These tasks assess a model's proficiency in handling programming-related queries, translating natural language descriptions into code, and solving algorithmic problems.",
+        "subcategories": [
+          {
+            "Code Completion and Understanding": {
+              "description": "Tasks that involve code snippets and require the model to complete or understand programming languages",
+              "tasks": [
+                {
+                  "task": "code_x_glue",
+                  "description": "Tasks that involve understanding and generating code across multiple programming languages."
+                },
+                {
+                  "task": "humaneval",
+                  "description": "Evaluates the model's ability to generate correct Python functions based on docstring specifications."
+                },
+                {
+                  "task": "mbpp",
+                  "description": "Measures the model's proficiency in generating and understanding Python code by providing prompts and requiring correct implementations."
+                },
+                {
+                  "task": "conala",
+                  "description": "Assesses the model's ability to translate natural language descriptions into correct code snippets."
+                },
+                {
+                  "task": "code_trans",
+                  "description": "Evaluates the model's skill in translating code between different programming languages."
+                },
+                {
+                  "task": "apps",
+                  "description": "Tests the model's capability to solve introductory programming problems, necessitating correct and efficient code generation."
+                }
+              ]
+            }
+          },
+          {
+            "Bug Detection and Fixing": {
+              "description": "Evaluations focused on identifying errors in code",
+              "tasks": [
+                {
+                  "task": "humaneval",
+                  "description": "Evaluates the model's ability to generate correct Python functions based on docstring specifications, indirectly assessing error detection through code generation accuracy."
+                },
+                {
+                  "task": "mbpp",
+                  "description": "Measures the model's proficiency in generating and understanding Python code by providing prompts and requiring correct implementations, highlighting error detection capabilities."
+                },
+                {
+                  "task": "conala",
+                  "description": "Assesses the model's ability to translate natural language descriptions into correct code snippets, emphasizing error-free code generation."
+                },
+                {
+                  "task": "code_trans",
+                  "description": "Evaluates the model's skill in translating code between different programming languages, requiring accurate syntax and semantics to avoid errors."
+                },
+                {
+                  "task": "apps",
+                  "description": "Tests the model's capability to solve introductory programming problems, necessitating correct and efficient code generation."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Dialogue and Interaction Tasks": {
+        "description": "Evaluations designed to assess a model's ability to engage in coherent, contextually appropriate, and meaningful interactions with users or other systems. These tasks focus on conversational capabilities, including understanding multi-turn contexts, generating relevant and accurate responses, and maintaining conversational flow.",
+        "subcategories": [
+          {
+            "Conversational AI": {
+              "description": "Tasks involving multi-turn dialogue or responses that require contextual understanding",
+              "tasks": [
+                {
+                  "task": "samsum",
+                  "description": "Evaluates the model's ability to summarize dialogues, focusing on understanding and condensing multi-turn conversations."
+                },
+                {
+                  "task": "dialogue_nli",
+                  "description": "Assesses the model's understanding of dialogue by testing its ability to determine entailment, contradiction, or neutrality between dialogue pairs."
+                },
+                {
+                  "task": "empathetic_dialogues",
+                  "description": "Tests the model's capability to generate empathetic responses in conversations, emphasizing emotional understanding and coherence."
+                },
+                {
+                  "task": "fld",
+                  "description": "Tasks involving free-form and directed dialogue understanding."
+                },
+                {
+                  "task": "mutual",
+                  "description": "Tests multi-turn dialogue understanding and reasoning."
+                },
+                {
+                  "task": "persona_chat",
+                  "description": "Challenges the model to engage in coherent conversations by incorporating persona-based information, requiring contextual understanding."
+                },
+                {
+                  "task": "daily_dialog",
+                  "description": "Evaluates the model's proficiency in generating coherent dialogues based on everyday conversational scenarios, necessitating contextual comprehension."
+                }
+              ]
+            }
+          },
+          {
+            "Dialogue Completion": {
+              "description": "Evaluations where the model completes or generates dialogue with coherence",
+              "tasks": [
+                {
+                  "task": "dialogue_nli",
+                  "description": "Evaluates the model's understanding of dialogue by testing its ability to determine entailment, contradiction, or neutrality between dialogue pairs."
+                },
+                {
+                  "task": "Empathetic_dialogues",
+                  "description": "Assesses the model's capability to generate empathetic responses in conversations, focusing on emotional understanding and coherence."
+                },
+                {
+                  "task": "persona_chat",
+                  "description": "Tests the model's ability to engage in coherent conversations by incorporating persona-based information."
+                },
+                {
+                  "task": "daily_dialog",
+                  "description": "Evaluates the model's proficiency in generating coherent dialogues based on everyday conversational scenarios."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Creative and Open-Ended Generation": {
+        "description": "Evaluations designed to test a model’s ability to produce imaginative, original, and contextually appropriate content in response to open-ended prompts. These tasks assess the model’s ability to generate outputs that are not only syntactically correct but also exhibit qualities like coherence, novelty, and stylistic appropriateness.",
+        "subcategories": [
+          {
+            "Story Generation": {
+              "description": "Tasks where the model must continue or create a coherent story",
+              "tasks": [
+                {
+                  "task": "alghafa",
+                  "description": "Assesses language generation and fluency in Arabic."
+                },
+                {
+                  "task": "storycloze",
+                  "description": "Evaluates the model's ability to choose the correct ending for a four-sentence story, testing narrative understanding and coherence."
+                },
+                {
+                  "task": "hellaswag",
+                  "description": "Assesses commonsense reasoning by requiring the model to predict the most plausible continuation of a given scenario."
+                },
+                {
+                  "task": "lambada",
+                  "description": "Tests the model's ability to predict the final word of a passage, emphasizing the importance of context and coherence."
+                },
+                {
+                  "task": "writing_prompts",
+                  "description": "Challenges the model to generate creative and coherent stories based on provided prompts."
+                },
+                {
+                  "task": "swag",
+                  "description": "Tests commonsense reasoning by requiring models to choose the most plausible continuation of a given scenario."
+                },
+                {
+                  "task": "xstorycloze",
+                  "description": "Tests the model's ability to predict the correct ending of a story in multiple languages, assessing narrative understanding."
+                }
+              ]
+            }
+          },
+          {
+            "Poetry and Art": {
+              "description": "Evaluations that assess the model's ability to generate creative content",
+              "tasks": [
+                {
+                  "task": "writing_prompts",
+                  "description": "Evaluates the model's ability to generate coherent and creative stories based on given prompts."
+                },
+                {
+                  "task": "poetry_generation",
+                  "description": "Assesses the model's capability to compose poems with creativity and adherence to poetic structures."
+                },
+                {
+                  "task": "story_completion",
+                  "description": "Tests the model's skill in continuing or completing a given narrative in a creative and coherent manner."
+                },
+                {
+                  "task": "dialogue_generation",
+                  "description": "Measures the model's proficiency in generating engaging and contextually appropriate dialogues."
+                },
+                {
+                  "task": "creative_qa",
+                  "description": "Challenges the model to provide imaginative and creative answers to open-ended questions."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Ethical and Bias Testing": {
+        "description": "Evaluations designed to assess a language model's fairness, safety, and ethical behavior. These tasks measure whether the model generates or amplifies biases, stereotypes, or harmful content and ensure it treats all groups and scenarios equitably.",
+        "subcategories": [
+          {
+            "Bias Detection": {
+              "description": "Tasks designed to measure inherent biases in language models related to gender, race, or other sensitive topics",
+              "tasks": [
+                {
+                  "task": "crows_pairs",
+                  "description": "Assesses social biases by comparing sentence pairs with differing implications for various demographic groups."
+                },
+                {
+                  "task": "stereoset",
+                  "description": "Evaluates stereotypical biases across categories such as gender, race, religion, and profession."
+                },
+                {
+                  "task": "winogender",
+                  "description": "Tests gender bias in pronoun resolution within sentences, focusing on gender-neutral contexts."
+                },
+                {
+                  "task": "bias_in_bios",
+                  "description": "Analyzes biases in occupational classifications based on biographical sentences."
+                },
+                {
+                  "task": "broad_coverage_bias",
+                  "description": "Measures biases across a wide range of demographic attributes and social groups."
+                },
+                {
+                  "task": "toxigen",
+                  "description": "Tasks designed to evaluate language models on their propensity to generate toxic content."
+                }
+              ]
+            }
+          },
+          {
+            "Fairness Evaluation": {
+              "description": "Focused tasks that test how fairly a model treats different groups or phrases content",
+              "tasks": [
+                {
+                  "task": "crows_pairs",
+                  "description": "Assesses social biases by comparing sentence pairs with differing implications for various demographic groups."
+                },
+                {
+                  "task": "eq_bench",
+                  "description": "Tasks focused on equality and ethics in question answering and decision-making."
+                },
+                {
+                  "task": "hendrycks_ethics",
+                  "description": "Tasks designed to evaluate the ethical reasoning capabilities of models."
+                },
+                {
+                  "task": "stereoset",
+                  "description": "Evaluates stereotypical biases across categories such as gender, race, religion, and profession."
+                },
+                {
+                  "task": "winogender",
+                  "description": "Tests gender bias in pronoun resolution within sentences, focusing on gender-neutral contexts."
+                },
+                {
+                  "task": "bias_in_bios",
+                  "description": "Analyzes biases in occupational classifications based on biographical sentences."
+                },
+                {
+                  "task": "broad_coverage_bias",
+                  "description": "Measures biases across a wide range of demographic attributes and social groups."
+                },
+                {
+                  "task": "realtoxicityprompts",
+                  "description": "Evaluates the propensity of language models to generate toxic content when prompted."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Multimodal Tasks": {
+        "description": "Tasks that require interpreting and responding based on inputs in multiple formats",
+        "subcategories": [
+          {
+            "Text-Image Combination": {
+              "description": "Tasks that require interpreting and responding based on both textual and visual inputs",
+              "tasks": [
+                {
+                  "task": "mmmu",
+                  "description": "Multimodal Multiple-Choice Understanding task that evaluates a model's ability to comprehend and respond to text-image inputs."
+                },
+                {
+                  "task": "vqa",
+                  "description": "Visual Question Answering task assessing the model's capability to answer questions based on image content."
+                },
+                {
+                  "task": "image_captioning",
+                  "description": "Task that evaluates the model's ability to generate descriptive captions for given images."
+                },
+                {
+                  "task": "visual_entailment",
+                  "description": "Visual Entailment task testing the model's reasoning about the relationship between textual statements and images."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Benchmark Aggregates": {
+        "description": "Evaluation tasks that combine multiple subtasks or datasets to provide a holistic and comprehensive measure of a language model's capabilities. These aggregates serve as standardized evaluation suites, enabling consistent comparison across models and tasks.",
+        "subcategories": [
+          {
+            "Composite Benchmarks": {
+              "description": "Tasks that combine various subtasks to provide a more holistic evaluation",
+              "tasks": [
+                {
+                  "task": "superglue",
+                  "description": "An advanced benchmark suite combining diverse NLP tasks for language understanding and reasoning."
+                },
+                {
+                  "task": "glue",
+                  "description": "A general evaluation suite for various natural language understanding tasks like sentiment analysis and inference."
+                },
+                {
+                  "task": "bigbench",
+                  "description": "A collaborative benchmark with a wide range of diverse and complex tasks to evaluate large language models."
+                },
+                {
+                  "task": "bigbench_hard",
+                  "description": "A subset of BIG-bench tasks focusing on more challenging and complex problems."
+                },
+                {
+                  "task": "mmlu",
+                  "description": "Massive Multitask Language Understanding benchmark for evaluating multi-domain knowledge across 57 subjects."
+                },
+                {
+                  "task": "okapi",
+                  "description": "A suite of tasks designed to evaluate language models across various domains and languages."
+                },
+                {
+                  "task": "inverse_scaling",
+                  "description": "Assesses tasks where larger language models perform worse, highlighting inverse scaling phenomena."
+                },
+                {
+                  "task": "tinyBenchmarks",
+                  "description": "A collection of scaled-down versions of popular benchmarks designed to evaluate large language models with fewer examples."
+                }
+              ]
+            }
+          },
+          {
+            "Leaderboards and Comprehensive Benchmarks": {
+              "description": "Used for broad, multi-task evaluation suites such as EleutherAI's or Hugging Face's leaderboards",
+              "tasks": [
+                {
+                  "task": "bigbench",
+                  "description": "A collaborative benchmark with a wide range of diverse and complex tasks to evaluate large language models."
+                },
+                {
+                  "task": "bigbench_hard",
+                  "description": "A subset of BIG-bench tasks focusing on more challenging and complex problems."
+                },
+                {
+                  "task": "leaderboard",
+                  "description": "Task group used by Hugging Face's Open LLM Leaderboard v2 for standardized evaluation."
+                },
+                {
+                  "task": "mmlu",
+                  "description": "Massive Multitask Language Understanding benchmark for evaluating multi-domain knowledge across 57 subjects."
+                },
+                {
+                  "task": "superglue",
+                  "description": "An advanced benchmark suite combining diverse NLP tasks for language understanding and reasoning."
+                },
+                {
+                  "task": "glue",
+                  "description": "A general evaluation suite for various natural language understanding tasks like sentiment analysis and inference."
+                },
+                {
+                  "task": "pile",
+                  "description": "A large-scale dataset for language modeling, consisting of diverse text sources."
+                },
+                {
+                  "task": "pile_10k",
+                  "description": "A subset of the Pile dataset, containing the first 10,000 elements, useful for debugging models."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Low-Resource and Multilingual Tasks": {
+        "description": "Evaluations designed to assess a model's ability to perform in languages and domains with limited data availability or in multiple languages simultaneously. These tasks challenge models to generalize and perform effectively in diverse linguistic and cultural settings, including under-represented languages and low-resource domains.",
+        "subcategories": [
+          {
+            "Cross-Lingual Evaluation": {
+              "description": "Tasks that test the model's ability to perform in languages other than English.",
+              "tasks": [
+                {
+                  "task": "tydiqa",
+                  "description": "A question-answering dataset covering 11 typologically diverse languages."
+                },
+                {
+                  "task": "xquad",
+                  "description": "A cross-lingual question-answering dataset extending SQuAD to 10 languages."
+                },
+                {
+                  "task": "mlqa",
+                  "description": "A benchmark for multilingual question answering across 7 languages."
+                },
+                {
+                  "task": "lambada_multilingual",
+                  "description": "Tests the ability to predict the last word of a sentence in multiple languages."
+                },
+                {
+                  "task": "hellaswag_multilingual",
+                  "description": "A commonsense reasoning benchmark in multiple languages, requiring plausible scenario continuation."
+                },
+                {
+                  "task": "mmlusr",
+                  "description": "Evaluates understanding and reasoning in multiple languages."
+                },
+                {
+                  "task": "qa4mre",
+                  "description": "Question answering tasks that require machine reading comprehension across multiple languages."
+                },
+                {
+                  "task": "xwinograd",
+                  "description": "A multilingual version of the Winograd Schema Challenge, testing pronoun resolution."
+                },
+                {
+                  "task": "mmlu",
+                  "description": "Includes a localized Arabic version, evaluating multi-domain knowledge and reasoning."
+                },
+                {
+                  "task": "arabic_leaderboard_light",
+                  "description": "Light version of Arabic tasks for evaluating comprehension and cultural understanding."
+                },
+                {
+                  "task": "arabic_leaderboard_complete",
+                  "description": "Comprehensive Arabic tasks assessing models on understanding Arabic culture and heritage."
+                },
+                {
+                  "task": "americasnli",
+                  "description": "A natural language inference dataset for Indigenous languages of the Americas."
+                },
+                {
+                  "task": "masakhaner",
+                  "description": "A named entity recognition dataset for African languages."
+                },
+                {
+                  "task": "translation",
+                  "description": "Assesses the model's ability to translate text between different languages."
+                },
+                {
+                  "task": "wmt2016",
+                  "description": "Assesses machine translation performance using datasets from the WMT 2016 shared tasks."
+                }
+              ]
+            }
+          },
+          {
+            "Low-Resource Tasks": {
+              "description": "Benchmarks created for under-represented languages or domains.",
+              "tasks": [
+                {
+                  "task": "basqueglue",
+                  "description": "Tasks designed to evaluate language understanding in Basque, an under-represented language."
+                },
+                {
+                  "task": "belebele",
+                  "description": "Language understanding tasks in a variety of under-represented languages and scripts."
+                },
+                {
+                  "task": "arabicmmlu",
+                  "description": "Localized Arabic version of MMLU with multiple-choice questions from 40 subjects."
+                },
+                {
+                  "task": "aexams",
+                  "description": "Tasks in Arabic related to various academic exams covering a range of subjects."
+                },
+                {
+                  "task": "aclue",
+                  "description": "Tasks focusing on ancient Chinese language understanding and cultural aspects."
+                },
+                {
+                  "task": "lingoly",
+                  "description": "Challenging logical reasoning benchmark in low-resource languages with controls for memorization."
+                },
+                {
+                  "task": "tydiqa",
+                  "description": "A typologically diverse question-answering dataset covering 11 under-represented languages."
+                },
+                {
+                  "task": "xquad",
+                  "description": "A cross-lingual question-answering dataset extending SQuAD to 10 under-represented languages."
+                },
+                {
+                  "task": "mlqa",
+                  "description": "Multilingual Question Answering benchmark covering 7 under-represented languages."
+                },
+                {
+                  "task": "americasnli",
+                  "description": "A natural language inference dataset for Indigenous languages of the Americas."
+                },
+                {
+                  "task": "masakhaner",
+                  "description": "A named entity recognition dataset for African languages."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
