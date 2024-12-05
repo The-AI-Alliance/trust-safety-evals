@@ -29,7 +29,7 @@ The open-source software (OSS) components in the stack including the following p
 
 * EleutherAI’s [LM Evaluation Harness](https://www.eleuther.ai/projects/large-language-model-evaluation){:target="lm-site"} (GitHub [repo](https://github.com/EleutherAI/lm-evaluation-harness){:target="lm-repo"}), a widely used, efficient evaluation platform for inference time (i.e., runtime) evaluation and for leaderboards.
 * IBM’s [Unitxt](https://www.unitxt.ai){:target="unitxt"} library, the framework for individual evaluators, which has an interesting benefit that evaluators can be _declaratively_ defined and executed without the need to execute third-party, untrusted code. This supports several of the [user needs]({{site.baseurl}}/user-personae/user-personae/#shared-needs-for-all-users) involving open collaboration in a pragmatic way, without the need for running third-party evaluation code.
-* Observability and metrics collection - [Arize Phoenix](https://github.com/Arize-ai/phoenix) or other TBD toolkit. The reference stack needs to provide the desired information, but it also needs to be agnostic about the specific tools used, as different environments will have different standard tools in place already.
+* Observability and metrics collection - [Arize Phoenix](https://github.com/Arize-ai/phoenix){:target="phoenix"} or other TBD toolkit. The reference stack needs to provide the desired information, but it also needs to be agnostic about the specific tools used, as different environments will have different standard tools in place already.
 
 ### Leaderboard Deployments
 
