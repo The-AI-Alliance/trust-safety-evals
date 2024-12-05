@@ -9,7 +9,7 @@ has_children: true
 
 ## User Personae for Evaluation
 
-There are a wide range of stakeholders in the AI space who can benefit from this project:
+There are a wide range of stakeholders in the AI space who can benefit from this initiative:
 
 * **Model Builders:** Who need to evaluate their models against desired criteria.
 * **Independent Software Vendors:** Companies providing AI-as-a-Service, including evaluations for safety.

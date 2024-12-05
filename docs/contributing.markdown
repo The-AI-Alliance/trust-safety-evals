@@ -4,9 +4,9 @@ title: Contributing
 nav_order: 90
 ---
 
-# How to Contribute to this Project
+# How to Contribute to this Initiative
 
-We welcome your contributions to our project for trust and safety tools, evaluators, and benchmarks. Visit the project's [GitHub repo](https://github.com/The-AI-Alliance/trust-safety-evals/){:target="repo"} to see what tools and leaderboards are already implemented. See the [issues](https://github.com/The-AI-Alliance/trust-safety-evals/issues){:target="repo"} and the work tracking projects:
+We welcome your contributions for defining the full evaluation taxonomy, for building corresponding evaluators and benchmarks, and supporting tools. Visit the initiative's [GitHub repo](https://github.com/The-AI-Alliance/trust-safety-evals/){:target="repo"} to see what tools and leaderboards are already implemented. See the [issues](https://github.com/The-AI-Alliance/trust-safety-evals/issues){:target="repo"} and the work tracking projects:
 
 * [Evaluation Platform Reference Stack](https://github.com/orgs/The-AI-Alliance/projects/23/views/1){:target="project23"}
 * [Evaluation Taxonomy](https://github.com/orgs/The-AI-Alliance/projects/24/views/1){:target="project24"}
@@ -14,7 +14,7 @@ We welcome your contributions to our project for trust and safety tools, evaluat
 
 # Joining the Work Group
 
-For people interested in more active participation, we are structuring the work group to support individuals with any level of time and expertise they can contribute. If you want to join our regular meetings or otherwise contribute, use the form on the [Become a collaborator](https://thealliance.ai/become-a-collaborator){:target="aia-website"} page to let us know your interests. Check the box for _AI Trust and Safety WG_ (WG stands for &ldquo;work group&rdquo;) and mention the &ldquo;trust and safety evals project&rdquo; in the _Message_ box.
+For people interested in more active participation, we are structuring the work group to support individuals with any level of time and expertise they can contribute. If you want to join our regular meetings or otherwise contribute, use the form on the [Become a collaborator](https://thealliance.ai/become-a-collaborator){:target="aia-website"} page to let us know your interests. Check the box for _AI Trust and Safety WG_ (WG stands for &ldquo;work group&rdquo;) and mention the &ldquo;Trust and Safety Evaluatoins Initiative&rdquo; in the _Message_ box.
 
 # Making Smaller Contributions
 
@@ -26,4 +26,4 @@ However, notice that every page on this website has _Edit this page on GitHub_ l
 
 The [README](https://github.com/The-AI-Alliance/trust-safety-evals){:target="repo"} for the source repo explains more details for testing this website locally and for creating more extensive changes as PRs, such as adding new content. The README also describes our "DCO" requirements, which you should understand first.
 
-However, these ways of contributing require you to have a GitHub account. If you don't have one and you want to provide feedback for improvements, then [send us email](mailto:contact@thealliance.ai) with your suggestions. Be sure to mention this particular website, as we have many AI Alliance project websites that look similar!
+However, these ways of contributing require you to have a GitHub account. If you don't have one and you want to provide feedback for improvements, then [send us email](mailto:contact@thealliance.ai) with your suggestions. Be sure to mention this particular initiative, as we have many AI Alliance projects and initiatives!

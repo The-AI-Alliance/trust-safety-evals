@@ -2,15 +2,15 @@
 
 [Published Documentation](https://the-ai-alliance.github.io/trust-safety-evals/)
 
-This repo contains the code and documentation for the AI Alliance _Trust and Safety Evaluations_ project, which defines a reference stack for AI model and system evaluation, with evaluations, benchmarks, and leaderboards.
+This repo contains the code and documentation for the AI Alliance _Trust and Safety Evaluations Initiative_, which defines a reference stack for AI model and system evaluation, with evaluations, benchmarks, and leaderboards.
 
-See the [documentation](https://the-ai-alliance.github.io/trust-safety-evals/) for a more detailed description of the project.
+See the [website](https://the-ai-alliance.github.io/trust-safety-evals/) for a more detailed description of this initiative.
 
 At this time, only the "skeleton" documentation is provided. We will be making initial commits of code, etc. soon.
 
 ## Getting Involved
 
-We welcome contributions as PRs. Please see our [Alliance community repo](https://github.com/The-AI-Alliance/community/) for general information about contributing to any of our projects. This section provides some specific details you need to know.
+We welcome contributions as PRs. Please see our [Alliance community repo](https://github.com/The-AI-Alliance/community/) for general information about contributing to any of our projects and initiatives. This section provides some specific details you need to know.
 
 In particular, see the AI Alliance [CONTRIBUTING](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md) instructions. You will need to agree with the AI Alliance [Code of Conduct](https://github.com/The-AI-Alliance/community/blob/main/CODE_OF_CONDUCT.md).
 

@@ -5,7 +5,7 @@ nav_order: 10
 has_children: false
 ---
 
-# Trust and Safety Evaluations
+# Trust and Safety Evaluations Initiative
 
 
 [GitHub Repo](https://github.com/The-AI-Alliance/trust-safety-evals){:target="repo" .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 .no-glyph}
@@ -14,7 +14,7 @@ has_children: false
 | **Authors** | [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} |
 | **Last Update**  | V0.3.0, 2024-12-05 |
 
-Welcome to the **The AI Alliance** project for **Trust and Safety Evaluations**.
+Welcome to the **The AI Alliance** initiative for **Trust and Safety Evaluations**.
 
 > **Tips:** 
 >
@@ -27,14 +27,14 @@ Much like other software, generative AI (&ldquo;GenAI&rdquo;) [_Models_]({{site.
 
 There are many organizations working on evaluations for safety, broadly defined, and other kinds of measurements, as well as [_Benchmarks_]({{site.baseurl}}/glossary/#benchmark) that aggregate some evaluations and [_Leaderboards_]({{site.baseurl}}/glossary/#leaderboard) that let you see how some models and systems do against benchmarks, without having to execute these benchmarks yourself. 
 
-The **Trust and Safety Evaluations** project addresses several under-served needs:
+The **Trust and Safety Evaluations Initiative** addresses several under-served needs:
 
 1. While very good [Taxonomies]({{site.baseurl}}/glossary/#taxonomy) of evaluation in the areas of risk and harms have [emerged]({{site.baseurl}}/taxonomy/taxonomy/#why-build-a-taxonomy), there are other areas of interest where a standard taxonomy, with corresponding evaluations, would be useful. See [taxonomy]({{site.baseurl}}/taxonomy/taxonomy).
 2. [_Evaluators_]({{site.baseurl}}/glossary/#evaluator) that implement evaluations in the taxonomy are needed. Some areas are well-covered, while others have no available evaluators. These evaluators can be aggregated into benchmarks. See [evaluators]({{site.baseurl}}/evaluators/evaluators).
 3. Leaderboards are needed that provide unique, user-configurable views on different benchmark combinations, which help users focus on the benchmarks most relevant to their needs. See [leaderboards]({{site.baseurl}}/leaderboards/leaderboards).
 4. Users need a _reference stack_ of industry-standard OSS tools for evaluation, especially at [_Inference_]({{site.baseurl}}/glossary/#inference) time. See [Evaluation Platform Reference Stack]({{site.baseurl}}/ref-stack/ref-stack).
 
-This website provides the documentation for this project, with links to other resources, including code and leaderboards, as they become available.
+This website provides the documentation for this initiative, with links to other resources, including code and leaderboards, as they become available.
 
 Are you interested in contributing? If so, please see the [contributing]({{site.baseurl}}/contributing) page for information on how you can get involved.
 
@@ -50,9 +50,9 @@ This site is organized into the following sections:
 Additional links:
 
 * [Contributing]({{site.baseurl}}/contributing): We welcome your contributions! Here's how you can contribute.
-* [About Us]({{site.baseurl}}/about): More about the AI Alliance and this project.
+* [About Us]({{site.baseurl}}/about): More about the AI Alliance and this initiative.
+* [GitHub Repo](https://github.com/The-AI-Alliance/trust-safety-evals){:target="repo"}
 * [The AI Alliance](https://thealliance.ai){:target="ai-alliance"}: The AI Alliance website.
-* [Project GitHub Repo](https://github.com/The-AI-Alliance/trust-safety-evals){:target="repo"}
 
 ### Version History
 
