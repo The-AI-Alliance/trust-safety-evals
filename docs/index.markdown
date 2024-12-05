@@ -7,10 +7,6 @@ has_children: false
 
 # Trust and Safety Evaluations Initiative
 
-
-[GitHub Repo](https://github.com/The-AI-Alliance/trust-safety-evals){:target="repo" .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 .no-glyph}
-[The AI Alliance](https://thealliance.ai){:target="ai-alliance" .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 .no-glyph} 
-
 | **Authors** | [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} |
 | **Last Update**  | V0.3.0, 2024-12-05 |
 
