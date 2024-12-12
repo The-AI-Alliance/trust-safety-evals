@@ -27,6 +27,7 @@ To date, several initiatives by other organizations have worked on taxonomies fo
 
 * MLCommons [Taxonomy of Hazard](https://arxiv.org/html/2404.12241v1){:target="mlc-th"}
 * IBM [AI Risk Atlas](https://www.ibm.com/docs/en/watsonx/saas?topic=ai-risk-atlas){:target="ibm-ai"}
+* IBM [`unitxt` Catalog](https://www.unitxt.ai/en/latest/catalog/catalog.__dir__.html).
 * MIT [AI Risk Repository](https://airisk.mit.edu/){:target="mit-ai"}
 * NIST [Risk Management Framework](https://airc.nist.gov/AI_RMF_Knowledge_Base/AI_RMF/Foundational_Information/3-sec-characteristics){:target="nist-rmf"}
 * Stanford [CRFM HELM](https://crfm.stanford.edu/helm/){:target="helm"}

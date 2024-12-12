@@ -11,5 +11,7 @@ This section describes the evaluators that implement the evaluations identified 
 
 Benchmarks that aggregate evaluators for larger goals, e.g., domain-specific scenarios, are also cataloged here.
 
-_Coming Soon_
+For now, see the [`unitxt` catalog](https://www.unitxt.ai/en/latest/catalog/catalog.__dir__.html) for a set of evaluators implemented using [`unitxt`](https://www.unitxt.ai).
+
+_More Coming Soon_
 
