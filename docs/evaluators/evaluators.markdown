@@ -19,6 +19,8 @@ A list of possible candidates to incorporate in our catalog.
 
 _More Coming Soon_
 
+> **Help Wanted:** Do you have datasets, benchmarks, or other evaluators that you believe should be included? See our [Contributing]({{site.baseurl}}/contributing) page!
+
 ### NeurIPS 2024 Datasets Benchmarks
 
 The NeurIPS 2024 [Datasets Benchmarks](https://neurips.cc/virtual/2024/events/datasets-benchmarks-2024) is a list of recently-created datasets of interest for evaluation.

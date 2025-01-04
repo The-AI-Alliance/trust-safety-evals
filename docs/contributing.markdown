@@ -9,11 +9,12 @@ nav_order: 90
 
 Want to join one of our initiative projects? Visit [this AI Alliance webpage](https://thealliance.ai/working-groups/trust-safety#trust-and-safety-form){:target="join-us-form"} and fill in the form. Thank you for your interest.
 
-We welcome your contributions for defining the full evaluation taxonomy, for building corresponding evaluators and benchmarks, and supporting tools. Visit the initiative's [GitHub repo](https://github.com/The-AI-Alliance/trust-safety-evals/){:target="repo"} to see what tools and leaderboards are already implemented. See the [issues](https://github.com/The-AI-Alliance/trust-safety-evals/issues){:target="repo"} and the work tracking projects:
+We welcome your contributions for defining the full evaluation taxonomy, for building the reference stack and the evaluators, benchmarks, and leaderboards for the taxonomy, etc. Visit the initiative's [GitHub repo](https://github.com/The-AI-Alliance/trust-safety-evals/){:target="repo"} to see what tools and leaderboards are already implemented. See the [issues](https://github.com/The-AI-Alliance/trust-safety-evals/issues){:target="repo"} and the [work tracking project](https://github.com/orgs/The-AI-Alliance/projects/23/views/1). Here is the project view filtered by _labels_ for the main work streams:
 
-* [Evaluation Platform Reference Stack](https://github.com/orgs/The-AI-Alliance/projects/23/views/1){:target="project23"}
-* [Evaluation Taxonomy](https://github.com/orgs/The-AI-Alliance/projects/24/views/1){:target="project24"}
-* [Evaluation Leaderboard](https://github.com/orgs/The-AI-Alliance/projects/25/views/1){:target="project25"}
+* [Evaluation Platform Reference Stack](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3A"reference+stack"){:target="project23-reference-stack"}
+* [Evaluation Taxonomy](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Ataxonomy){:target="project23-taxonomy"}
+* [Evaluators](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aevaluators){:target="project23-evaluators"} (which implement the taxonomy...)
+* [Evaluation Leaderboard](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aleaderboards){:target="project23-leaderboards"}
 
 # Making Smaller Contributions
 
