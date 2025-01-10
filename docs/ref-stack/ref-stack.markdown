@@ -21,7 +21,7 @@ Schematically, a trust and safety deployment using the reference stack with exam
 
 **Figure 1:** Schematic architecture of a deployment.
 
-Note that some evaluators won't use `unitxt` and some of them will not run on `lm-evaluation-harness`. This is the practical reality of the technology today.
+Note that some evaluators won't use `unitxt` and some of them will not run on `lm-evaluation-harness`. This is the practical reality of the technology today. However, our hope is that the reference stack will prove so popular and so productive to use, that it will be widely adopted by teams doing evaluation R&D.
 
 ### Execution Framework
 
