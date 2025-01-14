@@ -29,7 +29,68 @@ See the Alliance contributing guide [section on DCO](https://github.com/The-AI-A
 
 ## About the Code
 
-TODO
+Some code for this initiative will be kept in this repo, but other code will be kept in separate repos. This section will provide links to the relevant locations as they are added.
+
+### SafetyBAT Leaderboard
+
+This leaderboard has a Hugging Face git repo that mirrors two other repos as follows.
+
+* HF repo: https://huggingface.co/spaces/aialliance/safetybat
+* Upstream IBM repo: https://huggingface.co/spaces/ibm/benchbench
+* Fork of the IBM repo in the [AI Alliance GitHub org](https://github.com/The-AI-Alliance): https://github.com/The-AI-Alliance/tse-ibm-benchbench
+
+To make updates to this code, use the following procedure.
+
+Install support for [large files](https://git-lfs.com): 
+
+```shell
+git lfs install
+```
+
+Clone the tse-ibm-benchbench repo:
+
+```shell
+git clone git@github.com:The-AI-Alliance/tse-ibm-benchbench.git
+cd tse-ibm-benchbench
+```
+
+Add the HF repo as an upstream repo. Note the use of the name `hf-upstream`:
+
+```shell
+git remote add hf-upstream git@hf.co:spaces/aialliance/safetybat
+```
+
+Fetch all the branches for both forks:
+```shell
+git fetch --all --prune
+```
+
+Now you can work locally and push changes upstream. Consider the scenario where you want to compare the two `main` branches to see what might be out of date and push changes upstream:
+
+```shell
+git checkout main    # make sure you are in the tse-* main branch.
+git diff hf-upstream/main
+```
+
+To push the latest from `tse-ibm-benchbench` upstream to the Hugging Face repo fork, do the following:
+
+```shell
+git checkout hf-upstream/main
+git merge origin/main
+git commit -s -m 'description' .
+git push --all  # push all branches that have changed.
+```
+
+(The `-s` flag is for _signoff_, required for DCO, discussed above.)
+
+Similarly, after you make edits to `tse-ibm-benchbench` and want to push them upstream:
+
+```shell
+git checkout hf-upstream/main
+git merge origin/main
+git commit -s -m 'description' .
+git push --all  # push all branches that have changed.
+```
 
 ## About the Documentation
 

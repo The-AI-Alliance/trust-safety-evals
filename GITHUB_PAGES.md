@@ -53,6 +53,8 @@ Open the URL in a browser.
 
 ## Contributing New or Improved Content
 
+> **Note:** We require commits to be both signed and singed-off. See the [community contributing guide](https://github.com/The-AI-Alliance/community/blob/main/CONTRIBUTING.md) for details on these requirements and all other aspects of contributing code and documentation to Alliance projects.
+
 What gets displayed by GitHub Pages is the customized Markdown files in the `docs` directory. If you need to create a new page, copy an existing page to get the correct "header" information, then edit as needed.
 
 Here are some things you should know.
