@@ -91,8 +91,8 @@ back_to_top_text: "Back to the top"
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%Y-%m-%d %H:%M %z" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-last_modified_timestamp: 2024-12-12 08:47 -0500
-last_version: 0.3.1
+last_modified_timestamp: 2025-01-18 18:10 -0500
+last_version: 0.4.0
 
 # "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link

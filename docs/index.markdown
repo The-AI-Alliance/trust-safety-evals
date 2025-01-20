@@ -7,7 +7,7 @@ has_children: false
 
 # Trust and Safety Evaluations Initiative
 
-| **Authors** | [Dean Wampler](https://research.ibm.com/people/dean-wampler), [Jonathan Bnayahu](https://research.ibm.com/people/jonathan-bnayahu) (IBM Research) |
+| **Authors** |  [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} (see [About Us]({{site.baseurl}}/about)) |
 | **Last Update**  | V0.4.0, 2025-01-18 |
 
 Welcome to the **The AI Alliance** initiative for **Trust and Safety Evaluations**.
@@ -51,3 +51,13 @@ Additional links:
 * [About Us]({{site.baseurl}}/about): More about the AI Alliance and this initiative.
 * [GitHub Repo](https://github.com/The-AI-Alliance/trust-safety-evals){:target="repo"}
 * [The AI Alliance](https://thealliance.ai){:target="ai-alliance"}: The AI Alliance website.
+
+### Version History
+
+| Version  | Date       |
+| :------- | :--------- |
+| V0.4.0   | 2025-01-18 |
+| V0.3.1   | 2024-12-12 |
+| V0.3.0   | 2024-12-05 |
+| V0.2.0   | 2024-11-15 |
+| V0.1.0   | 2024-10-12 |
