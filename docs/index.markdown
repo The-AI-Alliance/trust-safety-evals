@@ -7,32 +7,34 @@ has_children: false
 
 # Trust and Safety Evaluations Initiative
 
-| **Authors** | [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} |
-| **Last Update**  | V0.3.1, 2024-12-12 |
+| **Authors** | [Dean Wampler](https://research.ibm.com/people/dean-wampler), [Jonathan Bnayahu](https://research.ibm.com/people/jonathan-bnayahu) (IBM Research) |
+| **Last Update**  | V0.4.0, 2025-01-18 |
 
 Welcome to the **The AI Alliance** initiative for **Trust and Safety Evaluations**.
 
-> **Tips:** 
->
-> 1. Use the search box at the top of this page to find specific content.
-> 2. Capitalized, italicized terms link to a [glossary of terms]({{site.baseurl}}/glossary).
+Unlike traditional software systems that rely on prescribed specifications and application code, [_AI systems_]({{site.baseurl}}/glossary/#ai-system) based on machine learning [_models_]({{site.baseurl}}/glossary/#model) depend on training data to map inputs to outputs. Consequently, these systems are inherently non-deterministic and may produce errors due to variability in the training data or the probabilistic nature of the underlying algorithms. To [_evaluate_]({{site.baseurl}}/glossary/#evaluation) such systems, [_benchmarks_]({{site.baseurl}}/glossary/#benchmark) are commonly used to address user concerns, such as accuracy and bias. However, since benchmarks can be manipulated over time to achieve favorable results, it is essential to establish a flexible evaluation framework that supports rapid updates to evaluation criteria and benchmark selection. Given the critical role of testing and evaluation in deploying AI systems, there is a pressing need for a consistent methodology and robust tool support for these activities.
 
-Much like other software, generative AI (&ldquo;GenAI&rdquo;) [_Models_]({{site.baseurl}}/glossary/#model) and the [_AI Systems_]({{site.baseurl}}/glossary/#ai-system) that use them need to be trusted and useful to their users.
+In the context of generative AI, evaluation serves to provide evidence that fosters user trust in models and systems. Specifically, it involves measuring and quantifying how a model or system responds to inputs. Are the responses within acceptable bounds—free from hate speech, [_hallucinations_]({{site.baseurl}}/glossary/#hallucination), or other harmful outputs? Are they useful, cost-effective, and reliable?
 
-[_Evaluation_]({{site.baseurl}}/glossary/#evaluation) aims to provide the evidence for gaining users’ trust in models and systems. More specifically, evaluation refers to the capability of measuring and quantifying how a model or system responds to inputs. Are the responses within acceptable bounds, for example free of hate speech and [_Hallucinations_]({{site.baseurl}}/glossary/#hallucination), are they useful to users, cost-effective, etc.?
+Within the AI Alliance's [**Trust and Safety Focus Area**](https://thealliance.ai/focus-areas/trust-and-safety), a primary objective is to promote an industry-accepted taxonomy and an evaluation framework that meet the needs of both the research community, which drives innovation, and AI solution developers, who create AI-powered systems.
 
-There are many organizations working on evaluations for safety, broadly defined, and other kinds of measurements, as well as [_Benchmarks_]({{site.baseurl}}/glossary/#benchmark) that aggregate some evaluations and [_Leaderboards_]({{site.baseurl}}/glossary/#leaderboard) that let you see how some models and systems do against benchmarks, without having to execute these benchmarks yourself. 
+The **Trust and Safety Evaluation Initiative** (TSEI) aims to establish a hub connecting creators and consumers of evaluations, starting with safety, in a sustainable value-chain. Its mission is to incentivize collaboration across these distinct communities and to foster emerging standards and open technologies for creating, evaluating, and deploying evaluations.
 
-The **Trust and Safety Evaluations Initiative** addresses several under-served needs:
+This initiative is anchored around the following key functional capabilities:
 
-1. While very good [Taxonomies]({{site.baseurl}}/glossary/#taxonomy) of evaluation in the areas of risk and harms have [emerged]({{site.baseurl}}/taxonomy/taxonomy/#why-build-a-taxonomy), there are other areas of interest where a standard taxonomy, with corresponding evaluations, would be useful. See [taxonomy]({{site.baseurl}}/taxonomy/taxonomy).
-2. [_Evaluators_]({{site.baseurl}}/glossary/#evaluator) that implement evaluations in the taxonomy are needed. Some areas are well-covered, while others have no available evaluators. These evaluators can be aggregated into benchmarks. See [evaluators]({{site.baseurl}}/evaluators/evaluators).
-3. Leaderboards are needed that provide unique, user-configurable views on different benchmark combinations, which help users focus on the benchmarks most relevant to their needs. See [leaderboards]({{site.baseurl}}/leaderboards/leaderboards).
-4. Users need a _reference stack_ of industry-standard OSS tools for evaluation, especially at [_Inference_]({{site.baseurl}}/glossary/#inference) time. See [Evaluation Platform Reference Stack]({{site.baseurl}}/ref-stack/ref-stack).
+1. **Shared, industry-wide taxonomy**: many organizations have worked on [_taxonomies_]({{site.baseurl}}/glossary/#taxonomy) of evaluation, usually focused on specific areas of interest. TSEI seeks to gather these taxonomies, expand them where appropriate, and create a unified taxonomy across the spectrum of evaluation concerns, for example covering risk, safety, performance, security, etc. Ideally, the unified taxonomy will be embraced by the community as the standard definition, which will help unify disparate R&D efforts, for both builders of models and evaluations/evaluators, as well as users of them.
+
+2. **Open-source reference evaluation stack**: while there are numerous general-purpose evaluation frameworks in the open-source community, most new evaluations are implemented in proprietary, POC-level code. TSEI will identify and endorse evaluation frameworks and libraries that are already emerging as industry standards, and that address the needs of both creators and consumers of evaluations, and will work to enhance it with supporting tools, to reduce both the effort to implement new evaluations, and the effort to use them in real-world production environments. It should establish a common “programming model” for quickly and efficiently creating evaluations in an open, scalable, flexible, and reusable manner.
+
+3. **Curated catalog of evaluations**: finding the right evaluation or benchmark for a given task is not trivial. Most evaluations are published as academic or industrial papers, with datasets and implementation spread across repositories such as HuggingFace or GitHub. TSEI aims to create a curated catalog of production-ready evaluations in an AI-augmented process. The catalog will include mapping of evaluations to the common taxonomy, as well as various functional and non-functional metrics to help consumers make the best choice for their needs.
+
+4. **Operational Hub**: a cloud-based, running environment hosting the evaluation stack, with onr or more [_leaderboards_]({{site.baseurl}}/glossary/#leaderboard) showing various benchmarks, and a UI for browsing and filtering the evaluation catalog, providing consumers with convenient ways to download packaged, deployable content, compatible with major clour and on-prem architectures.
 
 This website provides the documentation for this initiative, with links to other resources, including code and leaderboards, as they become available.
 
 Are you interested in contributing? If so, please see the [contributing]({{site.baseurl}}/contributing) page for information on how you can get involved.
+
+---
 
 This site is organized into the following sections:
 
@@ -49,13 +51,3 @@ Additional links:
 * [About Us]({{site.baseurl}}/about): More about the AI Alliance and this initiative.
 * [GitHub Repo](https://github.com/The-AI-Alliance/trust-safety-evals){:target="repo"}
 * [The AI Alliance](https://thealliance.ai){:target="ai-alliance"}: The AI Alliance website.
-
-### Version History
-
-
-| Version  | Date       |
-| :------- | :--------- |
-| V0.3.1   | 2024-12-12 |
-| V0.3.0   | 2024-12-05 |
-| V0.2.0   | 2024-11-15 |
-| V0.1.0   | 2024-10-12 |
