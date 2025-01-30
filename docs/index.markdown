@@ -8,7 +8,7 @@ has_children: false
 # Trust and Safety Evaluations Initiative
 
 | **Authors** |  [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} (see [About Us]({{site.baseurl}}/about)) |
-| **Last Update**  | V0.4.0, 2025-01-18 |
+| **Last Update**  | V0.4.1, 2025-01-30 |
 
 Welcome to the **The AI Alliance** initiative for **Trust and Safety Evaluations**.
 
@@ -56,6 +56,7 @@ Additional links:
 
 | Version  | Date       |
 | :------- | :--------- |
+| V0.4.1   | 2025-01-30 |
 | V0.4.0   | 2025-01-18 |
 | V0.3.1   | 2024-12-12 |
 | V0.3.0   | 2024-12-05 |

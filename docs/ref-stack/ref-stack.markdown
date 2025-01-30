@@ -21,7 +21,7 @@ Schematically, a trust and safety deployment using the reference stack with exam
 
 **Figure 1:** Schematic architecture of a deployment.
 
-Note that some evaluators won't use `unitxt` and some of them will not run on `lm-evaluation-harness`. This is the practical reality of the technology today. However, our hope is that the reference stack will prove so popular and so productive to use, that it will be widely adopted by teams doing evaluation R&D.
+Note that some evaluators won't use `unitxt` and some of them will not run on `lm-evaluation-harness`. This is the practical reality of the technology today. However, our hope is that the reference stack will prove so compelling and so productive to use, that it will be widely adopted by teams doing evaluation R&D.
 
 ### Execution Framework
 
@@ -33,11 +33,13 @@ The open-source software (OSS) components in the stack including the following p
 * IBM’s [Unitxt](https://www.unitxt.ai){:target="unitxt"} library, the framework for individual evaluators, which has an interesting benefit that evaluators can be _declaratively_ defined and executed without the need to execute third-party, untrusted code. This supports several of the [user needs]({{site.baseurl}}/user-personae/user-personae/#shared-needs-for-all-users) involving open collaboration in a pragmatic way, without the need for running third-party evaluation code.
 * Observability and metrics collection - [Arize Phoenix](https://github.com/Arize-ai/phoenix){:target="phoenix"} or other TBD toolkit. The reference stack needs to provide the desired information, but it also needs to be agnostic about the specific tools used, as different environments will have different standard tools in place already.
 
+We are working on easy to use examples for all these components, discussed below.
+
 ### Leaderboard Deployments
 
 While supporting private, on-premise deployments for proprietary evaluation requirements, the stack will be used to implement [public leaderboards]({{site.baseurl}}/leaderboards/leaderboards/) hosted in the [AI Alliance Hugging Face Community](https://huggingface.co/aialliance){:target="hf"}.
 
-_This is a work in progress._
+_In progress._
 
 ## LM Evaluation Harness Installation
 
@@ -53,7 +55,7 @@ The [README](https://github.com/EleutherAI/lm-evaluation-harness){:target="lm-re
 
 ## Unitxt Examples
 
-Several examples using [`unitxt`](https://www.unitxt.ai){:target="unitxt"} are available in the [IBM Granite Community](https://github.com/ibm-granite-community){:target="igc"}, in the [Granite &ldquo;Snack&ldquo; Cookbook](https://github.com/ibm-granite-community/granite-snack-cookbook){:target="igc-snack"} repo, under the [`recipes/Evaluation`](https://github.com/ibm-granite-community/granite-snack-cookbook/tree/main/recipes/Evaluation){:target="igc-snack-eval"} folder. These examples only require running [Jupyter](https://jupyter.org/){:target="jupyter"} locally:
+Several examples using [`unitxt`](https://www.unitxt.ai){:target="unitxt"} are available in the [IBM Granite Community](https://github.com/ibm-granite-community){:target="igc"}, in the [Granite &ldquo;Snack&ldquo; Cookbook](https://github.com/ibm-granite-community/granite-snack-cookbook){:target="igc-snack"} repo, under the [`recipes/Evaluation`](https://github.com/ibm-granite-community/granite-snack-cookbook/tree/main/recipes/Evaluation){:target="igc-snack-eval"} folder. These examples only require running [Jupyter](https://jupyter.org/){:target="jupyter"} locally, because all inference is done remotely by the community's back-end services:
 
 * [`Unitxt_Quick_Start.ipynb`](https://github.com/ibm-granite-community/granite-snack-cookbook/tree/main/recipes/Evaluation/Unitxt_Quick_Start.ipynb){:target="igc-snack-eval1"} - A quick introduction to `unitxt`.
 * [`Unitxt_Demo_Strategies.ipynb`](https://github.com/ibm-granite-community/granite-snack-cookbook/tree/main/recipes/Evaluation/Unitxt_Demo_Strategies.ipynb){:target="igc-snack-eval2"} - Various ways to use `unitxt`.
