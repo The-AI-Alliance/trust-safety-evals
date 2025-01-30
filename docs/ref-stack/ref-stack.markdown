@@ -31,7 +31,7 @@ The open-source software (OSS) components in the stack including the following p
 
 * EleutherAI’s [LM Evaluation Harness](https://www.eleuther.ai/projects/large-language-model-evaluation){:target="lm-site"} (GitHub [repo](https://github.com/EleutherAI/lm-evaluation-harness){:target="lm-repo"}), a widely used, efficient evaluation platform for inference time (i.e., runtime) evaluation and for leaderboards.
 * IBM’s [Unitxt](https://www.unitxt.ai){:target="unitxt"} library, the framework for individual evaluators, which has an interesting benefit that evaluators can be _declaratively_ defined and executed without the need to execute third-party, untrusted code. This supports several of the [user needs]({{site.baseurl}}/user-personae/user-personae/#shared-needs-for-all-users) involving open collaboration in a pragmatic way, without the need for running third-party evaluation code.
-* Observability and metrics collection - [Arize Phoenix](https://github.com/Arize-ai/phoenix){:target="phoenix"} or other TBD toolkit. The reference stack needs to provide the desired information, but it also needs to be agnostic about the specific tools used, as different environments will have different standard tools in place already.
+* [Arize Phoenix](https://phoenix.arize.com/){:target="phoenix"} ([GitHub](https://github.com/Arize-ai/phoenix){:target="phoenix-gh"}) and similar tools for observability and metrics collection. The reference stack needs to provide the desired information, but it also needs to be agnostic about the specific tools used, as different environments will have different standard tools in place already.
 
 We are working on easy to use examples for all these components, discussed below.
 
@@ -67,3 +67,8 @@ Start on this [Unitxt page](https://www.unitxt.ai/en/latest/docs/lm_eval.html){:
 
 Easy to use examples are under development for publication here.
 
+## Observability with Arize Phoenix
+
+[Arize Phoenix](https://phoenix.arize.com/){:target="phoenix"} ([GitHub](https://github.com/Arize-ai/phoenix){:target="phoenix-gh"}) is an open-source LLM tracing and evaluation platform designed to provide seamless support for evaluating, experimenting, and optimizing AI applications.
+
+See the [home page](https://phoenix.arize.com/){:target="phoenix"} for details on installing and using Phoenix. We are working on an example deployment that demonstrates the integration with the rest of the reference stack discussed above.
