@@ -11,7 +11,7 @@ This section describes the reference stack that can be used to run the [evaluato
 
 It is important to note the separation between the stack that is agnostic about particular evaluations of interest, and the &ldquo;plug-in&rdquo; evaluators themselves. A set of evaluators in a given stack deployment may represent a defined benchmark for particular objectives. 
 
-The evaluation platform is under developmentbased on [shared needs]({{site.baseurl}}/user-personae/user-personae/#shared-needs-for-all-users) of All Users. A theme expressed in those needs is the ability to support both running the evaluation platform for public collaborative tasks and leaderboards, as well as support private deployments for evaluating proprietary models and systems. Both offline evaluation, such as for leaderboards and research investigations, and online inference should be able to use the same stack, with appropriate scaling and hardening of the deployments, as required.
+The evaluation platform is under development, based on [shared needs]({{site.baseurl}}/user-personae/user-personae/#shared-needs-for-all-users) of all users. A theme expressed in those needs is the ability to support both running the evaluation platform for public collaborative tasks and leaderboards, as well as support private deployments for evaluating proprietary models and systems. Both offline evaluation, such as for leaderboards and research investigations, and online inference should be able to use the same stack, with appropriate scaling and hardening of the deployments, as required.
 
 ## Architecture 
 
@@ -62,3 +62,6 @@ Several examples using [`unitxt`](https://www.unitxt.ai){:target="unitxt"} are a
 ## Using LM Evaluation Harness and Unitxt Together
 
 Start on this [Unitxt page](https://www.unitxt.ai/en/latest/docs/lm_eval.html){:target="unitxt-lm-eval"}. Then look at the [`unitxt` tasks](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/unitxt){:target="unitxt-lm-eval2"} in the [`lm-evaluation-harness`](https://github.com/EleutherAI/lm-evaluation-harness){:target="lm-eval"} repo.
+
+Easy to use examples are under development for publication here.
+
