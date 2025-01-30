@@ -11,7 +11,13 @@ This section describes the evaluators that implement the evaluations identified 
 
 Benchmarks that aggregate evaluators for larger goals, e.g., domain-specific scenarios, are also cataloged here.
 
-For now, see the [`unitxt` catalog](https://www.unitxt.ai/en/latest/catalog/catalog.__dir__.html){:target="unitxt-catalog"} for a set of evaluators implemented using [`unitxt`](https://www.unitxt.ai){:target="unitxt"}.
+For now, see the following resources, which overlap with each other.
+
+* [`unitxt` catalog](https://www.unitxt.ai/en/latest/catalog/catalog.__dir__.html){:target="unitxt-catalog"}: a set of evaluators implemented using [`unitxt`](https://www.unitxt.ai){:target="unitxt"}.
+* [`lm-evaluation-harness` tasks](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks){:target="lm-eval-tasks"}: a set of evaluators implemented directly on `lm-evaluation-harness`, including examples that use `unitxt`, too.
+* [Llama Guard](https://ai.meta.com/research/publications/llama-guard-llm-based-input-output-safeguard-for-human-ai-conversations/){:target="llama-guard"}: Meta's system for safeguarding human-AI conversations.
+* [Granite Guardian](https://www.ibm.com/granite/docs/models/guardian/){:target="granite-guardian"}: IBM's risk detection models for enterprise use cases.
+* [MLCommons AILuminate](https://ailuminate.mlcommons.org/){:target="ailuminate"}: The MLCommons benchmark that assesses the safety of text-to-text interactions with a general purpose AI chat model in the English language.
 
 ## Evaluators and Benchmarks to Explore
 
