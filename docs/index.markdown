@@ -28,7 +28,7 @@ This initiative is anchored around the following key functional capabilities:
 
 3. **Curated catalog of evaluations**: finding the right evaluation or benchmark for a given task is not trivial. Most evaluations are published as academic or industrial papers, with datasets and implementation spread across repositories such as HuggingFace or GitHub. TSEI aims to create a curated catalog of production-ready evaluations in an AI-augmented process. The catalog will include mapping of evaluations to the common taxonomy, as well as various functional and non-functional metrics to help consumers make the best choice for their needs.
 
-4. **Operational Hub**: a cloud-based, running environment hosting the evaluation stack, with onr or more [_leaderboards_]({{site.baseurl}}/glossary/#leaderboard) showing various benchmarks, and a UI for browsing and filtering the evaluation catalog, providing consumers with convenient ways to download packaged, deployable content, compatible with major clour and on-prem architectures.
+4. **Operational Hub**: a cloud-based, running environment hosting the evaluation stack, with one or more [_leaderboards_]({{site.baseurl}}/glossary/#leaderboard) showing various benchmarks, and a UI for browsing and filtering the evaluation catalog, providing consumers with convenient ways to download packaged, deployable content, compatible with major cloud and on-prem architectures.
 
 This website provides the documentation for this initiative, with links to other resources, including code and leaderboards, as they become available.
 
