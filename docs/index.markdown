@@ -16,7 +16,7 @@ Unlike traditional software systems that rely on prescribed specifications and a
 
 In the context of generative AI, evaluation serves to provide evidence that fosters user trust in models and systems. Specifically, it involves measuring and quantifying how a model or system responds to inputs. Are the responses within acceptable bounds—free from hate speech, [_hallucinations_]({{site.baseurl}}/glossary/#hallucination), or other harmful outputs? Are they useful, cost-effective, and reliable?
 
-Within the AI Alliance's [**Trust and Safety Focus Area**](https://thealliance.ai/focus-areas/trust-and-safety), a primary objective is to promote an industry-accepted taxonomy and an evaluation framework that meet the needs of both the research community, which drives innovation, and AI solution developers, who create AI-powered systems.
+Within the AI Alliance's [**Trust and Safety Focus Area**](https://thealliance.ai/focus-areas/trust-and-safety){:target="aia-tands"}, a primary objective is to promote an industry-accepted taxonomy and an evaluation framework that meet the needs of both the research community, which drives innovation, and AI solution developers, who create AI-powered systems.
 
 The **Trust and Safety Evaluation Initiative** (TSEI) aims to establish a hub connecting creators and consumers of evaluations, starting with safety, in a sustainable value-chain. Its mission is to incentivize collaboration across these distinct communities and to foster emerging standards and open technologies for creating, evaluating, and deploying evaluations.
 

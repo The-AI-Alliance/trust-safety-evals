@@ -21,7 +21,7 @@ If you have any questions or concerns about this initiative, please contact us a
 
 ## Maintainers of This Initiative
 
-* [Jonathan Bnayahu](https://research.ibm.com/people/jonathan-bnayahu), [Dean Wampler](https://research.ibm.com/people/dean-wampler) - [IBM Research](https://research.ibm.com/){:target="maintainers"} and [AI Alliance](https://thealliance.ai){:target="maintainers"}. 
+* [Jonathan Bnayahu](https://research.ibm.com/people/jonathan-bnayahu){:target="jb"}, [Dean Wampler](https://research.ibm.com/people/dean-wampler){:target="dw"} - [IBM Research](https://research.ibm.com/){:target="maintainers"} and [AI Alliance](https://thealliance.ai){:target="maintainers"}. 
 * More coming soon...
 
 ## Other AI Alliance Information
