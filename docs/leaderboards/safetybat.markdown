@@ -8,7 +8,7 @@ has_children: false
 
 # SafetyBAT Leaderboard
 
-The [Safety BAT Leaderboard](https://huggingface.co/spaces/aialliance/safetybat){:target="bat-leaderboard"} on the [AI Alliance Hugging Face Community](https://huggingface.co/aialliance){:target="hf"} uses [BenchBench](https://github.com/IBM/benchbench){:target="bb"} to rate benchmarks according to their agreement with the defined _Aggregate Benchmark_, an enhanced representation of many benchmarks that are available.
+The [Safety BAT Leaderboard](https://huggingface.co/spaces/aialliance/safetybat){:target="bat-leaderboard"} on the [AI Alliance Hugging Face Community](https://huggingface.co/aialliance){:target="aia-hf"} uses [BenchBench](https://github.com/IBM/benchbench){:target="ibm-bb"} to rate benchmarks according to their agreement with the defined _Aggregate Benchmark_, an enhanced representation of many benchmarks that are available.
 
 BenchBench is a useful tool for users with the following needs:
 

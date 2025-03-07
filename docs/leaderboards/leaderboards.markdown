@@ -7,14 +7,18 @@ has_children: true
 
 # Leaderboards
 
-This section describes the leaderboards we maintain with results from running benchmark suites of the [evaluators]({{site.baseurl}}/evaluators/evaluators) against various models and AI systems that use them. 
+This section describes the leaderboards and related tools that are maintained by this initiative or separately by other AI Alliance members.
 
-These leaderboards will include the leading open-source models to serve as evaluation targets and as evaluation judges. Initially, we are focusing on Meta’s [Llama family of models](https://www.llama.com){:target="llama"} and IBM’s [Granite family of models](https://www.ibm.com/granite){:target="granite"}, with others to follow.  
+The leaderboards provide results from running benchmark suites of the [evaluators]({{site.baseurl}}/evaluators/evaluators) against various models and AI systems that use them. 
 
-## Plans for Leaderboards
+The other tools assist software engineers in identifying important risks for their use cases and finding the evaluators and benchmarks that support testing for those risks.
 
-As we fill in the evaluation [taxonomy]({{site.baseurl}}/taxonomy/taxonomy), we will stand up more leaderboards for specific areas of the taxonomy with wide interest, organized into benchmarks.
+## Plans for Leaderboards and Other Tools
 
-A benchmark catalog will be provided to find and reuse these sets of evaluators.
+Planned leaderboards will include the leading open-source models to serve as evaluation targets and as evaluation judges. Initially, we are focusing on Meta’s [Llama family of models](https://www.llama.com){:target="llama"} and IBM’s [Granite family of models](https://www.ibm.com/granite){:target="granite"}, with others to follow.  
 
-The _child pages_ listed next describe the implemented leaderboards.
+As we fill in the evaluation [taxonomy]({{site.baseurl}}/taxonomy/taxonomy), we will add corresponding evaluators and benchmarks to the leaderboards, along with search capabilities to find the topics of interest.
+
+Finally, we plan to provide downloadable and deployable configurations of the [Evaluation Platform Reference Stack]({{site.baseurl}}/ref-stack/ref-stack) with the selected evaluators for easy and rapid use.
+
+The _child pages_ listed next describe the leaderboards and other tools that are currently available.
