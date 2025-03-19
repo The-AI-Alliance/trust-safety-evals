@@ -5,14 +5,16 @@ nav_order: 10
 has_children: false
 ---
 
-# Trust and Safety Evaluations Initiative
+# Trust and Safety Evaluations Initiative (TSEI)
 
-| **Authors** |  [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} (see [About Us]({{site.baseurl}}/about)) |
+| **Authors** | [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} (see [About Us]({{site.baseurl}}/about)) |
 | **Last Update**  | V0.4.2, 2025-03-07 |
 
 Welcome to the **The AI Alliance** initiative for **Trust and Safety Evaluations**.
 
 Unlike traditional software systems that rely on prescribed specifications and application code, [_AI systems_]({{site.baseurl}}/glossary/#ai-system) based on machine learning [_models_]({{site.baseurl}}/glossary/#model) depend on training data to map inputs to outputs. Consequently, these systems are inherently non-deterministic and may produce errors due to variability in the training data or the probabilistic nature of the underlying algorithms. To [_evaluate_]({{site.baseurl}}/glossary/#evaluation) such systems, [_benchmarks_]({{site.baseurl}}/glossary/#benchmark) are commonly used to address user concerns, such as accuracy and bias. However, since benchmarks can be manipulated over time to achieve favorable results, it is essential to establish a flexible evaluation framework that supports rapid updates to evaluation criteria and benchmark selection. Given the critical role of testing and evaluation in deploying AI systems, there is a pressing need for a consistent methodology and robust tool support for these activities.
+
+| See this short [presentation]({{site.baseurl}}/files/TSEI-Overview.pdf) (PDF) about the Trust and Safety Evaluations Initiative. |
 
 In the context of generative AI, evaluation serves to provide evidence that fosters user trust in models and systems. Specifically, it involves measuring and quantifying how a model or system responds to inputs. Are the responses within acceptable bounds—free from hate speech, [_hallucinations_]({{site.baseurl}}/glossary/#hallucination), or other harmful outputs? Are they useful, cost-effective, and reliable?
 
