@@ -6,7 +6,7 @@ has_children: false
 ---
 
 # Trust and Safety Evaluations Initiative (TSEI)
-### Our goal is to create the world's most comprehensive and useful tool set and resource for anyone seeking to benchmark, evaluate, and monitor AI systems. 
+### Our goal is to create the world's most comprehensive and useful tool set and resources for anyone seeking to benchmark, evaluate, and monitor AI systems. 
 
 | **Authors** | [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} (see [About Us]({{site.baseurl}}/about)) |
 | **Last Update**  | V0.4.3, 2025-04-07 |
