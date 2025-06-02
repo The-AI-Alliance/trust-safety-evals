@@ -1,3 +1,26 @@
 td {
 	vertical-align: top;
 }
+
+.resizable-content {
+  min-height: 30px;
+  min-width: 30px;
+  resize: both;
+  overflow: auto;
+  max-height: fit-content;
+  max-width: fit-content;
+}
+
+/* Based on .site-header, but taller, where $header-height is replaced with 100px. */
+.site-header-logo {
+  display: flex;
+  min-height: 100px;
+  max-width: 250px;
+  align-items: center;
+
+  @include mq(md) {
+    height: 100px;
+    max-height: 100px;
+    border-bottom: $border $border-color;
+  }
+}

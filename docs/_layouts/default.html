@@ -40,12 +40,15 @@ layout: table_wrappers
     </symbol>
   </svg>
 
-  <div class="side-bar">
+  <div class="side-bar resizable-content">
     <div class="site-header">
       <a href="{{ '/' | absolute_url }}" class="site-title lh-tight">{% include title.html %}</a>
       <a href="#" id="menu-button" class="site-button">
         <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
       </a>
+    </div>
+    <div class="site-header-logo">
+      <a href="https://thealliance.ai" target="_aia" class="no-glyph"><img alt="AI Alliance Banner" class="side-bar-banner" src="{{site.baseurl}}/assets/images/Logotype_monochrome_on_gradient.jpg"/></a>
     </div>
     <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
       {% if site.just_the_docs.collections %}
@@ -67,7 +70,7 @@ layout: table_wrappers
     </nav>
     <footer class="site-footer">
       <p>
-        Copyright &copy; 2024-2025, <a href="https://thealliance.ai" target="_ai">The AI Alliance</a>.
+        Copyright &copy; 2025, <a href="https://thealliance.ai" target="_aia">The AI Alliance</a>.
       </p>
       <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a>
       </p> 
@@ -76,7 +79,7 @@ layout: table_wrappers
       </p>
     </footer>
   </div>
-  <div class="main" id="top">
+  <div class="main resizable-content" id="top">
     <div id="main-header" class="main-header">
       {% if site.search_enabled != false %}
         <div class="search">
@@ -107,7 +110,6 @@ layout: table_wrappers
       {% endif %}
     </div>
     <div id="main-content-wrap" class="main-content-wrap">
-
       {% unless page.url == "/" %}
         {% if page.parent %}
           {%- for node in pages_list -%}
@@ -120,6 +122,14 @@ layout: table_wrappers
                 {%- for child in children_list -%}
                   {%- if page.url == child.url or page.parent == child.title -%}
                     {%- assign second_level_url = child.url | absolute_url -%}
+                  {%- endif -%}
+                  {%- if child.has_children -%}
+                    {%- assign grand_children_list = pages_list | where: "parent", child.title -%}
+                    {%- for grand_child in grand_children_list -%}
+                      {%- if page.url == grand_child.url or page.parent == grand_child.title -%}
+                        {%- assign third_level_url = grand_child.url | absolute_url -%}
+                      {%- endif -%}
+                    {%- endfor -%}
                   {%- endif -%}
                 {%- endfor -%}
               {%- endif -%}
@@ -140,12 +150,9 @@ layout: table_wrappers
         {% endif %}
       {% endunless %}
       <div id="main-content" class="main-content" role="main">
-        <a href="https://thealliance.ai" target="_aia" class="no-glyph"><img alt="AI Alliance Banner" src="{{site.baseurl}}/assets/images/alliance-banner.png"/></a>
-        <hr/>
         <a href="https://thealliance.ai/working-groups/trust-safety#trust-and-safety-form" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2 no-glyph" target="join-us">Join Our Initiative</a>
         &nbsp;
         <a href="https://github.com/The-AI-Alliance/trust-safety-evals" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2 no-glyph" target="repo">GitHub Repo</a>
-
         {% if site.heading_anchors != false %}
           {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
         {% else %}
@@ -190,7 +197,7 @@ layout: table_wrappers
               %}
                 <div class="d-flex mt-2">
                   <p class="text-small text-grey-dk-000 mb-0">
-                    <a href="{{ site.gh_edit_repository }}/{{ page.path }}" id="edit-this-page" target="_doc_repo_page">{{ site.gh_edit_link_text }}</a>
+                    <a href="{{ site.gh_edit_repository }}/{{ page.path }}" id="edit-this-page" target="_blank">{{ site.gh_edit_link_text }}</a>
                   </p>
                 </div>
               {% endif %}
