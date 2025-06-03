@@ -91,14 +91,19 @@ back_to_top_text: "Back to the top"
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%Y-%m-%d %H:%M %z" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-last_modified_timestamp: 2025-04-07 11:30 -0500
-last_version: 0.4.3
+last_modified_timestamp: 2025-06-03 10:30 -0500
+last_version: 0.4.4
+
+# Custom: Add the range of years for the copyright here. This is done here,
+# rather than default.html, so that the latter file can remain completely 
+# generic across repos, but the range of years can be configurable per repo.
+copyright_years: 2024-2025
 
 # "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/The-AI-Alliance/trust-safety-evals/tree/latest/docs" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
+gh_edit_branch: "latest" # the branch that your docs are served from
 gh_edit_source: "docs" # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 

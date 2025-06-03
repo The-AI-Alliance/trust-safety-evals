@@ -90,7 +90,8 @@
 
   @include mq(md) {
     display: block;
-    padding-top: $sp-8;
+/*    padding-top: $sp-8; */
+    padding-top: $gutter-spacing-sm;
     padding-bottom: $gutter-spacing-sm;
     overflow-y: auto;
     flex: 1 1 auto;
@@ -103,8 +104,10 @@
   align-items: center;
 
   @include mq(md) {
-    height: 1.5*$header-height;
-    max-height: 1.5*$header-height;
+    /*
+    height: $header-height;
+    max-height: $header-height;
+    */
     border-bottom: $border $border-color;
   }
 }
