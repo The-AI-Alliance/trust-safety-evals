@@ -83,6 +83,9 @@ p.caption {
   font-style: italic;
 }
 
+.resizer { display:flex; margin:0; padding:0; resize:both; overflow:hidden }
+.resizer > .resized { flex-grow:1; margin:0; padding:0; border:0 }
+
 form.form-dataset-table {
 }
 th.form-dataset-table-label {
@@ -111,6 +114,3 @@ select.form-dataset-table-value {
 select.form-dataset-table-value {
   background-color: blue;
 }
-
-.resizer { display:flex; margin:0; padding:0; resize:both; overflow:hidden }
-.resizer > .resized { flex-grow:1; margin:0; padding:0; border:0 }
