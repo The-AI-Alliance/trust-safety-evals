@@ -13,6 +13,13 @@ The leaderboards provide results from running benchmark suites of the [evaluator
 
 The other tools assist software engineers in identifying important risks for their use cases and finding the evaluators and benchmarks that support testing for those risks.
 
+## Current Leaderboards
+
+See the following pages for the leaderboards already available:
+
+* [SafetyBAT]({{site.baseurl}}/leaderboards/safetybat)
+* [Risk Atlas Nexus]({{site.baseurl}}/leaderboards/risk-atlas-nexus)
+
 ## Plans for Leaderboards and Other Tools
 
 Planned leaderboards will include the leading open-source models to serve as evaluation targets and as evaluation judges. Initially, we are focusing on Meta’s [Llama family of models](https://www.llama.com){:target="llama"} and IBM’s [Granite family of models](https://www.ibm.com/granite){:target="granite"}, with others to follow.  
