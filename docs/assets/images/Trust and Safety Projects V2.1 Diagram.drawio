@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
   <diagram name="Page-1" id="09gnQbrcLcjUpxyhCd7x">
-    <mxGraphModel dx="1956" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,37 +109,37 @@
         <mxCell id="D40bndub3G7Wd3hAwxGO-18" value="Runtime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-800" y="310" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j3kJrDrttDqKAtoF3lWx-1" value="Feature" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="j3kJrDrttDqKAtoF3lWx-1" value="Feature" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-800" y="350" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j3kJrDrttDqKAtoF3lWx-9" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="j3kJrDrttDqKAtoF3lWx-9" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-600" y="200" width="320" height="210" as="geometry" />
         </mxCell>
         <mxCell id="A06e3dQSnWRtUagbO1aE-1" value="&lt;b&gt;Evaluation Reference Stack&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=light-dark(#e5e4ec, #3b394a);strokeColor=none;" parent="j3kJrDrttDqKAtoF3lWx-9" vertex="1">
           <mxGeometry width="320" height="210" as="geometry" />
         </mxCell>
         <mxCell id="HqwWWxnO23v2ZquKlt4F-1" value="lm-evaluation-harness" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="j3kJrDrttDqKAtoF3lWx-9" vertex="1">
-          <mxGeometry x="161" y="100" width="140" height="40" as="geometry" />
+          <mxGeometry x="160" y="100" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c8Kz1cjIccoRoO9TKuOa-2" value="unitxt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="j3kJrDrttDqKAtoF3lWx-9" vertex="1">
           <mxGeometry x="90" y="60" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="D40bndub3G7Wd3hAwxGO-1" value="Other Stacks..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="j3kJrDrttDqKAtoF3lWx-9" vertex="1">
-          <mxGeometry x="161" y="140" width="140" height="40" as="geometry" />
+          <mxGeometry x="160" y="140" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="D40bndub3G7Wd3hAwxGO-3" value="Infosy Resp. AI Toolkit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="j3kJrDrttDqKAtoF3lWx-9" vertex="1">
-          <mxGeometry x="21" y="100" width="139" height="40" as="geometry" />
+          <mxGeometry x="21" y="100" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="j3kJrDrttDqKAtoF3lWx-2" value="Llama Stack" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="j3kJrDrttDqKAtoF3lWx-9">
-          <mxGeometry x="20" y="140" width="140" height="40" as="geometry" />
+        <mxCell id="j3kJrDrttDqKAtoF3lWx-2" value="Llama Stack" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="j3kJrDrttDqKAtoF3lWx-9" vertex="1">
+          <mxGeometry x="21" y="140" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="j3kJrDrttDqKAtoF3lWx-3" value="lm-evaluation-harness" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="j3kJrDrttDqKAtoF3lWx-9">
+        <mxCell id="j3kJrDrttDqKAtoF3lWx-3" value="lm-evaluation-harness" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="j3kJrDrttDqKAtoF3lWx-9" vertex="1">
           <mxGeometry x="200" y="20" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="j3kJrDrttDqKAtoF3lWx-4" value="Eval Assist" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="j3kJrDrttDqKAtoF3lWx-9">
+        <mxCell id="j3kJrDrttDqKAtoF3lWx-4" value="Eval Assist" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="j3kJrDrttDqKAtoF3lWx-9" vertex="1">
           <mxGeometry x="91" y="20" width="109" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="j3kJrDrttDqKAtoF3lWx-7" value="Others..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="j3kJrDrttDqKAtoF3lWx-9">
+        <mxCell id="j3kJrDrttDqKAtoF3lWx-7" value="Others..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="j3kJrDrttDqKAtoF3lWx-9" vertex="1">
           <mxGeometry x="21" y="20" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
