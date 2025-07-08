@@ -314,3 +314,4 @@ service-fabric/core-services/resourcemanagers/*/*_pb2_grpc.py
 sdk/scidk/commands/function_service_cache/
 Gemfile.lock
 tmp/
+*.drawio.bkp

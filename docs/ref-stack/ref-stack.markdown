@@ -7,39 +7,46 @@ has_children: true
 
 # Evaluation Platform Reference Stack
 
-This section describes the reference stack that can be used to run the [evaluators]({{site.baseurl}}/evaluators/evaluators) and benchmarks aggregated from them. 
+This section describes the reference stack that can be used to run the [evaluators]({{site.baseurl}}/evaluators/evaluators) and benchmarks aggregated from them.
 
-It is important to note the separation between the stack that is agnostic about particular evaluations of interest, and the &ldquo;plug-in&rdquo; evaluators themselves. A set of evaluators in a given stack deployment may represent a defined benchmark for particular objectives. 
+It is important to note the separation between the stack that is agnostic about particular evaluations of interest, and the &ldquo;plug-in&rdquo; evaluators themselves. A set of evaluators in a given stack deployment may represent a defined benchmark for particular objectives.
 
 The evaluation platform is based on [shared needs]({{site.baseurl}}/user-personae/user-personae/#shared-needs-for-all-users) of all users. A common theme is the need to run the evaluation platform for public collaborative tasks and leaderboards, as well private deployments for evaluating proprietary models and systems. Also, both _offline_ evaluation, such as for leaderboards and research investigations, and _online_ inference must be supported by the same stack, with appropriate scaling and hardening of the deployments, as required.
 
-There is no industry-standard evaluation stack, but several tools have achieved wide adoption, such as EleutherAI’s [`lm-evaluation-harness`](https://www.eleuther.ai/projects/large-language-model-evaluation){:target="lm-site"} and IBM's [`unitxt`](https://www.unitxt.ai){:target="unitxt"}. Evaluations can be implemented using the `lm-evaluation-harness` or `unitxt` API. Evaluations implemented for `unitxt` can be executed on top of `lm-evaluation-harness` or separately by `unitxt`. 
+There is no industry-standard evaluation stack, but several tools have achieved wide adoption, such as EleutherAI’s [`lm-evaluation-harness`](https://www.eleuther.ai/projects/large-language-model-evaluation){:target="lm-site"} and IBM's [`unitxt`](https://www.unitxt.ai){:target="unitxt"}. Evaluations can be implemented using the `lm-evaluation-harness` or `unitxt` API. Evaluations implemented for `unitxt` can be executed on top of `lm-evaluation-harness` or separately by `unitxt`.
 
-[`EvalAssist`](https://ibm.github.io/eval-assist/){:target="eval-assist"} is a relatively new tool that makes writing certain kinds of `unitxt`-based evaluations easier, as discussed below.
+IBM's [`EvalAssist`](https://ibm.github.io/eval-assist/){:target="eval-assist"} is a relatively new tool that makes writing certain kinds of `unitxt`-based evaluations easier, as discussed below. IBM's [Risk Atlas Nexus]({{site.baseurl}}/leaderboards/risk-atlas-nexus/) and [SafetyBAT Leaderboard]({{site.baseurl}}/leaderboards/safetybat/) provide accessible tools for viewing how different models perform against user-specified criteria. They are not discussed further here; see [Leaderboards]({{site.baseurl}}/leaderboards/leaderboards/).
+
+Infosys' [`Responsible AI Toolkit`](https://github.com/Infosys/Infosys-Responsible-AI-Toolkit){:target="irait"} is a suite of tools for various evaluation purposes.
 
 Many other evaluation suites are written using less well-known or &ldquo;home-grown&rdquo; tools. Hence, today the AI engineer may need to support a heterogeneous runtime environment to run all the evaluations required, but hopefully the industry will mature and consolidate on a standard suite of tools soon.
 
-## Architecture 
+## Architecture
 
 Schematically, an evaluation deployment using the reference stack with example evaluators is shown in Figure 1:
 
 ![Reference Stack schematic diagram]({{site.baseurl}}/assets/images/ref-stack.png){:class="diagram-center"}
 <center><b>Figure 1:</b> Schematic architecture of a deployment.</center>
 
-Note that some, but not all evaluations will use EvalAssist and `unitxt` together or `unitxt` directly. Some of those will run on `lm-evaluation-harness`, while other evaluations will be implemented in the `lm-evaluation-harness` API and executed directly on `lm-evaluation-harness`. 
+Evaluations can be written and deployed using any combination of EvalAssist, `unitxt`, `lm-evaluation-harness`, or other tools. Runtime support is provided by one or more of Llama Stack, Infosys Responsible AI Toolkit,  `lm-evaluation-harness`, or other tools.
 
-What are not shown in the diagram are production support tools like those for observability, security, horizontal scaling, etc. Many of those tools will include common frameworks like Kubernetes. Others will be designed for AI applications, like [Arize Phoenix](https://phoenix.arize.com/){:target="phoenix"} for observability and metrics collection (discussed below).
+Not shown are other production support tools like those for observability, security, horizontal scaling, etc. Tools like [Arize Phoenix](https://phoenix.arize.com/){:target="phoenix"} provide AI-centric observability and metrics collection (discussed below). Some deployments will use [Kubernetes](https://kubernetes.io){:target="_blank"}.
 
 ### Execution Framework
 
-The execution framework provides mechanisms to run evaluations and benchmarks in a consistent manner, mechanisms to aggregate results, compute metrics, and report results, and logging and error recovery capabilities. 
+The execution framework provides mechanisms to run evaluations and benchmarks in a consistent manner, mechanisms to aggregate results, compute metrics, and report results, and logging and error recovery capabilities.
 
 The open-source software (OSS) components in the reference stack include the following projects:
 
 * EleutherAI’s [LM Evaluation Harness](https://www.eleuther.ai/projects/large-language-model-evaluation){:target="lm-site"} (a.k.a., `lm-evaluation-harness`. GitHub [repo](https://github.com/EleutherAI/lm-evaluation-harness){:target="lm-repo"}), a widely used, efficient evaluation platform for inference time (i.e., runtime) evaluation and for leaderboards.
 * IBM’s [Unitxt](https://www.unitxt.ai){:target="unitxt"} library, a framework for individual evaluators, which has an interesting benefit that evaluators can be _declaratively_ defined and executed without the need to write and execute third-party, possibly-untrusted code. This model supports several of the [user needs]({{site.baseurl}}/user-personae/user-personae/#shared-needs-for-all-users) involving open collaboration in a pragmatic way, without the need for running third-party evaluation code.
-* [EvalAssist](https://ibm.github.io/eval-assist/){:target="eval-assist"} is a relatively new tool that makes writing `unitxt`-based evaluations easier. Specifically, EvalAssist is an application that simplifies using LLMs as evaluators (LLM-as-a-Judge) of the output of other LLMs by supporting users in iteratively refining evaluation criteria in a web-based user experience, with other features designed for the incremental process of building evaluations. 
-* [Arize Phoenix](https://phoenix.arize.com/){:target="phoenix"} ([GitHub](https://github.com/Arize-ai/phoenix){:target="phoenix-gh"}) is an AI application-centric tool for observability and metrics collection. Real deployments of the reference stack need to provide these capabilities, but the stack needs to be agnostic about the specific tools used, as different deployments will use different tools.
+* IBM's [EvalAssist](https://ibm.github.io/eval-assist/){:target="eval-assist"} is a relatively new tool that makes writing `unitxt`-based evaluations easier. Specifically, EvalAssist is an application that simplifies using LLMs as evaluators (LLM-as-a-Judge) of the output of other LLMs by supporting users in iteratively refining evaluation criteria in a web-based user experience, with other features designed for the incremental process of building evaluations.
+
+The evaluation tools can be run on platforms that provide broader services for AI applications:
+
+* Arize's [Phoenix](https://phoenix.arize.com/){:target="phoenix"} ([GitHub](https://github.com/Arize-ai/phoenix){:target="phoenix-gh"}) is an AI application-centric tool for observability and metrics collection. Real deployments of the reference stack need to provide these capabilities, but the stack needs to be agnostic about the specific tools used, as different deployments will use different tools.
+* Infosys' [`Responsible AI Toolkit`](https://github.com/Infosys/Infosys-Responsible-AI-Toolkit){:target="irait"} can be used to deploy evaluation tools for various evaluation purposes.
+* Meta's [Llama Stack](https://llama-stack.readthedocs.io/en/latest/){:target="_mls"} is a full-featured stack that provides built-in integrations for evaluation tools, agents, etc.
 
 We are working on easy to use examples for all these components. For now, here is some information you can use now.
 
@@ -57,7 +64,7 @@ cd lm-evaluation-harness
 pip install -e .
 ```
 
-The [README](https://github.com/EleutherAI/lm-evaluation-harness){:target="lm-repo"} has examples and other ways to run evaluations in different deployment scenarios. 
+The [README](https://github.com/EleutherAI/lm-evaluation-harness){:target="lm-repo"} has examples and other ways to run evaluations in different deployment scenarios.
 
 ## Unitxt Examples
 
