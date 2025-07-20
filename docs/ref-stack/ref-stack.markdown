@@ -25,7 +25,7 @@ Many other evaluation suites are written using less well-known or &ldquo;home-gr
 
 Schematically, an evaluation deployment using the reference stack with example evaluators is shown in Figure 1:
 
-![Reference Stack schematic diagram]({{site.baseurl}}/assets/images/ref-stack.png){:class="diagram-center"}
+![Reference Stack schematic diagram]({{site.baseurl}}/assets/images/reference-stack-diagram.png){:class="diagram-center"}
 <center><b>Figure 1:</b> Schematic architecture of a deployment.</center>
 
 Evaluations can be written and deployed using any combination of EvalAssist, `unitxt`, `lm-evaluation-harness`, or other tools. Runtime support is provided by one or more of Llama Stack, Infosys Responsible AI Toolkit,  `lm-evaluation-harness`, or other tools.
