@@ -106,6 +106,10 @@ A combination of data and code, usually trained on a [Dataset](#dataset), to sup
 
 Protection of individuals’ sensitive data and preservation of their rights.
 
+## Question Answering
+
+In many, if not most applications, models and the applications that use them should be good at providing focused, useful answers to user questions, rather than generating text that might be related to the topic, but not useful to the user.
+
 ## Responsible AI
 
 (See also [\[2\]](#nist)) An umbrella term about comprehensive approaches to safety, accountability, and equitability. It covers an organization’s professional responsibility to address concerns. It can encompass tools, models, people, processes, integrated systems, and data.
@@ -117,6 +121,14 @@ Protection of individuals’ sensitive data and preservation of their rights.
 ## Robustness
 
 How well does the [AI System](#ai-system) continue to perform within acceptable limits or degrade &ldquo;gracefully&rdquo; when stressed in some way? For example, how well does a [Model](#model) respond to prompts that deviate from its training data?
+
+## Scalability
+
+A general concern for large-scale systems; how easily, efficiently, and reliably can you scale up their service capacity in response to load. When the load decreases, can you scale the system back down to conserve resources that aren't needed? 
+
+## Security
+
+This is the classic &ldquo;cybersecurity&rdquo; set of concerns about preventing undesirable system and data access, etc., with new concerns raised by the unique properties of [Large Language Models](#large-language-model). Evaluations can be written for security concerns, in addition to traditional detection and mitigation tools.
 
 ## Social Responsibility
 

@@ -7,13 +7,13 @@ has_children: true
 
 # Taxonomy
 
-This section describes the [_Taxonomy_]({{site.baseurl}}/glossary/#taxonomy)  of [_Evaluations_]({{site.baseurl}}/glossary/#evaluation) of interest. 
+This section describes the [_Taxonomy_]({{site.glossaryurl}}/#taxonomy)  of [_Evaluations_]({{site.glossaryurl}}/#evaluation) of interest. 
 
-Note that [_Evaluators_]({{site.baseurl}}/glossary/#evaluator) implement parts of the evaluations taxonomy. [_Benchmarks_]({{site.baseurl}}/glossary/#benchmark) aggregate one or more evaluators for particular concerns.
+Note that [_Evaluators_]({{site.glossaryurl}}/#evaluator) implement parts of the evaluations taxonomy. [_Benchmarks_]({{site.glossaryurl}}/#benchmark) aggregate one or more evaluators for particular concerns.
 
 ## What Are Evaluations?
 
-Here is a quote from the [Glossary entry for evaluation]({{site.baseurl}}/glossary/#evaluation):
+Here is a quote from the [Glossary entry for evaluation]({{site.glossaryurl}}/#evaluation):
 
 > Evaluations can cover functional and nonfunctional dimensions of models, and are applicable throughout the model development and deployment lifecycle. Functional evaluation dimensions include alignment to use cases, accuracy in responses, faithfulness to given context, robustness against perturbations and noise, and adherence to safety and social norms. Nonfunctional evaluation dimensions include latency, throughput, compute efficiency, cost to execute, carbon footprint and other sustainability concerns. Evaluations are applied as regression tests while models are trained and fine-tuned, as benchmarks while GenAI-powered applications are designed and developed, and as guardrails when these applications are deployed in production. They also have a role in compliance, both with specific industry regulations, and with emerging government policies. Lastly, there are numerous techniques used in implementing evaluations. Common techniques are rule-based automatic evaluation, evaluation with LLMs acting as judges, and human evaluation.
 

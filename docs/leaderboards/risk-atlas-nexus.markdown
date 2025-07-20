@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Risk Atlas Nexus
-nav_order: 620
+nav_order: 610
 parent: Leaderboards
 has_children: false
 ---

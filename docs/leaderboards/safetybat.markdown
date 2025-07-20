@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SafetyBAT Leaderboard
-nav_order: 610
+nav_order: 620
 parent: Leaderboards
 has_children: false
 ---
