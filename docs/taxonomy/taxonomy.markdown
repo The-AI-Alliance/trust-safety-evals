@@ -1,43 +1,38 @@
 ---
 layout: default
 title: Taxonomy
-nav_order: 40
+nav_order: 50
 has_children: true
 ---
 
-# Taxonomy
+# Taxonomies of Evaluations
 
-This section describes the [_Taxonomy_]({{site.glossaryurl}}/#taxonomy)  of [_Evaluations_]({{site.glossaryurl}}/#evaluation) of interest. 
+A [_taxonomy_]({{site.glossaryurl}}/#taxonomy) is of evaluations is useful for grouping them hierarchically by interest area, so that people to see relationships and explore evaluations that are available in their areas of interest, without having to &ldquo;digest&rdquo; all available evaluations. For a given area of interest, [_benchmarks_]({{site.glossaryurl}}/#benchmark) aggregate one or more evaluations to measure overall behavior in that area.
 
-Note that [_Evaluators_]({{site.glossaryurl}}/#evaluator) implement parts of the evaluations taxonomy. [_Benchmarks_]({{site.glossaryurl}}/#benchmark) aggregate one or more evaluators for particular concerns.
-
-## What Are Evaluations?
-
-Here is a quote from the [Glossary entry for evaluation]({{site.glossaryurl}}/#evaluation):
-
-> Evaluations can cover functional and nonfunctional dimensions of models, and are applicable throughout the model development and deployment lifecycle. Functional evaluation dimensions include alignment to use cases, accuracy in responses, faithfulness to given context, robustness against perturbations and noise, and adherence to safety and social norms. Nonfunctional evaluation dimensions include latency, throughput, compute efficiency, cost to execute, carbon footprint and other sustainability concerns. Evaluations are applied as regression tests while models are trained and fine-tuned, as benchmarks while GenAI-powered applications are designed and developed, and as guardrails when these applications are deployed in production. They also have a role in compliance, both with specific industry regulations, and with emerging government policies. Lastly, there are numerous techniques used in implementing evaluations. Common techniques are rule-based automatic evaluation, evaluation with LLMs acting as judges, and human evaluation.
+A long-term goal of this project is to build a global taxonomy covering the full spectrum of possible evaluations. 
 
 ## Why Build a Taxonomy?
 
-Today’s evaluation landscape poses multiple challenges for benchmark creators, model creators, and for application developers trying to assess models and the performance of their applications. As more and more novel evaluations are published, users struggle to understand which benchmarks are appropriate for their needs, and which are “best”, among the available options. Since there are no standard evaluation platforms or taxonomies, it is also difficult to set up a single production-grade evaluation environment.
+Today’s evaluation landscape poses multiple challenges for the users we described in [user personae]({{site.baseurl}}/user-personae/user-personae/).
 
-Defining a comprehensive taxonomy of evaluations is the first step in helping users know which evaluations are most important for their needs.
+In particular, new users of AI and new developers of AI applications struggle to understand which safety and other concerns they should worry about, and how to measure them. Which benchmarks are appropriate for their needs? Which ones are “best” among the available options? 
 
-To date, several initiatives by other organizations have worked on taxonomies for risks and harms, including the following:
+A standard, global taxonomy of all evaluations would be helpful for creating shared, accessible knowledge, and to facilitate discovery and adoption of suitable tools. However, such a taxonomy would be difficult to create. So, we will opportunistically explore building this taxonomy as opportunities present themselves.
+
+However, some sections of a potential global taxonomy have been extensively explored by research teams, especially in the general area of risks and harms. Here are some of those projects:
 
 * MLCommons [Taxonomy of Hazard](https://arxiv.org/html/2404.12241v1){:target="mlc-th"}
 * IBM [AI Risk Atlas](https://www.ibm.com/docs/en/watsonx/saas?topic=ai-risk-atlas){:target="ibm-ai"}
-* IBM [`unitxt` Catalog](https://www.unitxt.ai/en/latest/catalog/catalog.__dir__.html){:target="unitxt-catalog"}.
+* IBM [`unitxt` Catalog](https://www.unitxt.ai/en/latest/catalog/catalog.__dir__.html){:target="unitxt-catalog"} (It also has other kinds of evaluations.)
 * MIT [AI Risk Repository](https://airisk.mit.edu/){:target="mit-ai"}
 * NIST [Risk Management Framework](https://airc.nist.gov/AI_RMF_Knowledge_Base/AI_RMF/Foundational_Information/3-sec-characteristics){:target="nist-rmf"}
 * Stanford [CRFM HELM](https://crfm.stanford.edu/helm/){:target="helm"}
-* ... others TBD ...
 
-However, these important efforts don't extend to the larger landscape of possible evaluations, which are poorly cataloged and characterized. We are working on unifying the existing taxonomies and expanding to other areas of interest for evaluation, such as those mentioned above.
+## An AI Alliance Taxonomy - A First Pass
 
-## The AI Alliance Taxonomy
+EleutherAI’s [LM Evaluation Harness](https://www.eleuther.ai/projects/large-language-model-evaluation){:target="lm-site"}, which is discussed more fully in the [Evaluation Reference Stack](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"} project, has a comprehensive set of included evaluations. 
 
-Here is our first, _very rough and incomplete_ draft of the taxonomy. Subsequent efforts will unify this taxonomy with the sources mentioned above, clarify terminology, expand on under-specified areas, and publish this information in a format that supports filtering, roll-ups, etc.
+We have extracted the following, _very rough and incomplete_ draft of a possible taxonomy from this set of evaluations. Subsequent efforts will unify this taxonomy with the sources mentioned above, clarify terminology, and expand on under-specified areas.
 
 * **Language Understanding Tasks:** Evaluations designed to test a language model's ability to comprehend and process natural language. These tasks assess how well a model can interpret the meaning, context, relationships, and implications of textual inputs, which are fundamental to effective natural language processing (NLP)
     * **Reading Comprehension:** Tasks that require the model to understand a given text and answer questions based on it.

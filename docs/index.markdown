@@ -7,54 +7,80 @@ has_children: false
 
 # Evaluation Is for Everyone
 
-_Part of the AI Alliance_ Trust and Safety Evaluations Initiative (TSEI), _our goal is to ensure the widespread adoption of AI trust and safety technologies, both educating application developers about these concepts and making it as easy as possible for state-of-the-art tools to be used to support them._
+_Part of the AI Alliance [**Trust and Safety Evaluation Initiative**](https://thealliance.ai/core-projects/trust-and-safety-evaluations){:target="tsei"} (TSEI), our goal is to ensure the widespread adoption of AI trust and safety technologies, both educating application developers about these concepts and making it as easy as possible for state-of-the-art tools to be used to support them. Welcome to the **Evaluation Is for Everyone** project._
 
-Welcome to the **The AI Alliance, Evaluation Is for Everyone** project.
+> **Tip:** The links for _italicized terms_ go to [this glossary]({{site.glossaryurl}}).
 
-> **NOTE:** This site is undergoing extensive reorganization. Some details are subject to change.
+Unlike traditional software systems that rely on prescribed specifications and mostly-[_deterministic_]({{site.glossaryurl}}/#determinism) application code, [_AI systems_]({{site.glossaryurl}}/#ai-system) based on [_generative AI models_]({{site.glossaryurl}}/#generative-ai-model) depend on training data to map inputs to [_probabilistic_]({{site.glossaryurl}}/#probability-and-statistics) outputs. A consequence is these systems are inherently non-deterministic and may even generate erroneous or undesirable output. To [_evaluate_]({{site.glossaryurl}}/#evaluation) such systems, [_benchmarks_]({{site.glossaryurl}}/#benchmark) are commonly used to measure how models behave in these areas of concern. 
 
-Unlike traditional software systems that rely on prescribed specifications and application code, [_AI systems_]({{site.glossaryurl}}/#ai-system) based on machine learning [_models_]({{site.glossaryurl}}/#model) depend on training data to map inputs to outputs. Consequently, these systems are inherently non-deterministic and may produce errors due to variability in the training data or the probabilistic nature of the underlying algorithms. To [_evaluate_]({{site.glossaryurl}}/#evaluation) such systems, [_benchmarks_]({{site.glossaryurl}}/#benchmark) are commonly used to address user concerns, such as accuracy and bias. However, since benchmarks can be manipulated over time to achieve favorable results, it is essential to establish a flexible evaluation framework that supports rapid updates to evaluation criteria and benchmark selection. Given the critical role of testing and evaluation in deploying AI systems, there is a pressing need for a consistent methodology and robust tool support for these activities.
+It is essential to establish a flexible evaluation framework that supports rapid updates to evaluation criteria and benchmark selection, in part because benchmark data often becomes part of the training data corpus, so models become better at existing benchmarks, whether or not they are actively engineered to do so. Given the critical role of testing and evaluation in deploying AI systems _with confidence_, there is a pressing need for a consistent methodology and robust tool support for these activities.
 
+<!--
 > See this short [presentation]({{site.baseurl}}/files/TSEI-Overview.pdf) (PDF) about the Trust and Safety Evaluations Initiative. 
+-->
 
-In the context of generative AI, evaluation serves to provide evidence that fosters user trust in models and systems. Specifically, it involves measuring and quantifying how a model or system responds to inputs. Are the responses within acceptable bounds—free from hate speech, [_hallucinations_]({{site.glossaryurl}}/#hallucination), or other harmful outputs? Are they useful, cost-effective, and reliable?
+Within the AI Alliance's [**Trust and Safety**](https://thealliance.ai/focus-areas/trust-and-safety){:target="aia-tands"} work group, the projects under the [**Trust and Safety Evaluation Initiative**](https://thealliance.ai/core-projects/trust-and-safety-evaluations){:target="tsei"} umbrella are designed to promote the best-of-breed tools for running evaluations, existing evaluation suites for common purposes, and ensuring these tools can be adopted and adapted efficiently and effectively for evolving uses. 
 
-Within the AI Alliance's [**Trust and Safety Focus Area**](https://thealliance.ai/focus-areas/trust-and-safety){:target="aia-tands"}, a primary objective is to promote an industry-accepted taxonomy and an evaluation framework that meet the needs of both the research community, which drives innovation, and AI solution developers, who create AI-powered systems.
+* **Evaluation Is for Everyone** (this project) has two goals:
+	* Educate application developers about the importance of building AI trustworthiness and safety into their AI-enabled applications from the beginning, just as we have needed to build [_cybersecurity_]({{site.glossaryurl}}/#security) into our apps for decades.
+	* Make it easy to find and adopt the appropriate set of evaluations for particular application requirements.
+*  [**Achieving Confidence in Enterprise AI Applications**](https://the-ai-alliance.github.io/ai-application-testing/){:target="acea"} addresses the problem that AI application developers struggle to test that their applications meet the requirements and perform the use cases they were designed for. Enterprise developers are accustomed to writing repeatable tests for software that is (mostly) [_deterministic_]({{site.glossaryurl}}/#determinism), but the inherent [_probabilistic_]({{site.glossaryurl}}#probability-and-statistics) nature of the underlying [_generative AI models_]({{site.glossaryurl}}/#generative-ai-model) defeats these techniques. This project is adapting evaluation techniques for these testing purposes and teaching developers how to use them.
+* [**Evaluation Reference Stack**](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"} is documenting the industry's best tools for running evaluations and making them easy to adopt and manage.
 
-The **Trust and Safety Evaluation Initiative** (TSEI) aims to establish a hub connecting creators and consumers of evaluations, starting with safety, in a sustainable value-chain. Its mission is to incentivize collaboration across these distinct communities and to foster emerging standards and open technologies for creating, evaluating, and deploying evaluations.
+Related projects include [**Ranking AI Safety Priorities by Domain**](https://the-ai-alliance.github.io/ranking-safety-priorities/){:target="_blank"} and our [**AI Trust and Safety User Guide**](https://the-ai-alliance.github.io/trust-safety-user-guide/){:target="_blank"}.
 
-This initiative is anchored around the following key functional capabilities, which **we are developing as separate projects. Please [join us]({{site.baseurl}}/contributing)!**
+## Activities in This Project
 
-1. **Shared, industry-wide taxonomy**: many organizations have worked on [_taxonomies_]({{site.glossaryurl}}/#taxonomy) of evaluation, usually focused on specific areas of interest. TSEI seeks to gather these taxonomies, expand them where appropriate, and create a unified taxonomy across the spectrum of evaluation concerns, for example covering risk, safety, performance, security, etc. Ideally, the unified taxonomy will be embraced by the community as the standard definition, which will help unify disparate R&D efforts, for both builders of models and evaluations/evaluators, as well as users of them. ([current activity](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Ataxonomy){:target="issues"})
+There are several work streams in this project that serve our goals.
 
-2. **Open-source reference evaluation stack**: while there are numerous general-purpose evaluation frameworks in the open-source community, most new evaluations are implemented in proprietary, POC-level code. TSEI will identify and endorse evaluation frameworks and libraries that are already emerging as industry standards, and that address the needs of both creators and consumers of evaluations, and will work to enhance it with supporting tools, to reduce both the effort to implement new evaluations, and the effort to use them in real-world production environments. It should establish a common “programming model” for quickly and efficiently creating evaluations in an open, scalable, flexible, and reusable manner. ([current activity](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3A%22reference+stack%22){:target="issues"})
+### Understand and Grow Existing Evaluation Taxonomies
 
-3. **Curated catalog of evaluations**: finding the right evaluation or benchmark for a given task is not trivial. Most evaluations are published as academic or industrial papers, with datasets and implementation spread across repositories such as HuggingFace or GitHub. TSEI aims to create a curated catalog of production-ready evaluations in an AI-augmented process. The catalog will include mapping of evaluations to the common taxonomy, as well as various functional and non-functional metrics to help consumers make the best choice for their needs. ([current activity](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aevaluators){:target="issues"})
+Many organizations have worked on [_taxonomies_]({{site.glossaryurl}}/#taxonomy) or &ldquo;suites&rdquo; of evaluations, usually focused on specific areas of interest, such as categories of harmful speech. Other possible areas of interest are under-served, such as common concerns in particular domains, for example evaluating how well legal applications understand established case law and provide responses consistent with it. 
 
-4. **Operational Hub**: a cloud-based, running environment hosting the evaluation stack, with one or more [_leaderboards_]({{site.glossaryurl}}/#leaderboard) showing various benchmarks, and a UI for browsing and filtering the evaluation catalog, providing consumers with convenient ways to download packaged, deployable content, compatible with major cloud and on-prem architectures. ([current activity](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aleaderboards){:target="issues"})
+Since this project wants to make it easy for developers to adopt evaluation for trust and safety, as well as other uses, we have a long-running work stream to identify existing evaluation suites users might use, and where gaps exist we can help fill.
 
-This website provides the documentation for this initiative, with links to other resources, including code and leaderboards, as they become available.
+This work stream will also explore how to make it easy to run a suite of evaluations on the [evaluation reference stack](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"}.
 
-Are you interested in contributing? If so, please see the [contributing]({{site.baseurl}}/contributing) page for information on how you can get involved.
+Current activities: [`taxonomy`](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Ataxonomy){:target="taxonomy"} and [`evaluations`](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aevaluations){:target="evaluations"}
+
+### Provide Useful Leaderboards
+
+[_Leaderboards_]({{site.glossaryurl}}/#leaderboard) are a user-friendly tool that help users find suites of useful evaluations and data about how well particular models perform against them. 
+
+In addition to the [current leaderboards we support]({{site.baseurl}}/leaderboards/leaderboards), we plan to build out graphically-based tools allowing users to browse and search for evaluations that support their needs, then download them in a packaged for that is easy to deploy in different environments using the [reference stack](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"}.
+
+[Current activity](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aleaderboards){:target="issues"}
+
+### Educate Developers about Using Evaluations
+
+Besides our [**AI Trust and Safety User Guide**](https://the-ai-alliance.github.io/trust-safety-user-guide/){:target="_blank"}, which provides general guidance, this project will build examples of finding and using appropriate evaluations for particular categories of needs. The companion projects mentioned above will also build examples for their needs, but this project should provide clear adoption guidance for the most important taxonomies of trust and safety.
 
 ---
 
-This site is organized into the following sections:
+## Overview of This Website
+
+The rest of this website is organized into the following sections:
 
 * [Glossary of Terms]({{site.glossaryurl}})
 * [User Personae and Their Needs]({{site.baseurl}}/user-personae/user-personae)
-* [Taxonomy]({{site.baseurl}}/taxonomy/taxonomy)
-* [Evaluators]({{site.baseurl}}/evaluators/evaluators)
+* [Evaluations and Benchmarks]({{site.baseurl}}/evaluations/evaluations)
+* [Taxonomies of Evaluations]({{site.baseurl}}/taxonomy/taxonomy)
 * [Leaderboards]({{site.baseurl}}/leaderboards/leaderboards)
-* [Evaluation Platform Reference Stack]({{site.baseurl}}/ref-stack/ref-stack)
 
-Additional links:
+## Getting Involved
 
-* [Contributing]({{site.baseurl}}/contributing): We welcome your contributions! Here's how you can contribute.
-* [About Us]({{site.baseurl}}/about): More about the AI Alliance and this initiative.
-* [GitHub Repo](https://github.com/The-AI-Alliance/trust-safety-evals){:target="repo"}
-* Companion projects: <a href="https://the-ai-alliance.github.io/ai-application-testing/" target="acea">Achieving Confidence in Enterprise AI Applications</a> and <a href="https://the-ai-alliance.github.io/eval-ref-stack/" target="ers">Evaluation Reference Stack</a>
-* [The AI Alliance](https://thealliance.ai){:target="ai-alliance"}: The AI Alliance website.
+Are you interested in contributing? If so, please see the [Contributing]({{site.baseurl}}/contributing) page for information on how you can get involved. See the [About Us]({{site.baseurl}}/about) page for more details about this project and the AI Alliance.
+
+## Additional Links
+
+* This project's [GitHub Repo](https://github.com/The-AI-Alliance/trust-safety-evals){:target="repo"}
+* Companion projects: 
+	* <a href="https://the-ai-alliance.github.io/ai-application-testing/" target="acea">Achieving Confidence in Enterprise AI Applications</a>
+	* <a href="https://the-ai-alliance.github.io/eval-ref-stack/" target="ers">Evaluation Reference Stack</a>
+* The AI Alliance: 
+	* [Website](https://thealliance.ai){:target="ai-alliance"}
+	* [The Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} 
+	* [Trust and Safety Evaluation Initiative](https://thealliance.ai/core-projects/trust-and-safety-evaluations){:target="tsei"}
 
 | **Authors** | [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} (see [About Us]({{site.baseurl}}/about)) |
-| **Last Update**  | V0.4.4, 2025-06-03 |
+| **Last Update** | V0.5.0, 2025-07-21 |

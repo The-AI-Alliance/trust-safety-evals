@@ -7,7 +7,7 @@ has_children: true
 
 # Evaluation Platform Reference Stack
 
-This section describes the reference stack that can be used to run the [evaluators]({{site.baseurl}}/evaluators/evaluators) and benchmarks aggregated from them.
+A flexible reference stack is needed to run the evaluations and benchmarks.
 
-> **NOTE:** The reference stack has been moved to a separate [GitHub repo](https://github.com/The-AI-Alliance/eval-ref-stack/){:target="stack-repo"} and [website](https://the-ai-alliance.github.io/eval-ref-stack/){:target="stack-website"}.
+> **NOTE:** The reference stack content has been moved to a separate [GitHub repo](https://github.com/The-AI-Alliance/eval-ref-stack/){:target="stack-repo"} and [website](https://the-ai-alliance.github.io/eval-ref-stack/){:target="stack-website"}.
 

@@ -7,15 +7,15 @@ has_children: true
 
 # Leaderboards
 
-This section describes the leaderboards and related tools that are maintained by this initiative or separately by other AI Alliance members.
+This section describes the leaderboards and related tools that are maintained by us or separately by other AI Alliance members.
 
-The leaderboards provide results from running benchmark suites of the [evaluators]({{site.baseurl}}/evaluators/evaluators) against various models and AI systems that use them. 
+The leaderboards provide results from running various benchmarks against the most popular models. 
 
-The other tools assist software engineers in identifying important risks for their use cases and finding the evaluators and benchmarks that support testing for those risks.
+Other tools assist software engineers in identifying important risks for their use cases and finding the evaluations and benchmarks that support testing for those risks.
 
 ## Current Leaderboards
 
-See the following pages for the leaderboards already available:
+The following pages discuss the leaderboards already available:
 
 * [Risk Atlas Nexus]({{site.baseurl}}/leaderboards/risk-atlas-nexus)
 * [SafetyBAT]({{site.baseurl}}/leaderboards/safetybat)
@@ -24,8 +24,8 @@ See the following pages for the leaderboards already available:
 
 Planned leaderboards will include the leading open-source models to serve as evaluation targets and as evaluation judges. Initially, we are focusing on Meta’s [Llama family of models](https://www.llama.com){:target="llama"} and IBM’s [Granite family of models](https://www.ibm.com/granite){:target="granite"}, with others to follow.  
 
-As we fill in the evaluation [taxonomy]({{site.baseurl}}/taxonomy/taxonomy), we will add corresponding evaluators and benchmarks to the leaderboards, along with search capabilities to find the topics of interest.
+As we fill in the evaluation [taxonomy]({{site.baseurl}}/taxonomy/taxonomy), we will add corresponding evaluations and benchmarks to the leaderboards, along with search capabilities to find the topics of interest.
 
-Finally, we plan to provide downloadable and deployable configurations of the [Evaluation Platform Reference Stack]({{site.baseurl}}/ref-stack/ref-stack) with the selected evaluators for easy and rapid use.
+Finally, we plan to provide downloadable and deployable configurations of the [Evaluation Reference Stack]({{site.baseurl}}/ref-stack/ref-stack) with the selected evaluations for easy and rapid use.
 
-The _child pages_ listed next describe the leaderboards and other tools that are currently available.
+The _child pages_ describe the leaderboards and other tools that are currently available.
