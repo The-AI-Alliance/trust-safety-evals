@@ -41,7 +41,7 @@ Since this project wants to make it easy for developers to adopt evaluation for 
 
 This work stream will also explore how to make it easy to run a suite of evaluations on the [evaluation reference stack](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"}.
 
-Current activities: [`taxonomy`](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Ataxonomy){:target="taxonomy"} and [`evaluations`](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aevaluations){:target="evaluations"}
+Current activities: [`evaluations`](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aevaluations){:target="evaluations"} and [`taxonomy`](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Ataxonomy){:target="taxonomy"}
 
 ### Provide Useful Leaderboards
 
@@ -49,11 +49,13 @@ Current activities: [`taxonomy`](https://github.com/orgs/The-AI-Alliance/project
 
 In addition to the [current leaderboards we support]({{site.baseurl}}/leaderboards/leaderboards), we plan to build out graphically-based tools allowing users to browse and search for evaluations that support their needs, then download them in a packaged for that is easy to deploy in different environments using the [reference stack](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"}.
 
-[Current activity](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aleaderboards){:target="issues"}
+Current activities: [`leaderboards`](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aleaderboards){:target="issues"}
 
 ### Educate Developers about Using Evaluations
 
 Besides our [**AI Trust and Safety User Guide**](https://the-ai-alliance.github.io/trust-safety-user-guide/){:target="_blank"}, which provides general guidance, this project will build examples of finding and using appropriate evaluations for particular categories of needs. The companion projects mentioned above will also build examples for their needs, but this project should provide clear adoption guidance for the most important taxonomies of trust and safety.
+
+Current activities: [`documentation`](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Adocumentation){:target="issues"}
 
 ---
 
