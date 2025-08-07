@@ -59,14 +59,6 @@ What gets displayed by GitHub Pages is the customized Markdown files in the `doc
 
 Here are some things you should know.
 
-### Using the Correct Branch
-
-As for most Git repos, issue PRs to the `main` branch. However, the repo is actually configured to publish the docs from the `latest` branch, so we can accept PRs quickly, then decide when to publish a new version. (We will also tag `latest` for each release with a version number, for historical tracking.)
-
-> [!NOTE]
-> If you are curious, the details of how this publication branch is configured are discussed [below](#configuring-github-pages-in-the-repo-settings).
-
-
 ## Editing Conventions and Tips
 
 ### Links
@@ -227,8 +219,3 @@ gem install jekyll
 gem list | grep jekyll
 ```
 
-### Configuring GitHub Pages in the Repo Settings
-
-This section documents the one-time settings changes we did to [configure publication of our GitHub Pages](https://docs.github.com/en/enterprise-server@3.1/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). We changed the desired branch to use, `latest`, rather than the default `main` branch, and we specified the directory for the website pages, `docs`. This only needs to be done if and when the branch or directory location is changed.
-
-In the repo's [_Settings > Pages_ section](https://github.com/The-AI-Alliance/trust-safety-evals/settings/pages), set the branch to be `latest` and the folder to be `/docs`. The reason for using `latest` rather than `main`, is to allow small change PRs to be made without affecting what is published until we decide to publish an update.
