@@ -85,4 +85,4 @@ Are you interested in contributing? If so, please see the [Contributing]({{site.
 	* [Trust and Safety Evaluation Initiative](https://thealliance.ai/core-projects/trust-and-safety-evaluations){:target="tsei"}
 
 | **Authors** | [The AI Alliance Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="ai-alliance-tns"} (see [About Us]({{site.baseurl}}/about)) |
-| **Last Update** | V0.5.0, 2025-07-21 |
+| **Last Update** | {{site.last_version}}, {{site.last_modified_timestamp}} |

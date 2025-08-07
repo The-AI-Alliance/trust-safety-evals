@@ -1,7 +1,7 @@
 ---
 layout: default
-title: SafetyBAT Leaderboard
-nav_order: 620
+title: SafetyBAT
+nav_order: 630
 parent: Leaderboards
 has_children: false
 ---
@@ -19,10 +19,6 @@ The leaderboard shows that agreements are best represented with the _BenchBench 
 
 Read more about BenchBench in the paper [Benchmark Agreement Testing Done Right](https://arxiv.org/abs/2407.13696){:target="arxiv"} and the [BenchBench repo](https://github.com/IBM/benchbench){:target="bb"}. 
 
-## A Guide to Using SafetyBAT
+## Using SafetyBAT for Your Own Evaluations
 
-TODO
-
-## Working with the SafetyBAT Code
-
-If you are interested in cloning the source code for your own use or contributing to this leaderboard, see the repo's [README](https://github.com/The-AI-Alliance/trust-safety-evals/blob/main/README.md#safetybat-leaderboard){:target="readme"}.
+If you are interested in cloning the source code for your own use or contributing to this leaderboard, see [this README](https://github.com/The-AI-Alliance/trust-safety-evals/blob/main/README.md#safetybat-leaderboard){:target="readme"}.

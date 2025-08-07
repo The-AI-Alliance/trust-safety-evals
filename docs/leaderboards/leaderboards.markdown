@@ -18,6 +18,7 @@ Other tools assist software engineers in identifying important risks for their u
 The following pages discuss the leaderboards already available:
 
 * [Risk Atlas Nexus]({{site.baseurl}}/leaderboards/risk-atlas-nexus)
+* [BlueBench]({{site.baseurl}}/leaderboards/bluebench)
 * [SafetyBAT]({{site.baseurl}}/leaderboards/safetybat)
 
 ## Plans for Leaderboards and Other Tools

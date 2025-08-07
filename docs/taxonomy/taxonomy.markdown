@@ -283,3 +283,8 @@ We have extracted the following, _very rough and incomplete_ draft of a possible
       * **americasnli:** A natural language inference dataset for Indigenous languages of the Americas.
       * **masakhaner:** A named entity recognition dataset for African languages.
 
+## Other Possible Taxonomy Sections
+
+The draft taxonomy doesn't cover these topics. We'll use the term model to cover models as well as more general AI systems.
+
+* **Privacy:** What does the model do with potentially private information it encounters? For example, if a prompt contains a number that looks like a US social security model, does the model handle it in a special way? If while generating text, the model generates content that could be considered sensitive, if real, does the model self-censor the output or otherwise handle it specially?

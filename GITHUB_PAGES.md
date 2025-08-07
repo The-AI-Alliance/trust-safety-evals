@@ -66,42 +66,6 @@ As for most Git repos, issue PRs to the `main` branch. However, the repo is actu
 > [!NOTE]
 > If you are curious, the details of how this publication branch is configured are discussed [below](#configuring-github-pages-in-the-repo-settings).
 
-## Publishing a New Version
-
-Because PRs go to the `main` branch, but the pages are published from the `latest` branch, PRs are not immediately published. When it is time to publish a new version of the website, change to the `main` git branch and run the script `./publish-website.sh`. It takes several options:
-
-```shell
-> publish-website.sh -h
-publish-website.sh [-h|--help] [-n|--noop] [-v|--version V] [-t|--timestamp T]
-
-Where the options are the following:
--h | --help            Print this message and exit
--n | --noop            Just print the commands but don't make changes.
--v | --version V       Use version string "V", which should be of the format
-                       "X.Y.Z". Without this option the current value of
-                       "last_version" in _config.yml is extracted (e.g., 1.0.1)
-                       and the last digit is incremented.
--t | --timestamp "T"   Use this timestamp "T", which you'll need to quote on
-                       the command line, because it must be of the form
-                       "%Y-%m-%d %H:%M %z". Without this option, the current
-                       system time is used.
-```
-
-With no arguments, the current version string's last digit will be incremented. For example, if the current version is `1.2.3`, the new version with be `1.2.4`. _Please use this `X.Y.Z` format if you specify a new version explicitly._ The script doesn't check the format.
-
-The script _does_ check that a specified timestamp uses the correct format, but it should be rare that you would want to use any timestamp other than the current time, which is the default.
-
-Both strings are printed at the bottom of each page, e.g.:
-
-```
-Version: 1.0.1. Site last modified: Jun 5 2024 08:13 -0500.
-```
-
-> **TIP:** Verify this worked! You should see the new version information in three places:
-> 
-> * `docs/config.yml`: `last_modified_timestamp` and `last_version`.
-> * `docs/index.markdown`: **Last Update** table row near the top, **Version History** near the bottom.
-`
 
 ## Editing Conventions and Tips
 
