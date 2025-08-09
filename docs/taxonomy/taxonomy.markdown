@@ -2,7 +2,7 @@
 layout: default
 title: Taxonomy
 nav_order: 50
-has_children: true
+has_children: false
 ---
 
 # Taxonomies of Evaluations

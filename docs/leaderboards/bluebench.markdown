@@ -12,6 +12,7 @@ The [BlueBench Leaderboard](https://huggingface.co/spaces/ibm-research/bluebench
 
 From the description:
 
+{: .highlight}
 > BlueBench is an open-source benchmark developed by domain experts to represent required needs of Enterprise users. It is constructed using state-of-the-art benchmarking methodologies to ensure validity, robustness, and efficiency by utilizing [unitxt’s](https://www.unitxt.ai/){:target="_blank"} abilities for dynamic and flexible text processing. As a dynamic and evolving benchmark, BlueBench currently encompasses diverse domains such as legal, finance, customer support, and news. It also evaluates a range of capabilities, including RAG, pro-social behavior, summarization, and ChatBot performance, with additional tasks and domains to be integrated over time.
 
 ## Using BlueBench for Your Own Evaluations

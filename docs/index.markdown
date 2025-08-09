@@ -7,8 +7,10 @@ has_children: false
 
 # Evaluation Is for Everyone
 
-_Part of the AI Alliance [**Trust and Safety Evaluation Initiative**](https://thealliance.ai/core-projects/trust-and-safety-evaluations){:target="tsei"} (TSEI), our goal is to ensure the widespread adoption of AI trust and safety technologies, both educating application developers about these concepts and making it as easy as possible for state-of-the-art tools to be used to support them. Welcome to the **Evaluation Is for Everyone** project._
+{: .highlight}
+> _Part of the AI Alliance [**Trust and Safety Evaluation Initiative**](https://thealliance.ai/core-projects/trust-and-safety-evaluations){:target="tsei"} (TSEI), our goal is to ensure the widespread adoption of AI trust and safety technologies, both educating application developers about these concepts and making it as easy as possible for state-of-the-art tools to be used to support them. Welcome to the **Evaluation Is for Everyone** project._
 
+{: .tip}
 > **Tip:** The links for _italicized terms_ go to [this glossary]({{site.glossaryurl}}).
 
 Unlike traditional software systems that rely on prescribed specifications and mostly-[_deterministic_]({{site.glossaryurl}}/#determinism) application code, [_AI systems_]({{site.glossaryurl}}/#ai-system) based on [_generative AI models_]({{site.glossaryurl}}/#generative-ai-model) depend on training data to map inputs to [_probabilistic_]({{site.glossaryurl}}/#probability-and-statistics) outputs. A consequence is these systems are inherently non-deterministic and may even generate erroneous or undesirable output. To [_evaluate_]({{site.glossaryurl}}/#evaluation) such systems, [_benchmarks_]({{site.glossaryurl}}/#benchmark) are commonly used to measure how models behave in these areas of concern. 

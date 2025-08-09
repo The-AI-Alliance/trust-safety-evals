@@ -2,7 +2,7 @@
 layout: default
 title: User Personae and Their Needs
 nav_order: 30
-has_children: true
+has_children: false
 ---
 
 # User Personae and Their Needs
