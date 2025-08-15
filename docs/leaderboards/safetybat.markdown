@@ -13,7 +13,8 @@ The [Safety BAT Leaderboard](https://huggingface.co/spaces/aialliance/safetybat)
 BenchBench is a useful tool for users with the following needs:
 
 * You have a new benchmark and you want to see if it agrees or disagrees with other known benchmarks.
-* You are looking for a benchmark to run and use to ensure your trust in a system or model you want to use. BenchBench helps you find efficient alternatives that provide acceptable coverage, but may meet other needs, such as the ability to run the benchmark privately or with less overhead.
+* You are looking for benchmarks to run and use to ensure your trust in a system or model you want to use. BenchBench helps you find efficient alternatives that provide acceptable coverage, but may meet other needs, such as the ability to run the benchmark privately or with less overhead.
+* Since benchmarks can be expensive to run yourself, it is useful when selecting a representative set of benchmarks that cover the areas of concern, but don't overlap with each other too much, thereby conserving resources. 
 
 The leaderboard shows that agreements are best represented with the _BenchBench Score_, the relative agreement (Z Score) of each benchmark to the _Aggregate_ benchmark.
 
