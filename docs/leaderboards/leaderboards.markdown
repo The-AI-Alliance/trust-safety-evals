@@ -21,6 +21,10 @@ The following pages discuss the leaderboards already available:
 * [BlueBench]({{site.baseurl}}/leaderboards/bluebench)
 * [SafetyBAT]({{site.baseurl}}/leaderboards/safetybat)
 
+Other leaderboards of note from other organizations include the following:
+
+* [AIR-Bench 2024](https://crfm.stanford.edu/helm/air-bench/latest/){:target="airbench"} from the [Stanford University HELM project](https://crfm.stanford.edu/helm/){:target="helm"}: A safety benchmark aligned with emerging government regulations and company policies, following the regulation-based safety categories grounded in the HELM AI Risks study, AIR 2024.
+
 ## Plans for Leaderboards and Other Tools
 
 Planned leaderboards will include the leading open-source models to serve as evaluation targets and as evaluation judges. Initially, we are focusing on Meta’s [Llama family of models](https://www.llama.com){:target="llama"} and IBM’s [Granite family of models](https://www.ibm.com/granite){:target="granite"}, with others to follow.  
