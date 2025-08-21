@@ -74,8 +74,6 @@ Evaluations can be implemented in many ways. A [_model_](#model) might be used t
 
 For our purposes, an evaluation must be executable within an [_evaluation framework_](#evaluation-framework), such our [Evaluation Reference Stack](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"}. 
 
-See also [_evaluation framework_](#evaluation-framework).
-
 ## Evaluation Framework
 
 An umbrella term for the software tools, runtime services, benchmark systems, etc. used to run [_evaluations_](#evaluation) to measure [_AI systems_](#ai-system) behaviors for trust and safety risks and mitigations, and other kinds of measurements.
