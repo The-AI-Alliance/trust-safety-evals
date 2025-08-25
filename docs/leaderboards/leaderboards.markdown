@@ -24,6 +24,7 @@ The following pages discuss the leaderboards already available:
 Other leaderboards of note from other organizations include the following:
 
 * [AIR-Bench 2024](https://crfm.stanford.edu/helm/air-bench/latest/){:target="airbench"} from the [Stanford University HELM project](https://crfm.stanford.edu/helm/){:target="helm"}: A safety benchmark aligned with emerging government regulations and company policies, following the regulation-based safety categories grounded in the HELM AI Risks study, AIR 2024.
+* [Galileo Agent Leaderboard v2](https://huggingface.co/spaces/galileo-ai/agent-leaderboard){:target="galileo-lb"} from [Galileo AI](https://galileo.ai){:target="galileo"} evaluates the performance of LLM agents across business domains. Their [dataset](https://huggingface.co/datasets/galileo-ai/agent-leaderboard-v2){:target="galileo-data"} could be useful for custom domain-specific evaluation. 
 
 ## Plans for Leaderboards and Other Tools
 
