@@ -11,7 +11,7 @@ This section describes some of the public evaluations that are available. Not al
 
 [_Benchmarks_]({{site.glossaryurl}}/#benchmark) that aggregate evaluations for larger goals, e.g., domain-specific scenarios, are also cataloged here.
 
-{: .highlight}
+{: .attention}
 > **Help Wanted:** Do you have datasets, benchmarks, or other evaluations that you believe should be included? See our [Contributing]({{site.baseurl}}/contributing) page!
 
 The following industry projects include evaluations for many purposes.
