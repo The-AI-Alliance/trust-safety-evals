@@ -26,7 +26,7 @@ Within the AI Alliance's [**Trust and Safety**](https://thealliance.ai/focus-are
 * **Evaluation Is for Everyone** (this project) has two goals:
 	* Educate application developers about the importance of building AI trustworthiness and safety into their AI-enabled applications from the beginning, just as we have needed to build [_cybersecurity_]({{site.glossaryurl}}/#security) into our apps for decades.
 	* Make it easy to find and adopt the appropriate set of evaluations for particular application requirements.
-*  [**Achieving Confidence in Enterprise AI Applications**](https://the-ai-alliance.github.io/ai-application-testing/){:target="acea"} addresses the problem that AI application developers struggle to test that their applications meet the requirements and perform the use cases they were designed for. Enterprise developers are accustomed to writing repeatable tests for software that is (mostly) [_deterministic_]({{site.glossaryurl}}/#determinism), but the inherent [_probabilistic_]({{site.glossaryurl}}#probability-and-statistics) nature of the underlying [_generative AI models_]({{site.glossaryurl}}/#generative-ai-model) defeats these techniques. This project is adapting evaluation techniques for these testing purposes and teaching developers how to use them.
+*  [**Testing Generative AI Applications**](https://the-ai-alliance.github.io/ai-application-testing/){:target="tgai"} addresses the problem that AI application developers struggle to test that their applications meet the requirements and perform the use cases they were designed for. Enterprise developers are accustomed to writing repeatable tests for software that is (mostly) [_deterministic_]({{site.glossaryurl}}/#determinism), but the inherent [_probabilistic_]({{site.glossaryurl}}#probability-and-statistics) nature of the underlying [_generative AI models_]({{site.glossaryurl}}/#generative-ai-model) defeats these techniques. This project is adapting evaluation techniques for these testing purposes and teaching developers how to use them.
 * [**Evaluation Reference Stack**](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"} is documenting the industry's best tools for running evaluations and making them easy to adopt and manage.
 
 Related projects include [**Ranking AI Safety Priorities by Domain**](https://the-ai-alliance.github.io/ranking-safety-priorities/){:target="_blank"} and our [**AI Trust and Safety User Guide**](https://the-ai-alliance.github.io/trust-safety-user-guide/){:target="_blank"}.
@@ -79,7 +79,7 @@ Are you interested in contributing? If so, please see the [Contributing]({{site.
 
 * This project's [GitHub Repo](https://github.com/The-AI-Alliance/trust-safety-evals){:target="repo"}
 * Companion projects: 
-	* <a href="https://the-ai-alliance.github.io/ai-application-testing/" target="acea">Achieving Confidence in Enterprise AI Applications</a>
+	* <a href="https://the-ai-alliance.github.io/ai-application-testing/" target="tgai">Testing Generative AI Applications</a>
 	* <a href="https://the-ai-alliance.github.io/eval-ref-stack/" target="ers">Evaluation Reference Stack</a>
 * The AI Alliance: 
 	* [Website](https://thealliance.ai){:target="ai-alliance"}

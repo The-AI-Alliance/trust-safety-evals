@@ -16,7 +16,7 @@ Here is the project dashboard filtered by _labels_ for the main work streams:
 * [evaluations](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aevaluations){:target="evaluations"} and building a [taxonomy](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Ataxonomy){:target="taxonomy"}
 * [leaderboards](https://github.com/orgs/The-AI-Alliance/projects/23/views/1?filterQuery=label%3Aleaderboards){:target="leaderboards"}
 
-See also the companion projects, [Evaluation Reference Stack](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"} and [Achieving Confidence in Enterprise AI Applications](https://the-ai-alliance.github.io/ai-application-testing/){:target="acea"}, for related work.
+See also the companion projects, [Evaluation Reference Stack](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"} and [Testing Generative AI Applications](https://the-ai-alliance.github.io/ai-application-testing/){:target="tgai"}, for related work.
 
 The repo [README](https://github.com/The-AI-Alliance/trust-safety-evals){:target="repo"} explains more details for contributors, such as our "DCO" requirements, which you should understand first.
 
