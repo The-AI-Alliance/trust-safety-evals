@@ -28,4 +28,4 @@ For this documentation website itself, if you are interested in contributing to 
 
 Notice that every page on this website has _Edit this page on GitHub_ links, making it easy to view a page, then go straight to the source to make edits and submit a PR. This is the best way to help us fix typos and make other small improvements.
 
-Finally, we welcome suggestions and feedback via [email](mailto:contact@thealliance.ai). Be sure to mention this particular initiative, as we have many AI Alliance projects.
+Finally, we welcome suggestions and feedback via [email](mailto:contact@thealliance.ai?subject=Suggestions for the Evaluation Is for Everyone project). Be sure to mention this particular initiative, as we have many AI Alliance projects.

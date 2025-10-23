@@ -17,7 +17,7 @@ Want to join one of our initiative projects? Visit [this AI Alliance webpage](ht
 
 The AI Alliance is a global collaboration of startups, enterprises, academic, and other research institutions interested in advancing the state of the art, the availability, and the safety of AI technology and uses. The AI Alliance's core projects and initiatives seek to address substantial cross-community challenges and are an opportunity for contributors to collaborate, build, and make an impact on the future of AI. Core projects and initiatives are managed directly by the AI Alliance and governed as described in our [community GitHub repository](https://github.com/The-AI-Alliance/community){:target="community"}. You can find a list of all AI Alliance projects and initiatives on [our website](https://thealliance.ai/our-work){:target="our-work"}.
 
-If you have any questions or concerns about this initiative, please contact us at [contact@thealliance.ai](mailto:contact@thealliance.ai).
+If you have any questions or concerns about this effort, please contact us at [contact@thealliance.ai](mailto:contact@thealliance.ai?subject=Questions about the Evaluation Is for Everyone project).
 
 ## Maintainers of This Initiative
 
@@ -27,7 +27,7 @@ If you have any questions or concerns about this initiative, please contact us a
 ## Other AI Alliance Information
 
 * [More About the AI Alliance](https://thealliance.ai/about-aia){:target="ai-alliance"}
-* [Contact Us](mailto:contact@thealliance.ai) (email)
+* [Contact Us](mailto:contact@thealliance.ai?subject=Questions about the AI Alliance) (email)
 * Follow us on [LinkedIn](https://www.linkedin.com/company/the-aialliance/){:target="linkedin"}
 
 ## About This Documentation
