@@ -82,6 +82,10 @@ do
 		--include '*.markdown' --include '*.md' \
 		--exclude-dir '_site' --exclude-dir '_sass' \
 		$path | $eg -v 'target='
+	$eg -nHoR '\(\{\{site.glossaryurl\}\}[^)]*\)(\S*)' \
+		--include '*.markdown' --include '*.md' \
+		--exclude-dir '_site' --exclude-dir '_sass' \
+		$path | $eg -v 'target='
 done
 
 [[ -n "$VERBOSE" ]] && echo "Checking HTML files:"

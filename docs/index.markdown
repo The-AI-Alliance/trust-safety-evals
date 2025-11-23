@@ -11,7 +11,7 @@ has_children: false
 > _Part of the AI Alliance [**Trust and Safety Evaluation Initiative**](https://thealliance.ai/core-projects/trust-and-safety-evaluations){:target="tsei"} (TSEI), our goal is to ensure the widespread adoption of AI trust and safety technologies, both educating application developers about these concepts and making it as easy as possible for state-of-the-art tools to be used to support them. Welcome to the **Evaluation Is for Everyone** project._
 
 {: .tip}
-> **Tip:** The links for Capitalized Terms go to [this glossary]({{site.glossaryurl}}).
+> **Tip:** The links for Capitalized Terms go to [this glossary]({{site.glossaryurl}}){:target="_glossary"}.
 
 Unlike traditional software systems that rely on prescribed specifications and mostly-[Deterministic]({{site.glossaryurl}}/#determinism){:target="_glossary"} application code, [AI Systems]({{site.glossaryurl}}/#ai-system){:target="_glossary"} based on [Generative AI Models]({{site.glossaryurl}}/#generative-ai-model){:target="_glossary"} depend on training data to map inputs to [Probabilistic]({{site.glossaryurl}}/#probability-and-statistics){:target="_glossary"} outputs. A consequence is these systems are inherently non-deterministic and may even generate erroneous or undesirable output. To [Evaluate]({{site.glossaryurl}}/#evaluation){:target="_glossary"} such systems, [Benchmarks]({{site.glossaryurl}}/#benchmark){:target="_glossary"} are commonly used to measure how models behave in these areas of concern. 
 
@@ -26,7 +26,7 @@ Within the AI Alliance's [**Trust and Safety**](https://thealliance.ai/focus-are
 * **Evaluation Is for Everyone** (this project) has two goals:
 	* Educate application developers about the importance of building AI trustworthiness and safety into their AI-enabled applications from the beginning, just as we have needed to build [Cybersecurity]({{site.glossaryurl}}/#cybersecurity){:target="_glossary"} into our apps for decades.
 	* Make it easy to find and adopt the appropriate set of evaluations for particular application requirements.
-*  [**Testing Generative AI Applications**](https://the-ai-alliance.github.io/ai-application-testing/){:target="tgai"} addresses the problem that AI application developers struggle to test that their applications meet the requirements and perform the use cases they were designed for. Enterprise developers are accustomed to writing repeatable tests for software that is (mostly) [Deterministic]({{site.glossaryurl}}/#determinism){:target="_glossary"}, but the inherent [Probabilistic]({{site.glossaryurl}}#probability-and-statistics) nature of the underlying [Generative AI Models]({{site.glossaryurl}}/#generative-ai-model){:target="_glossary"} defeats these techniques. This project is adapting evaluation techniques for these testing purposes and teaching developers how to use them.
+*  [**Testing Generative AI Applications**](https://the-ai-alliance.github.io/ai-application-testing/){:target="tgai"} addresses the problem that AI application developers struggle to test that their applications meet the requirements and perform the use cases they were designed for. Enterprise developers are accustomed to writing repeatable tests for software that is (mostly) [Deterministic]({{site.glossaryurl}}/#determinism){:target="_glossary"}, but the inherent [Probabilistic]({{site.glossaryurl}}#probability-and-statistics){:target="_glossary"} nature of the underlying [Generative AI Models]({{site.glossaryurl}}/#generative-ai-model){:target="_glossary"} defeats these techniques. This project is adapting evaluation techniques for these testing purposes and teaching developers how to use them.
 * [**Evaluation Reference Stack**](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"} is documenting the industry's best tools for running evaluations and making them easy to adopt and manage.
 
 Related projects include [**Ranking AI Safety Priorities by Domain**](https://the-ai-alliance.github.io/ranking-safety-priorities/){:target="_blank"} and our [**AI Trust and Safety User Guide**](https://the-ai-alliance.github.io/trust-safety-user-guide/){:target="_blank"}.
@@ -65,7 +65,6 @@ Current activities: [`documentation`](https://github.com/orgs/The-AI-Alliance/pr
 
 The rest of this website is organized into the following sections:
 
-* [Glossary of Terms]({{site.glossaryurl}})
 * [User Personae and Their Needs]({{site.baseurl}}/user-personae/user-personae)
 * [Evaluations and Benchmarks]({{site.baseurl}}/evaluations/evaluations)
 * [Taxonomies of Evaluations]({{site.baseurl}}/taxonomy/taxonomy)
