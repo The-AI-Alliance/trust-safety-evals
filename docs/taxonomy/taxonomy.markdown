@@ -7,7 +7,7 @@ has_children: false
 
 # Taxonomies of Evaluations
 
-A [_taxonomy_]({{site.glossaryurl}}/#taxonomy) is of evaluations is useful for grouping them hierarchically by interest area, so that people to see relationships and explore evaluations that are available in their areas of interest, without having to &ldquo;digest&rdquo; all available evaluations. For a given area of interest, [_benchmarks_]({{site.glossaryurl}}/#benchmark) aggregate one or more evaluations to measure overall behavior in that area.
+A [Taxonomy]({{site.glossaryurl}}/#taxonomy){:target="_glossary"} of [Evaluations]({{site.glossaryurl}}/#evaluation){:target="_glossary"} is useful for grouping them hierarchically by interest area, so that people to see relationships and explore evaluations that are available in their areas of interest, without having to &ldquo;digest&rdquo; all available evaluations. For a given area of interest, [Benchmarks]({{site.glossaryurl}}/#benchmark){:target="_glossary"} aggregate one or more evaluations to measure overall behavior in that area.
 
 A long-term goal of this project is to build a global taxonomy covering the full spectrum of possible evaluations. 
 
@@ -54,73 +54,73 @@ We have extracted the following, _very rough and incomplete_ draft of a possible
       * **portuguese_bench:** A collection of tasks designed to evaluate language model performance in Portuguese.
       * **prost:** A reading comprehension task that requires understanding of pronoun resolution.
       * **polemo2:** Sentiment analysis and emotion detection tasks based on Polish language data.
-      * **squad:** Stanford Question Answering Dataset for answering questions based on a passage.
+      * **squad:** Stanford Question Answering Data Set for answering questions based on a passage.
       * **squad_completion:** A variant of the SQuAD question-answering task designed for zero-shot evaluation of small language models.
       * **spanish_bench:** A collection of tasks in Spanish encompassing various evaluation areas.
       * **scrolls:** Evaluates long-range language modeling and understanding by requiring models to process extended contexts.
-      * **triviaqa:** Question answering dataset with trivia questions and supporting evidence.
-      * **natural_questions:** Google's dataset for answering questions based on real user queries.
-      * **race:** Reading comprehension dataset based on middle and high school English exams.
+      * **triviaqa:** Question answering data set with trivia questions and supporting evidence.
+      * **natural_questions:** Google's data set for answering questions based on real user queries.
+      * **race:** Reading comprehension data set based on middle and high school English exams.
       * **quac:** Question answering in conversational contexts.
       * **squadv2:** Evaluates reading comprehension by requiring models to answer questions based on Wikipedia articles, including unanswerable questions.
       * **swde:** Evaluates structured web data extraction capabilities, focusing on the ability to extract information from web pages.
-      * **newsqa:** Question answering dataset derived from news articles.
-      * **drop:** Dataset for discrete reasoning over paragraphs, including numerical and logical reasoning.
-      * **coqa:** Conversational Question Answering dataset with multi-turn interactions.
-      * **searchqa:** Question answering dataset created using search engine results.
-      * **textbookqa:** Question answering dataset derived from textbook content.
-      * **openbookqa:** Open book question answering dataset for science and general knowledge.
-      * **boolq:** Boolean Questions dataset focused on yes/no comprehension tasks.
+      * **newsqa:** Question answering data set derived from news articles.
+      * **drop:** Data set for discrete reasoning over paragraphs, including numerical and logical reasoning.
+      * **coqa:** Conversational Question Answering data set with multi-turn interactions.
+      * **searchqa:** Question answering data set created using search engine results.
+      * **textbookqa:** Question answering data set derived from textbook content.
+      * **openbookqa:** Open book question answering data set for science and general knowledge.
+      * **boolq:** Boolean Questions data set focused on yes/no comprehension tasks.
       * **narrativeqa:** Question answering based on summaries of stories or movies.
-      * **qangaroo:** Multi-hop question answering dataset requiring reasoning across documents.
-      * **hotpotqa:** Multi-hop question answering dataset involving reasoning over multiple sources.
+      * **qangaroo:** Multi-hop question answering data set requiring reasoning across documents.
+      * **hotpotqa:** Multi-hop question answering data set involving reasoning over multiple sources.
       * **webqs:** Evaluates the model's ability to answer questions based on web search queries, testing information retrieval and comprehension.
-      * **wikihop:** Multi-hop question answering dataset derived from Wikipedia articles.
+      * **wikihop:** Multi-hop question answering data set derived from Wikipedia articles.
       * **wikitext:** Assesses language modeling capabilities using text extracted from Wikipedia articles.
       * **wmdp:** Evaluates the model's proficiency in document processing tasks, focusing on understanding and generating structured documents.
-      * **reclor:** Reading comprehension dataset focused on logical reasoning.
-      * **logiqa:** Logical reasoning reading comprehension dataset.
+      * **reclor:** Reading comprehension data set focused on logical reasoning.
+      * **logiqa:** Logical reasoning reading comprehension data set.
     * **Textual Entailment (Natural Language Inference):** Determines relationships between sentence pairs (e.g., entailment, contradiction, or neutrality).
-      * **snli:** Stanford Natural Language Inference dataset focusing on entailment, contradiction, and neutral relationships between sentence pairs.
-      * **mnli:** Multi-Genre Natural Language Inference dataset, an extension of SNLI with examples from diverse genres.
-      * **rte:** Recognizing Textual Entailment dataset for determining entailment between pairs of sentences.
-      * **qnli:** Question Natural Language Inference dataset, converted from SQuAD to test entailment relationships between questions and answers.
-      * **wnli:** Winograd Natural Language Inference dataset, focusing on pronoun disambiguation in an entailment context.
-      * **scitail:** Science entailment dataset created from science questions and related web sentences.
-      * **anli:** Adversarial Natural Language Inference dataset designed to challenge models with harder entailment cases.
+      * **snli:** Stanford Natural Language Inference data set focusing on entailment, contradiction, and neutral relationships between sentence pairs.
+      * **mnli:** Multi-Genre Natural Language Inference data set, an extension of SNLI with examples from diverse genres.
+      * **rte:** Recognizing Textual Entailment data set for determining entailment between pairs of sentences.
+      * **qnli:** Question Natural Language Inference data set, converted from SQuAD to test entailment relationships between questions and answers.
+      * **wnli:** Winograd Natural Language Inference data set, focusing on pronoun disambiguation in an entailment context.
+      * **scitail:** Science entailment data set created from science questions and related web sentences.
+      * **anli:** Adversarial Natural Language Inference data set designed to challenge models with harder entailment cases.
       * **xnli:** Assesses cross-lingual natural language inference capabilities, testing understanding of entailment and contradiction across languages.
       * **xnli_eu:** Evaluates natural language inference in Basque, focusing on entailment and contradiction detection.
     * **Paraphrase Detection:** Identifies if two sentences have the same meaning or are rephrasings of each other.
       * **mrpc:** Microsoft Research Paraphrase Corpus, which evaluates the model's ability to identify semantically equivalent sentence pairs.
-      * **paws:** Paraphrase Adversaries from Word Scrambling, a dataset testing paraphrase detection with challenging word-order variations.
+      * **paws:** Paraphrase Adversaries from Word Scrambling, a data set testing paraphrase detection with challenging word-order variations.
 * **Reasoning Tasks:** Evaluations designed to assess a language model's ability to apply logical, deductive, inductive, or commonsense reasoning to solve problems or answer questions. These tasks go beyond basic language comprehension by requiring models to infer, deduce, and reason about implicit relationships, patterns, or structures within textual or structured inputs.
     * **Commonsense Reasoning:** Evaluations designed to test a model's ability to apply everyday knowledge and logical reasoning to answer questions or make decisions. These tasks assess the model’s understanding of concepts and relationships that are typically intuitive to humans but not explicitly stated in the input data.
       * **arc_mt:** Evaluates complex reasoning over a diverse set of multiple-choice questions.
       * **babi:** Designed as question and answering challenges based on simulated stories.
       * **bbh:** Tasks focused on deep semantic understanding through hypothesization and reasoning.
-      * **commonsenseqa:** A multiple-choice question answering dataset testing general world knowledge and commonsense reasoning.
-      * **commonsense_qa:** A multiple-choice QA dataset for measuring commonsense knowledge.
-      * **copal_id:** Indonesian causal commonsense reasoning dataset that captures local nuances.
-      * **hellaswag:** A dataset for commonsense reasoning, requiring models to predict the most plausible continuation of a scenario.
-      * **piqa:** Physical Interaction Question Answering dataset focusing on everyday physical commonsense.
-      * **siqa:** Social Interaction Question Answering dataset testing commonsense reasoning about social interactions, including intentions and emotions.
+      * **commonsenseqa:** A multiple-choice question answering data set testing general world knowledge and commonsense reasoning.
+      * **commonsense_qa:** A multiple-choice QA data set for measuring commonsense knowledge.
+      * **copal_id:** Indonesian causal commonsense reasoning data set that captures local nuances.
+      * **hellaswag:** A data set for commonsense reasoning, requiring models to predict the most plausible continuation of a scenario.
+      * **piqa:** Physical Interaction Question Answering data set focusing on everyday physical commonsense.
+      * **siqa:** Social Interaction Question Answering data set testing commonsense reasoning about social interactions, including intentions and emotions.
       * **xcopa:** Evaluates causal commonsense reasoning across multiple languages.
     * **Mathematical and Logical Reasoning:** Evaluations designed to test a model's ability to solve problems requiring numerical computation, pattern recognition, logical inference, and structured reasoning. These tasks assess a model's capacity to handle quantitative data, deduce relationships, and apply rules or logic to reach conclusions.
       * **afrimgsm:** Evaluates mathematical reasoning abilities in African languages.
       * **arithmetic:** Assesses numerical computations and arithmetic reasoning abilities.
-      * **aqua:** Algebra question answering dataset focused on reasoning through equations.
+      * **aqua:** Algebra question answering data set focused on reasoning through equations.
       * **asdiv:** Focuses on arithmetic and mathematical reasoning challenges.
       * **csatqa:** Tasks related to SAT and other standardized testing questions for academic assessment.
-      * **gsm8k:** Grade school math problems dataset testing arithmetic and reasoning skills.
+      * **gsm8k:** Grade school math problems data set testing arithmetic and reasoning skills.
       * **gsm_plus:** A benchmark of grade school math problems aimed at evaluating reasoning capabilities.
       * **hendrycks_math:** Mathematical problem-solving tasks to test numerical reasoning and problem-solving skills.
-      * **mathqa:** A dataset for solving complex math questions with logical reasoning.
+      * **mathqa:** A data set for solving complex math questions with logical reasoning.
       * **minerva_math:** Tests advanced mathematical problem-solving skills.
-      * **svamp:** A math word problem dataset requiring multi-step reasoning to solve.
+      * **svamp:** A math word problem data set requiring multi-step reasoning to solve.
     * **Causal and Temporal Reasoning:** Evaluations that test a model's ability to understand and reason about cause-effect relationships and the sequencing of events over time. These tasks require the model to infer, predict, or explain the connections between actions, outcomes, and their temporal or causal dependencies.
-      * **copa:** Choice of Plausible Alternatives dataset, testing causal reasoning by selecting the most plausible cause or effect.
-      * **reclor:** Logical reasoning dataset focused on multiple-choice reasoning in academic texts.
-      * **logiqa:** Logical reasoning dataset designed for evaluating deductive reasoning capabilities.
+      * **copa:** Choice of Plausible Alternatives data set, testing causal reasoning by selecting the most plausible cause or effect.
+      * **reclor:** Logical reasoning data set focused on multiple-choice reasoning in academic texts.
+      * **logiqa:** Logical reasoning data set designed for evaluating deductive reasoning capabilities.
       * **ifeval:** Evaluates instruction-following capabilities of language models using verifiable instructions.
       * **mc_taco:** Evaluates understanding of temporal commonsense by assessing the likelihood of events occurring at specific times.
     * **Logical Deduction:** Tasks that test the model's capability for logical reasoning and inference.
@@ -139,7 +139,7 @@ We have extracted the following, _very rough and incomplete_ draft of a possible
       * **eus_trivia:** Trivia and knowledge testing tasks in the Basque language.
       * **gpqa:** Tasks designed for general public question answering and knowledge verification.
       * **haerae:** Tasks focused on assessing detailed factual and historical knowledge.
-      * **headqa:** A high-level education-based question answering dataset to test specialized knowledge.
+      * **headqa:** A high-level education-based question answering data set to test specialized knowledge.
       * **kmmlu:** Knowledge-based multi-subject multiple-choice questions for academic evaluation in Korean.
       * **kormedmcqa:** Medical question-answering tasks in Korean to test specialized domain knowledge.
       * **med_concepts_qa:** Assesses knowledge of medical concepts through question-answering tasks.
@@ -147,23 +147,23 @@ We have extracted the following, _very rough and incomplete_ draft of a possible
       * **medqa:** Tests medical question-answering skills using professional medical board exam questions.
       * **mela:** Assesses language understanding and reasoning in the medical domain.
       * **mmlu_pro:** Assesses professional-level knowledge across various subjects.
-      * **nq_open:** Assesses open-domain question answering abilities using the Natural Questions dataset.
+      * **nq_open:** Assesses open-domain question answering abilities using the Natural Questions data set.
       * **paloma:** A comprehensive benchmark for evaluating open language models across diverse domains, including niche communities and mental health forums.
-      * **pubmedqa:** A biomedical question answering dataset focusing on research articles from PubMed.
-      * **qasper:** A dataset for question answering on scientific research papers.
+      * **pubmedqa:** A biomedical question answering data set focusing on research articles from PubMed.
+      * **qasper:** A data set for question answering on scientific research papers.
       * **sciq:** Assesses scientific question-answering abilities, focusing on elementary and middle school science.
       * **triviaqa:** Evaluates the model's ability to answer trivia questions by retrieving factual information.
       * **squad:** Assesses the model's proficiency in answering questions based on passages from Wikipedia articles.
       * **natural_questions:** Tests the model's capability to provide short and long answers to real-world questions using information from Wikipedia.
       * **web_questions:** Measures the model's performance in answering questions derived from Google search queries, focusing on factual accuracy.
       * **openbookqa:** Challenges the model to answer elementary-level science questions, requiring retrieval of scientific facts.
-      * **tmlu:** Traditional Chinese Massive Multitask Language Understanding dataset, comprising multiple-choice questions across various subjects.
+      * **tmlu:** Traditional Chinese Massive Multitask Language Understanding data set, comprising multiple-choice questions across various subjects.
       * **tmmluplus:** An extended set of tasks under the TMMLU framework for broader academic assessments in Traditional Chinese.
       * **truthfulqa:** Evaluates the model's ability to generate truthful and informative answers to questions.
       * **turkishmmlu:** Localized Turkish version of MMLU with multiple-choice questions from various subjects.
     * **Cloze Tasks:** Fill-in-the-blank tasks that measure the model's knowledge of facts or language structure.
       * **lambada:** Assesses the model's ability to predict the final word of a passage, focusing on understanding context and language structure.
-      * **lambada_cloze:** Cloze-style LAMBADA dataset focusing on predicting the last word of a passage.
+      * **lambada_cloze:** Cloze-style LAMBADA data set focusing on predicting the last word of a passage.
       * **cloze:** Evaluates the model's proficiency in filling in missing words within a passage, testing knowledge of language structure and factual information.
       * **wsc:** Tests the model's ability to resolve pronoun references in sentences, requiring understanding of language structure and context.
       * **winogrande:** Challenges the model to choose the correct referent in sentences with ambiguous pronouns, measuring commonsense reasoning and language understanding.
@@ -234,7 +234,7 @@ We have extracted the following, _very rough and incomplete_ draft of a possible
       * **vqa:** Visual Question Answering task assessing the model's capability to answer questions based on image content.
       * **image_captioning:** Task that evaluates the model's ability to generate descriptive captions for given images.
       * **visual_entailment:** Visual Entailment task testing the model's reasoning about the relationship between textual statements and images.
-* **Benchmark Aggregates:** Evaluation tasks that combine multiple subtasks or datasets to provide a holistic and comprehensive measure of a language model's capabilities. These aggregates serve as standardized evaluation suites, enabling consistent comparison across models and tasks.
+* **Benchmark Aggregates:** Evaluation tasks that combine multiple subtasks or data sets to provide a holistic and comprehensive measure of a language model's capabilities. These aggregates serve as standardized evaluation suites, enabling consistent comparison across models and tasks.
     * **Composite Benchmarks:** Tasks that combine various subtasks to provide a more holistic evaluation.
       * **superglue:** An advanced benchmark suite combining diverse NLP tasks for language understanding and reasoning.
       * **glue:** A general evaluation suite for various natural language understanding tasks like sentiment analysis and inference.
@@ -251,12 +251,12 @@ We have extracted the following, _very rough and incomplete_ draft of a possible
       * **mmlu:** Massive Multitask Language Understanding benchmark for evaluating multi-domain knowledge across 57 subjects.
       * **superglue:** An advanced benchmark suite combining diverse NLP tasks for language understanding and reasoning.
       * **glue:** A general evaluation suite for various natural language understanding tasks like sentiment analysis and inference.
-      * **pile:** A large-scale dataset for language modeling, consisting of diverse text sources.
-      * **pile_10k:** A subset of the Pile dataset, containing the first 10,000 elements, useful for debugging models.
+      * **pile:** A large-scale data set for language modeling, consisting of diverse text sources.
+      * **pile_10k:** A subset of the Pile data set, containing the first 10,000 elements, useful for debugging models.
 * **Low-Resource and Multilingual Tasks:** Evaluations designed to assess a model's ability to perform in languages and domains with limited data availability or in multiple languages simultaneously. These tasks challenge models to generalize and perform effectively in diverse linguistic and cultural settings, including under-represented languages and low-resource domains.
     * **Cross-Lingual Evaluation:** Tasks that test the model's ability to perform in languages other than English.
-      * **tydiqa:** A question-answering dataset covering 11 typologically diverse languages.
-      * **xquad:** A cross-lingual question-answering dataset extending SQuAD to 10 languages.
+      * **tydiqa:** A question-answering data set covering 11 typologically diverse languages.
+      * **xquad:** A cross-lingual question-answering data set extending SQuAD to 10 languages.
       * **mlqa:** A benchmark for multilingual question answering across 7 languages.
       * **lambada_multilingual:** Tests the ability to predict the last word of a sentence in multiple languages.
       * **hellaswag_multilingual:** A commonsense reasoning benchmark in multiple languages, requiring plausible scenario continuation.
@@ -266,10 +266,10 @@ We have extracted the following, _very rough and incomplete_ draft of a possible
       * **mmlu:** Includes a localized Arabic version, evaluating multi-domain knowledge and reasoning.
       * **arabic_leaderboard_light:** Light version of Arabic tasks for evaluating comprehension and cultural understanding.
       * **arabic_leaderboard_complete:** Comprehensive Arabic tasks assessing models on understanding Arabic culture and heritage.
-      * **americasnli:** A natural language inference dataset for Indigenous languages of the Americas.
-      * **masakhaner:** A named entity recognition dataset for African languages.
+      * **americasnli:** A natural language inference data set for Indigenous languages of the Americas.
+      * **masakhaner:** A named entity recognition data set for African languages.
       * **translation:** Assesses the model's ability to translate text between different languages.
-      * **wmt2016:** Assesses machine translation performance using datasets from the WMT 2016 shared tasks.
+      * **wmt2016:** Assesses machine translation performance using data sets from the WMT 2016 shared tasks.
     * **Low-Resource Tasks:** Benchmarks created for under-represented languages or domains.
       * **basqueglue:** Tasks designed to evaluate language understanding in Basque, an under-represented language.
       * **belebele:** Language understanding tasks in a variety of under-represented languages and scripts.
@@ -277,11 +277,11 @@ We have extracted the following, _very rough and incomplete_ draft of a possible
       * **aexams:** Tasks in Arabic related to various academic exams covering a range of subjects.
       * **aclue:** Tasks focusing on ancient Chinese language understanding and cultural aspects.
       * **lingoly:** Challenging logical reasoning benchmark in low-resource languages with controls for memorization.
-      * **tydiqa:** A typologically diverse question-answering dataset covering 11 under-represented languages.
-      * **xquad:** A cross-lingual question-answering dataset extending SQuAD to 10 under-represented languages.
+      * **tydiqa:** A typologically diverse question-answering data set covering 11 under-represented languages.
+      * **xquad:** A cross-lingual question-answering data set extending SQuAD to 10 under-represented languages.
       * **mlqa:** Multilingual Question Answering benchmark covering 7 under-represented languages.
-      * **americasnli:** A natural language inference dataset for Indigenous languages of the Americas.
-      * **masakhaner:** A named entity recognition dataset for African languages.
+      * **americasnli:** A natural language inference data set for Indigenous languages of the Americas.
+      * **masakhaner:** A named entity recognition data set for African languages.
 
 ## Other Possible Taxonomy Sections
 

@@ -11,9 +11,9 @@ has_children: false
 > _Part of the AI Alliance [**Trust and Safety Evaluation Initiative**](https://thealliance.ai/core-projects/trust-and-safety-evaluations){:target="tsei"} (TSEI), our goal is to ensure the widespread adoption of AI trust and safety technologies, both educating application developers about these concepts and making it as easy as possible for state-of-the-art tools to be used to support them. Welcome to the **Evaluation Is for Everyone** project._
 
 {: .tip}
-> **Tip:** The links for _italicized terms_ go to [this glossary]({{site.glossaryurl}}).
+> **Tip:** The links for Capitalized Terms go to [this glossary]({{site.glossaryurl}}).
 
-Unlike traditional software systems that rely on prescribed specifications and mostly-[_deterministic_]({{site.glossaryurl}}/#determinism) application code, [_AI systems_]({{site.glossaryurl}}/#ai-system) based on [_generative AI models_]({{site.glossaryurl}}/#generative-ai-model) depend on training data to map inputs to [_probabilistic_]({{site.glossaryurl}}/#probability-and-statistics) outputs. A consequence is these systems are inherently non-deterministic and may even generate erroneous or undesirable output. To [_evaluate_]({{site.glossaryurl}}/#evaluation) such systems, [_benchmarks_]({{site.glossaryurl}}/#benchmark) are commonly used to measure how models behave in these areas of concern. 
+Unlike traditional software systems that rely on prescribed specifications and mostly-[Deterministic]({{site.glossaryurl}}/#determinism){:target="_glossary"} application code, [AI Systems]({{site.glossaryurl}}/#ai-system){:target="_glossary"} based on [Generative AI Models]({{site.glossaryurl}}/#generative-ai-model){:target="_glossary"} depend on training data to map inputs to [Probabilistic]({{site.glossaryurl}}/#probability-and-statistics){:target="_glossary"} outputs. A consequence is these systems are inherently non-deterministic and may even generate erroneous or undesirable output. To [Evaluate]({{site.glossaryurl}}/#evaluation){:target="_glossary"} such systems, [Benchmarks]({{site.glossaryurl}}/#benchmark){:target="_glossary"} are commonly used to measure how models behave in these areas of concern. 
 
 It is essential to establish a flexible evaluation framework that supports rapid updates to evaluation criteria and benchmark selection, in part because benchmark data often becomes part of the training data corpus, so models become better at existing benchmarks, whether or not they are actively engineered to do so. Given the critical role of testing and evaluation in deploying AI systems _with confidence_, there is a pressing need for a consistent methodology and robust tool support for these activities.
 
@@ -24,9 +24,9 @@ It is essential to establish a flexible evaluation framework that supports rapid
 Within the AI Alliance's [**Trust and Safety**](https://thealliance.ai/focus-areas/trust-and-safety){:target="aia-tands"} work group, the projects under the [**Trust and Safety Evaluation Initiative**](https://thealliance.ai/core-projects/trust-and-safety-evaluations){:target="tsei"} umbrella are designed to promote the best-of-breed tools for running evaluations, existing evaluation suites for common purposes, and ensuring these tools can be adopted and adapted efficiently and effectively for evolving uses. 
 
 * **Evaluation Is for Everyone** (this project) has two goals:
-	* Educate application developers about the importance of building AI trustworthiness and safety into their AI-enabled applications from the beginning, just as we have needed to build [_cybersecurity_]({{site.glossaryurl}}/#security) into our apps for decades.
+	* Educate application developers about the importance of building AI trustworthiness and safety into their AI-enabled applications from the beginning, just as we have needed to build [Cybersecurity]({{site.glossaryurl}}/#cybersecurity){:target="_glossary"} into our apps for decades.
 	* Make it easy to find and adopt the appropriate set of evaluations for particular application requirements.
-*  [**Testing Generative AI Applications**](https://the-ai-alliance.github.io/ai-application-testing/){:target="tgai"} addresses the problem that AI application developers struggle to test that their applications meet the requirements and perform the use cases they were designed for. Enterprise developers are accustomed to writing repeatable tests for software that is (mostly) [_deterministic_]({{site.glossaryurl}}/#determinism), but the inherent [_probabilistic_]({{site.glossaryurl}}#probability-and-statistics) nature of the underlying [_generative AI models_]({{site.glossaryurl}}/#generative-ai-model) defeats these techniques. This project is adapting evaluation techniques for these testing purposes and teaching developers how to use them.
+*  [**Testing Generative AI Applications**](https://the-ai-alliance.github.io/ai-application-testing/){:target="tgai"} addresses the problem that AI application developers struggle to test that their applications meet the requirements and perform the use cases they were designed for. Enterprise developers are accustomed to writing repeatable tests for software that is (mostly) [Deterministic]({{site.glossaryurl}}/#determinism){:target="_glossary"}, but the inherent [Probabilistic]({{site.glossaryurl}}#probability-and-statistics) nature of the underlying [Generative AI Models]({{site.glossaryurl}}/#generative-ai-model){:target="_glossary"} defeats these techniques. This project is adapting evaluation techniques for these testing purposes and teaching developers how to use them.
 * [**Evaluation Reference Stack**](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"} is documenting the industry's best tools for running evaluations and making them easy to adopt and manage.
 
 Related projects include [**Ranking AI Safety Priorities by Domain**](https://the-ai-alliance.github.io/ranking-safety-priorities/){:target="_blank"} and our [**AI Trust and Safety User Guide**](https://the-ai-alliance.github.io/trust-safety-user-guide/){:target="_blank"}.
@@ -37,7 +37,7 @@ There are several work streams in this project that serve our goals.
 
 ### Understand and Grow Existing Evaluation Taxonomies
 
-Many organizations have worked on [_taxonomies_]({{site.glossaryurl}}/#taxonomy) or &ldquo;suites&rdquo; of evaluations, usually focused on specific areas of interest, such as categories of harmful speech. Other possible areas of interest are under-served, such as common concerns in particular domains, for example evaluating how well legal applications understand established case law and provide responses consistent with it. 
+Many organizations have worked on [Taxonomies]({{site.glossaryurl}}/#taxonomy){:target="_glossary"} or &ldquo;suites&rdquo; of evaluations, usually focused on specific areas of interest, such as categories of harmful speech. Other possible areas of interest are under-served, such as common concerns in particular domains, for example evaluating how well legal applications understand established case law and provide responses consistent with it. 
 
 Since this project wants to make it easy for developers to adopt evaluation for trust and safety, as well as other uses, we have a long-running work stream to identify existing evaluation suites users might use, and where gaps exist we can help fill.
 
@@ -47,7 +47,7 @@ Current activities: [`evaluations`](https://github.com/orgs/The-AI-Alliance/proj
 
 ### Provide Useful Leaderboards
 
-[_Leaderboards_]({{site.glossaryurl}}/#leaderboard) are a user-friendly tool that help users find suites of useful evaluations and data about how well particular models perform against them. 
+[Leaderboards]({{site.glossaryurl}}/#leaderboard){:target="_glossary"} are a user-friendly tool that help users find suites of useful evaluations and data about how well particular models perform against them. 
 
 In addition to the [current leaderboards we support]({{site.baseurl}}/leaderboards/leaderboards), we plan to build out graphically-based tools allowing users to browse and search for evaluations that support their needs, then download them in a packaged for that is easy to deploy in different environments using the [reference stack](https://the-ai-alliance.github.io/eval-ref-stack/){:target="ers"}.
 

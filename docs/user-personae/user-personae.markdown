@@ -14,7 +14,7 @@ What are the _user personae_ (or _roles_) for evaluation? Here are the primary s
 We sometimes call them _enterprise developers_. Builders of AI-enabled applications need to do the following:
 
 * **Choose &ldquo;base&rdquo; models:** What models score best on benchmarks related to application requirements, including _functional_ requirements, like specific use-case behaviors, and _nonfunctional_ requirements, like general safety concerns, cost of ownership, etc.?
-* **Evaluate proprietary models:** Some organizations [_tune]({{site.glossaryurl}}/#tuning)) existing base models or train custom models from scratch. They can only use public benchmarks and other evaluations if they can run them locally.
+* **Evaluate proprietary models:** Some organizations [Tune]({{site.glossaryurl}}/#tuning){:target="_glossary"} existing base models or train custom models from scratch. They can only use public benchmarks and other evaluations if they can run them locally.
 * **Evaluate application alignment:** How does the model in tandem with other system components behave? 
 
 Cost of ownership is important. Larger models provide better overall performance, but at higher cost. Smaller models may be good enough, while also being cost-effective.
@@ -46,6 +46,6 @@ Collectively, these users would benefit from the following capabilities:
 * Easy location of useful evaluations.
 * Easy, flexible execution options for useful evaluations.
 * Easy to build custom evaluations, e.g., for domain-specific or application-specific benchmarks.
-* The ability to share evaluation artifacts, like datasets, in a reusable manner.
+* The ability to share evaluation artifacts, like data  ssets, in a reusable manner.
 * Straightforward publication of evaluation results to target leaderboards.
 * Standardize on a reference stack of tools that facilitates the above capabilities.

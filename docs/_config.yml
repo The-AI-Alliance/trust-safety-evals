@@ -25,6 +25,10 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 , "docs/tests/", "notes.md", "vendor"
 ]
 
+# Added by AI Alliance: a glossary URL, which in this case is internal
+# to this site!
+glossaryurl: https://the-ai-alliance.github.io/glossary/glossary
+
 # Regression tests
 # By default, the pages in /docs/tests are excluded when the site is built.
 # To include them, comment-out the relevant line above.
@@ -73,10 +77,6 @@ nav_external_links:
   - title: Evaluation Is for Everyone
     url: "https://github.com/The-AI-Alliance/trust-safety-evals"
     hide_icon: false
-
-# Added by AI Alliance: a glossary URL, which in this case is internal
-# to this site!
-glossaryurl: /glossary
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
