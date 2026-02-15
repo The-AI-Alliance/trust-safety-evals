@@ -11,7 +11,7 @@ show_contribute_dataset_button: true
 
 Want to join one of our initiative projects? Visit [this AI Alliance webpage](https://thealliance.ai/working-groups/trust-safety#trust-and-safety-form){:target="join-us-form"} and fill in the form. Thank you for your interest.
 
-# About The AI Alliance
+## About The AI Alliance
 
 **Evaluation Is for Everyone** is a project of the [Trust and Safety Work Group](https://thealliance.ai/focus-areas/trust-and-safety){:target="tands"} in [The AI Alliance](https://thealliance.ai){:target="ai-alliance"}. 
 
