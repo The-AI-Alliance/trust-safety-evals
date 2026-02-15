@@ -1,7 +1,7 @@
 ---
 sitemap: false
 permalink: /glossary/
-redirect_to: https://the-ai-alliance.github.io/glossary/glossary/
+redirect_to: https://the-ai-alliance.github.io/glossary/
 ---
 {% comment %}
 A "classic" redirect page, used instead of the normal Jekyll convention for redirect
