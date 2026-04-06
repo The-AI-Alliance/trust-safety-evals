@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Evaluation Is for Everyone
 nav_order: 10
 has_children: false
 ---
