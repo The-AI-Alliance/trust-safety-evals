@@ -14,7 +14,7 @@ This section describes some of the public [Evaluations]({{site.glossaryurl}}/#ev
 {: .attention}
 > **Help Wanted:** Do you have data sets, benchmarks, or other evaluations that you believe should be included? See our [Contributing]({{site.baseurl}}/contributing) page!
 
-The best place to start when searching for evaluations is the new [catalog](https://evalcards.evalevalai.com/){:target="evaleval-catalog"} from the [EvalEval Coalition](https://evalevalai.com/){:target="evaleval"}, which is also defining a standard schema for [Evaluation Cards]({{site.glossaryurl}}/#evaluation-cards){:target="_glossary"}. **This is an important resource when looking for evaluation results, captured in a standardized way.** For information about EvalEval, see the description in the [AI Trust and Safety User Guide](https://the-ai-alliance.github.io/trust-safety-user-guide/references/#evaleval-coalition){:target="tsug"}.
+The best place to start when searching for evaluations is the new [catalog](https://evalcards.evalevalai.com/){:target="evaleval-catalog"} from the [EvalEval Coalition](https://evalevalai.com/){:target="evaleval"}, which is also defining a standard schema for [Evaluation Cards]({{site.glossaryurl}}/#evaluation-card){:target="_glossary"}. **This is an important resource when looking for evaluation results, captured in a standardized way.** For information about EvalEval, see the description in the [AI Trust and Safety User Guide](https://the-ai-alliance.github.io/trust-safety-user-guide/references/#evaleval-coalition){:target="tsug"}.
 
 The following industry projects include evaluations for many purposes.
 
