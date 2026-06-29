@@ -27,6 +27,7 @@ However, some sections of a potential global taxonomy have been extensively expl
 * MIT [AI Risk Repository](https://airisk.mit.edu/){:target="mit-ai"}
 * NIST [Risk Management Framework](https://airc.nist.gov/AI_RMF_Knowledge_Base/AI_RMF/Foundational_Information/3-sec-characteristics){:target="nist-rmf"}
 * Stanford [CRFM HELM](https://crfm.stanford.edu/helm/){:target="helm"}
+* Stanford [MedHELM](https://crfm.stanford.edu/helm/medhelm/latest/){:target="medhelm"} extends CRFM HELM for medical tasks. Its documentation describes a taxonomy with 5 categories, 22 subcategories, and 121 clinical tasks, going beyond exam-based medical question answering to include clinical task framing and healthcare scenarios such as diagnostic decision-making and patient communication. It is evaluation context, not a claim of clinical readiness.
 
 ## An AI Alliance Taxonomy - A First Pass
 
