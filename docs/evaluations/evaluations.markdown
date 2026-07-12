@@ -2,14 +2,14 @@
 layout: default
 title: Evaluations and Benchmarks
 nav_order: 40
-has_children: false
+has_children: true
 ---
 
 # Evaluations and Benchmarks
 
 This section describes some of the public [Evaluations]({{site.glossaryurl}}/#evaluation){:target="_glossary"} that are available. Not all fit the draft [taxonomy]({{site.baseurl}}/taxonomy/taxonomy). 
 
-[Benchmarks]({{site.glossaryurl}}/#benchmark){:target="_glossary"} that aggregate evaluations for larger goals, e.g., domain-specific scenarios, are also cataloged here.
+[Benchmarks]({{site.glossaryurl}}/#benchmark){:target="_glossary"} that aggregate evaluations for larger goals, e.g., domain-specific scenarios, are also cataloged here. The [Benchmark Card Template]({{site.baseurl}}/evaluations/benchmark-card-template/) provides a reusable structure for documenting their composition, validity evidence, interpretation, and safety boundaries.
 
 {: .attention}
 > **Help Wanted:** Do you have data sets, benchmarks, or other evaluations that you believe should be included? See our [Contributing]({{site.baseurl}}/contributing) page!
