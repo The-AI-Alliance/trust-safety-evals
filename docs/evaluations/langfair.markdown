@@ -1,11 +1,11 @@
 ---
 layout: default
-title: LangFair
+title: LangFair Evaluation Card
 parent: Evaluations and Benchmarks
-nav_order: 11
+nav_order: 410
 ---
 
-# LangFair evaluation card
+# LangFair Evaluation Card
 
 This card describes LangFair as an evaluation toolkit, not as a benchmark or evidence of clinical readiness. It records the capabilities and boundaries reviewed at commit [`afd6dc0`](https://github.com/cvs-health/langfair/commit/afd6dc0b053515e2795e5f0dc2f039bac491e668).
 

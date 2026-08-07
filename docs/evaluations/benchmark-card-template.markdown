@@ -2,7 +2,7 @@
 layout: default
 title: Benchmark Card Template
 parent: Evaluations and Benchmarks
-nav_order: 10
+nav_order: 420
 ---
 
 # Benchmark Card Template
