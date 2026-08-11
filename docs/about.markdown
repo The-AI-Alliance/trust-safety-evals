@@ -7,9 +7,11 @@ show_contribute_dataset_button: true
 ---
 
 <a name="join-us"></a>
-# Join This Initiative!
+## About Us
 
-Want to join one of our initiative projects? Visit [this AI Alliance webpage](https://thealliance.ai/working-groups/trust-safety#trust-and-safety-form){:target="join-us-form"} and fill in the form. Thank you for your interest.
+As part of the AI Alliance [**Trust and Safety Evaluation Initiative**](https://thealliance.ai/core-projects/trust-and-safety-evaluations){:target="tsei"} (TSEI), our goal is to ensure the widespread adoption of AI trust and safety technologies, both educating application developers about these concepts and making it as easy as possible for state-of-the-art tools to be used to support them. Welcome to the **Evaluation Is for Everyone** project.
+
+See the [Contributing]({{site.baseurl}}/contributing) page for ways you can get involved.
 
 ## About The AI Alliance
 
@@ -19,7 +21,7 @@ The AI Alliance is a global collaboration of startups, enterprises, academic, an
 
 If you have any questions or concerns about this effort, please contact us at [contact@thealliance.ai](mailto:contact@thealliance.ai?subject=Questions about the Evaluation Is for Everyone project).
 
-## Maintainers of This Initiative
+## Maintainers of this Content
 
 * [Jonathan Bnayahu](https://research.ibm.com/people/jonathan-bnayahu){:target="jb"}, [Dean Wampler](https://research.ibm.com/people/dean-wampler){:target="dw"} - [IBM Research](https://research.ibm.com/){:target="maintainers"} and [AI Alliance](https://thealliance.ai){:target="maintainers"}. 
 * More coming soon...

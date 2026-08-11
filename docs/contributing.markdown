@@ -7,8 +7,6 @@ nav_order: 90
 <a name="join-us"></a>
 # Join This Initiative!
 
-Want to join one of our initiative projects? Visit [this AI Alliance webpage](https://thealliance.ai/working-groups/trust-safety#trust-and-safety-form){:target="join-us-form"} and fill in the form. Thank you for your interest.
-
 We welcome your contributions for cataloging existing evaluations and benchmarks, and for creating new ones. Improving our leaderboards and creating new ones is important for our mission of making evaluations accessible and as widely used as possible. Visit the initiative's [GitHub repo](https://github.com/The-AI-Alliance/trust-safety-evals/){:target="repo"} to see what tools and leaderboards are already implemented. See the [issues](https://github.com/The-AI-Alliance/trust-safety-evals/issues){:target="repo"} and the [work tracking project](https://github.com/orgs/The-AI-Alliance/projects/23/views/1){:target="repo-project"}. 
 
 Here is the project dashboard filtered by _labels_ for the main work streams:
